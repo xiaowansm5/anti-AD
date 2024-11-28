@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202301091052
+! Version: 202409260732
 ! Title: CJX's Annoyance List
-! Last modified: 2023/01/09 10:52 +0800
+! Last modified: 2024/09/26 07:32 +0800
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/cjx82630/cjxlist
 !
@@ -11,6 +11,7 @@
 ! Email (cjxlist@gmail.com)
 !--------------------------General blocking filters---------------------------!
 /wiseatom/banner/pack_
+/bbs/include/javascript/adblock.
 /template/bingfeng/statics/js/pingbi.js
 -bobo_recommend_
 /3dmgamegzh.png
@@ -53,7 +54,9 @@
 ##.s.u.m.o.me.scrollbox-popup
 ###pop_hongbao
 ###bgframe[style^="position: fixed;"]
+##.wwads_abp
 !-----------------------------Union&third-party-------------------------------!
+||fundingchoicesmessages.google.com^$third-party
 ||7moor.com^$third-party
 ||2005net.net^$third-party
 ||3jia5.com^$third-party
@@ -470,18 +473,73 @@
 ||jlwz.cn/js/xf*.js
 ||book118.com^*/js/crm.
 ||book118.com^*/showRecommend.
-||mbalib.com/common/a_mbalib/
 ||lotuscard.cc/online/
 ||kuke99.com/static/home/js/index/index.js
 ||fulitech.com.cn^*/float.js
-||php.cn/upload/course/
 ||huanqiucdn.cn/huanqiu/js/www/common/detected_block.
 ||yaozh.com/Public/js/widget/dbAdDownload.
 ||kandaju.net/js/js2.
 ||biancheng.net/templets/new/images/index_pc/fudaoban_
 ||3dmgame.com/page/js/indexalert_ad.
 ||nicelinks.site/ad-block-
+||djljz.cn/Plugins/Template/XJLY/js/app.
+||infogram.com^$domain=hk01.com
+||letvcdn.com/lc02_live/201803/18/23/40/1521387641261new.
+||tencent.com/developer/api/common/getAds
+||tencent.com/developer/api/common/getOneAds
+||10086.cn/together/s?func=together:getAdvertInfos&
+||bttt11.com/ad.
+||fanyi.baidu.com/pc/config
+||fanyi.baidu.com/ait/config/cms/list?
+||3dmgame.com/static/image/common/pc_tg3dm.
+||fc.3dmgame.com^
 !------------------------Specific element hiding rules------------------------!
+haokan.baidu.com##.page-top-rightinfo-popover
+baidu.com##.invoke-app-san-container
+baidu.com##.invoke-app-floating-tips
+bilibili.com##.is-rcmd > div:only-child
+thwiki.cc###a-carousel
+baidu.com##.index-module_drawerHand__aRhcO
+bilibili.com##.extension-tips
+77mh.nl###bdtopbot
+77mh.nl###bdbottop
+youdao.com##.banner
+cnki.net##.banner-main
+caiyunapp.com##.active-imgContainer
+baidu.com##.player-pause-code
+baidu.com##.landrightbanner
+51cto.com##.right-fixadv
+51cto.com###advCanvas
+7k7k.com##.pendant
+7k7k.com###flashAds
+yisu.com##.coupon-get-link
+on.cc##.appinstall
+36kr.com##.app-track-card
+fnjiasu.com##.sidebar_download
+fnjiasu.com##.layui-layer
+fnjiasu.com##.swiper-container
+crsky.com##.adowGright
+17173.com##a[href^="https://gtv."]
+gamer.com.tw,~buy.gamer.com.tw##a[href^="https://buy.gamer.com.tw"]
+kdocs.cn##.business-list-wrap
+tencent.com##.cdc-commercial-swiper
+focus.cn##.module-common-float-im
+focus.cn##.shequn-code-img
+easylearn.baidu.com##.feedback-icon
+easylearn.baidu.com##.vip-banner-cont
+djljz.cn###djl_hdhb
+djljz.cn###toolbar
+djljz.cn##.bottom_slide_box
+djljz.cn##.left_fixed_ad
+csdn.net##.csdn-common-logo-advert
+a9vg.com###qrcode
+a9vg.com##.a9-back-top_qrcode
+huya.com##.end-ab-banner
+investing.com##div[class*="overlay_overlay"]
+investing.com##div[class*="adBlock"]
+sina.com.cn##DIV[class^="side-btns-jifen"]
+3dmgame.com##.mb30.warp_f
+tianqi.com##.xcx_erweima
 chinagwy.org##.ewm0610
 360kuai.com##.novel_galery_icon
 iciba.com##div[class^="Kyad_"]
@@ -506,9 +564,6 @@ alibabacloud.com##.b-alicloud-bottom
 alibabacloud.com##.hmod-alicloud-contact-sales-support
 autohome.com.cn##.activity-coin-layer
 php.cn##.wwads-cn
-thwiki.cc##.on-right > .swiper-container
-waipian5.com##.shortcuts-mobile-overlay
-waipian5.com##.popup
 autohome.com.cn##.activity-app-layer
 autohome.com.cn##DIV[id^="popautoapp"]
 shengxinwang.net###floatDivBoxs
@@ -621,7 +676,6 @@ ke.qq.com##.bottom-bar
 tuchong.com##.float
 baidu.com##.desktop-guide
 bilibili.com##.video-page-game-card
-bilibili.com##.video-page-game-card-small
 ldmnq.com##.dialog-game
 hupu.com###game-center-entrance-container
 hupu.com##DIV[class^="game-center-"]
@@ -1517,6 +1571,7 @@ m.babytree.com##script + a[class]
 @@||fm.ipinyou.$domain=ipinyou.com.cn
 @@||fm.p0y.cn^$domain=ipinyou.com.cn
 !--------------------------------Tracking Systems-----------------------------!
+||tongjiniao.com^$third-party
 .com/js/o.js$domain=qdmm.com|qdwenxue.com|qidian.com
 ||3158.cn^*_analyser.
 /analytics.js$domain=qunar.com
@@ -1530,6 +1585,7 @@ m.babytree.com##script + a[class]
 /v.gif?logtype=
 /yesky/js/counter/*
 /zcool-analytics.js
+||lzp.plus^
 ||wujiupic.com^
 ||video.qq.com/checktime?
 ||cdn-data-cloud.com/history/
@@ -1683,7 +1739,6 @@ m.babytree.com##script + a[class]
 ||log2.mtime.cn^
 ||lotour.net/analytics/statsv2.js
 ||mafengwo.cn/uva/i.gif?
-||mixer.sina.cn^
 ||mlog.aipai.com^
 ||msg.ettoday.net^
 ||msg.iqiyi.com^
