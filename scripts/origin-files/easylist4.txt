@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202411281815
+! Version: 202412011259
 ! Title: EasyPrivacy
-! Last modified: 28 Nov 2024 18:15 UTC
+! Last modified: 01 Dec 2024 12:59 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -3097,6 +3097,8 @@ _WebVitalsReporter_
 /znsrc.com/c/*$image
 ://2ip.*/member_photo/$third-party
 ://cl.melonbooks.co.jp/c/$image
+://click.revolut.com/q/$image
+://e.email.*/open?$image
 ://email.*/e/o/
 ://email.*/o/$image
 ://parcel-api.delivery-status.*/open/$image
@@ -3126,6 +3128,7 @@ omni.soundestlink.com$image
 ||aaxwall.com^
 ||acsbapp.com^
 ||adcontroll.com^
+||aditude.cloud^
 ||admaxium.com^
 ||adnext.co^
 ||adrtx.net^
@@ -11996,7 +11999,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d1t9uctetvi0tu.cloudfront.net^
 ||d1tbj6eaenapdy.cloudfront.net^
 ||d1vg5xiq7qffdj.cloudfront.net^
-||d1wix2gc2cgqis.cloudfront.net^
 ||d1xfq2052q7thw.cloudfront.net^
 ||d1z3r0i09bwium.cloudfront.net^
 ||d1z9vm58yath60.cloudfront.net^
@@ -12196,7 +12198,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||guarantee-cdn.com^$third-party
 ||howsmyssl.com^$third-party
 ||js.trendmd.com^$script,subdocument,third-party
-||legitscript.com/seals/
+||legitscript.com/seals/$script
 ||medals.bizrate.com^$third-party
 ||nsg.symantec.com^$third-party
 ||popup.laybuy.com^$subdocument,third-party
@@ -14401,6 +14403,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||playvideohd.com/cdn-cgi/trace
 ||plenty.vidio.com^
 ||plushd.bio/cdn-cgi/trace
+||pluto.smallpdf.com^
 ||pm.dailykos.com^
 ||pm.geniusmonkey.com^
 ||pog.com^$ping
@@ -14506,6 +14509,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rvo-cohesion.healthline.com^
 ||s.gofile.io^
 ||s.infogram.com^
+||s.smallpdf.com/static/track-js-
 ||s.wayfair.com^
 ||sa.uswitch.com^
 ||saa.insideedition.com^
@@ -14557,7 +14561,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||slickdeals.net/ajax/stats/
 ||slideshare.net/frontend_tracking/
 ||slipstream.skyscanner.net^
-||smallpdf.com/build/track-js.js
 ||smartlink-api.amuse.io/api/analytics/
 ||smassets.net/assets/anonweb/anonweb-click-
 ||smetrics.couponcabin.com^
@@ -51613,6 +51616,7 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||gamergen.com/ajax/actualites/addVue
 ||hits.porn.fr^
 ||hlms.ecologie.gouv.fr^
+||horairesdouverture24.fr/ar.js
 ||ianimes.org/img/tracker.gif
 ||ici.radio-canada.ca/v5/*/trace/
 ||igen.fr/modules/statistics/statistics.php
@@ -52092,6 +52096,7 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||events.ingatlan.com^
 ||hirtv.hu/ajaxx/_stat/
 ||hirtv.hu/nx_general_stat.jpg?
+||nyitvatartas24.hu/ar.js
 ||otthonterkep.hu/c.js
 ||outal.origo.hu^
 ||rtl.hu/_stat/
@@ -52608,6 +52613,7 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||top.mail.ru/tpc.js
 ||top.mail.ru/tt?js
 ||trk.mail.ru^$image,script
+||umschool.net/_jts/api/s/track
 ||vedomosti.ru/boom?
 ||vesti.ru/counter/
 ||vstat.rtr-vesti.ru^

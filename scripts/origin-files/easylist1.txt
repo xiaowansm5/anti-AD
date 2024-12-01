@@ -1,9 +1,9 @@
-! Checksum: XsSuPup1lwYrgOO5Zh8avA
-! Diff-Path: ../patches/224_optimized/224_optimized-s-1732811959-3600.patch
+! Checksum: /GtqZ/MZl4DhspWTkHPS+Q
+! Diff-Path: ../patches/224_optimized/224_optimized-s-1733067516-3600.patch
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.26.76
-! TimeUpdated: 2024-11-28T16:35:10+00:00
+! Version: 2.1.26.95
+! TimeUpdated: 2024-12-01T15:35:00+00:00
 ! Expires: 12 hours (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -4241,6 +4241,8 @@ newduba.cn###jq_youxi
 ##style + .need_grid_img
 ##.player-rm > a[href*=".umtrack.com"]
 ##style + .vdgdo
+##.tg-m.tg-site
+##.tg-pc.tg-site
 ##.relative > div > img[sizes="100vh"][width="0"]
 ##a[href^="/archives/"] > .post-card > .blog-background[style*="gif;base64"]
 ###banner_links.banner-container
@@ -4263,6 +4265,33 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||jcwlsofn.icu^
+||brircel.com^
+||af6s.icu^
+||edamcsw.top^
+||e8d7.icu^
+||aoao12011iis.top^
+||a2wx.icu^
+||caaqot.com^
+||zio8.icu^
+||wdamcse.top^
+||ruqaks.com^
+||bmhtwefv.icu^
+||olkoins.com^
+||w59g.icu^
+||sdamcsb.top^
+||ao1201kas.top^
+||igabcgnh.icu^
+||saizih.com^
+||1gtp.icu^
+||96rj.icu^
+||kdamcsd.top^
+||oo3z.icu^
+||idamcso.top^
+||vrulqil.com^
+||jdamcsa.top^
+||dnd2.icu^
+||xa7j.icu^
 ||0dwm.icu^
 ||satfyxbt.icu^
 ||zodoth.com^
@@ -13453,6 +13482,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||cdncg.com^*/kangmey
 ||twkan.com/js/otherad
 ||element-plus.org/images/sponsors/
+cn.bing.com#?#.sb_form_placeholder:-abp-has(>.ad-ghost-slug)
 cn.bing.com#?#.b_algo:-abp-has(p[class^="b_lineclamp2 b_algoSlug "])
 szxx.com.cn###A0
 mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(好 物))
@@ -17517,7 +17547,6 @@ cmsky.com##.textwidget a[href^="http"]:not([href*="cmsky"])
 10fang.com##.tfy-ab
 bmlink.com##.tg
 acgbuster.moe##.tg-inner
-526bt.com,daniao.org,eroacg.com,laod.cn,myqqjd.com,ninpang.com##.tg-site
 so.com##.tg-wrap-async
 e0575.com##.tg1
 e0575.com##.tg2
@@ -21219,10 +21248,10 @@ $image,third-party,domain=258zw.com
 :6607/qy/$script,third-party
 _rony.js$script,third-party
 ||lalabaos1*.top/$script,third-party
-||ao11*kas.top/$script,third-party
+||ao1*kas.top/$script,third-party
 /\.[a-z]oubli[a-z].top\//$script,third-party
 /\.[a-z]yjqgp[a-z].top\//$script,third-party
-||aoao11*iis.top/$script,third-party
+||aoao1*iis.top/$script,third-party
 /\.[a-z]weisi[a-z].top\//$script,third-party
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com
 !#Novels
