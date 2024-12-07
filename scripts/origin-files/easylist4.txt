@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202412041818
+! Version: 202412071557
 ! Title: EasyPrivacy
-! Last modified: 04 Dec 2024 18:18 UTC
+! Last modified: 07 Dec 2024 15:57 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -2204,7 +2204,7 @@
 /t/event?
 /t?referer=
 /t?tcid=
-/taboola-header.js
+/taboola-header.js$script
 /taboola.js
 /taboola/loader.js
 /taboolaHead.js
@@ -3193,6 +3193,7 @@ omni.soundestlink.com$image
 ||cloudwp.io^
 ||clrt.ai^
 ||cnna.io^
+||cnstrc.com^
 ||cntxtfl.com^
 ||confiant-integrations.net^
 ||convead.io^
@@ -7376,6 +7377,7 @@ omni.soundestlink.com$image
 ||nimbleplot.com^
 ||nocturnalloom.com^
 ||nocturnalmystique.com^
+||nodethisweek.com^
 ||noiselessplough.com^
 ||nonchalantnerve.com^
 ||nondescriptcrowd.com^
@@ -7399,6 +7401,7 @@ omni.soundestlink.com$image
 ||objecthero.com^
 ||obscenesidewalk.com^
 ||observantice.com^
+||offshorecyclone.com^
 ||oldfashionedoffer.com^
 ||omgthink.com^
 ||omniscientfeeling.com^
@@ -7479,6 +7482,7 @@ omni.soundestlink.com$image
 ||piquantstove.com^
 ||piquantvortex.com^
 ||pixeledhub.com^
+||pixelvariety.com^
 ||pizzasnut.com^
 ||placeframe.com^
 ||placidactivity.com^
@@ -7687,6 +7691,7 @@ omni.soundestlink.com$image
 ||ruthlessmilk.com^
 ||ruthlessrobin.com^
 ||sableloss.com^
+||sableshelf.com^
 ||sablesmile.com^
 ||sablesong.com^
 ||sadloaf.com^
@@ -13522,6 +13527,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beacon.shutterfly.com^
 ||beacon.walmart.com^
 ||beacon.wikia-services.com^
+||beacons.digital.disneyadvertising.com^
 ||bearblog.dev/hit/
 ||beforeitsnews.com/core/ajax/counter/count.php^
 ||behance.net/log
@@ -52348,6 +52354,7 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||tower.jp/bundle/beacon
 ||track.buyma.com^
 ||track.prod.smash.pet^
+||tracker.curama.jp^
 ||tracking.ai.rakuten.co.jp^
 ||tracking.game8.jp^
 ||tracking.gnavi.co.jp^
@@ -52804,6 +52811,7 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||api.touchnote.io^$xmlhttprequest,domain=app.touchnote.com
 @@||api.vk.com/method/statEvents.$~third-party
+@@||api.zeeg.me/api/analytics/events/$~third-party
 @@||assets.fyers.in/Lib/analytics/Analytics.js$~third-party
 @@||assets.msn.com/staticsb/statics/latest/adboxes/$script,~third-party
 @@||att.com/scripts/adobe/prod/$script,~third-party
@@ -52961,7 +52969,7 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||m1tm.insideevs.com/gtm.js$~third-party
 @@||magento-recs-sdk.adobe.net/v2/index.js$script,domain=superbrightleds.com
 @@||mapquestapi.com/logger/$domain=hertz.com
-@@||maps.arcgis.com/apps/instant/lookup/app/utilites/telemetry/AppMeasurement.js$~third-party
+@@||maps.arcgis.com/apps/*/AppMeasurement.js$~third-party
 @@||maptiles.ping-admin.ru^$image,domain=ping-admin.com
 @@||martech.condenastdigital.com/lib/martech.js$script,domain=wired.com
 @@||matomo.miraheze.org/matomo.js$script,~third-party
@@ -52991,7 +52999,6 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||next.co.uk/static-content/gtm-sdk/gtm.js$~third-party
 @@||nike.com/assets/measure/data-capture/analytics-client.min.js$script,~third-party
 @@||nintendolife.com/themes/base/javascript/fingerprint.js$~third-party
-@@||noaa.maps.arcgis.com/apps/instant/*/AppMeasurement.js$~third-party
 @@||nocookie.net^*/tracking-opt-in.min.js$script,domain=fandom.com
 @@||noodid.ee/chordQuiz/$~third-party
 @@||noxgroup.com/noxinfluencer/sensor_sdk/$script,domain=noxinfluencer.com
@@ -53034,7 +53041,6 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||qm.redbullracing.com/gtm.js$~third-party
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quickmath.com/js/r/web-vitals.js$script,~third-party
-@@||rcb-gis.maps.arcgis.com/apps/instant/minimalist/*/AppMeasurement.js$script,~third-party
 @@||reactandshare.com^$domain=maanmittauslaitos.fi
 @@||realclearpolitics.com/esm/assets/js/admiral.js$~third-party
 @@||realclearpolitics.com/esm/assets/js/analytics/chartbeat.js$~third-party
@@ -53309,6 +53315,7 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||mabanque.fortuneo.fr/js/front/fingerprint2.js$script,domain=mabanque.fortuneo.fr
 @@||pmdstatic.net/advertising-$script,xmlhttprequest,domain=programme-tv.net
 @@||service-public.fr^*/assets/js/eulerian/eulerian.js$~third-party
+@@||tag.aticdn.net/piano-analytics.js$script,domain=toureiffel.paris
 @@||tra.scds.pmdstatic.net/sourcepoint/$domain=businessinsider.fr|caminteresse.fr|capital.fr|voici.fr
 @@||trustcommander.net/iab-tcfapi/tcfapi.js$script,domain=tf1info.fr
 ! 
