@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202412311655
+! Version: 202501011429
 ! Title: Fanboy's Annoyance List
-! Last modified: 31 Dec 2024 16:55 UTC
+! Last modified: 01 Jan 2025 14:29 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -23354,7 +23354,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.consent-animation
 ##.consent-at-bottom
 ##.consent-background-overlay
-##.consent-banner
 ##.consent-bar
 ##.consent-bg-dark
 ##.consent-confirmation-banner
@@ -38306,6 +38305,7 @@ peterchristian.co.uk,peterchristianoutfitters.com###cookie-acceptancce
 shop.naturtrend.com###cookie-appliance-popup-box
 velosure.co.uk###cookie-bar-template
 dnschecker.org###cookie-box
+perplexity.ai###cookie-consent
 yousign.com###cookie-consent-app
 store.azeron.eu###cookie-consent-background
 chicagobooth.edu,github.com###cookie-consent-banner
@@ -38448,6 +38448,7 @@ usg.edu###gdpr-cookie-notification
 food52.com###gdprBannerRoot
 wallarm.com###gdpr_banner_container
 flooringsuppliescentre.co.uk###gdpr_cookie-mainWrapp
+fawesome.tv###gdpr_cookie_info_bar-wr
 myedit.online###gdpr_notes
 jagranjosh.com,mid-day.com###gdprbx
 lloyd.com###globalerror
@@ -39282,6 +39283,7 @@ polleverywhere.com##.component-notification
 gold.razer.com##.component-sticky-dialog
 conductor.com##.conductor-cs-content
 agenda.brussels,visit.brussels##.confirm
+navicat.com##.consent-banner-background
 pinelab-plugins.com##.consent-block
 sees.com##.consent-ctnr
 dict.longdo.com,itmagazine.ch##.consent-div
@@ -41120,7 +41122,7 @@ bargainmax.co.uk,cam4.com,ddctoolbox.com,pusher.com##div[class^="CookiesConsent"
 ! ! class*="CookieConsent"
 bungie.net,certik.com,etonshirts.com,footshop.com,forzafootball.com,get-in-engineering.de,heavenhr.com,mec.ca,penpot.app,pictogrammers.com,podimo.com,prezly.com,print24.com,repvue.com,scmagazine.com,scworld.com,sierranevada.es,visitstockholm.com,zilliz.com##div[class*="CookieConsent"]
 ! ! .consent-banner
-twitch.tv##.consent-banner
+answers.unity.com,fox.com.tr,gameduell.de,interchalet.de,iziwork.com,jrc.cz,justwatch.com,loudwire.com,navicat.com,nowtv.com.tr,ring.com,screencrush.com,smarty.cz,stromvergleich.de,twitch.tv##.consent-banner
 ! ! .dialog-lightbox-message
 1800runaway.org,aceprensa.com,ak-asya.com.tr,alivia.org.pl,almeidastextile.pt,ancon.io,caltex.co.za,cerre.eu,cofense.com,cronycle.com,detonated.com,direct-carpets.com,experiorfinancial.com,fermedelinciaux.be,fft.mt,getspace.us,gilmoreglobal.com,ingeniamc.com,janninebarron.com,lsisoftware.pl,lucerna-chem.ch,luukku.com,lwab.se,maltaconsulting.mt,marathonhr.com,marshfieldpre-school.co.uk,mitreprinting.co.uk,ourdutyofcare.org.uk,polutowani.pl,realvnc.com,ritchy.com,rwi.se,shotam.info,smackcoders.com,takeoff.org.mt,terracreta.gr,terveyskauneus.fi,tvpop.com.br,tzumi.com,vrxdb.com,webdesignspecialistamsterdam.nl,webdesignspecialistdenhaag.nl,whatcounts.com##.dialog-lightbox-message
 ! ! .amgdprcookie-modal-container
@@ -41186,7 +41188,7 @@ decovarrubias.es,q10gestion.com###sliding-popup-cookies
 ! ! .qc-cmp2-container
 centrometeoitaliano.it,in.gr,oraridiapertura24.it,order-order.com##.qc-cmp2-container
 ! ! .cookie-consent
-560theanswer.com,abconcerts.be,congeo.nl,forcepoint.com,geeksforgeeks.org,inleed.se,merosch.nl,niaiu.pl,peoplematters.in,plmxpert.nl,podcast.de,pukkelpop.be,sodutch.nl,springaqua.com,toneelhuis.be,vinkkoeltechniek.com,werkenbijversluis.nl##.cookie-consent
+560theanswer.com,abconcerts.be,congeo.nl,forcepoint.com,geeksforgeeks.org,inleed.se,merosch.nl,niaiu.pl,peoplematters.in,plmxpert.nl,podcast.de,pukkelpop.be,sodutch.nl,springaqua.com,toneelhuis.be,vinkkoeltechniek.com,webhallen.com,werkenbijversluis.nl##.cookie-consent
 ! ! cookiesConsentModal
 latitudeandlongitude.net###cookiesConsentModal
 ! ! #my-ctc-widget
