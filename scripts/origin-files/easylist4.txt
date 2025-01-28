@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202501251346
+! Version: 202501281117
 ! Title: EasyPrivacy
-! Last modified: 25 Jan 2025 13:46 UTC
+! Last modified: 28 Jan 2025 11:17 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -10063,7 +10063,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||connect.facebook.net^*/fbds.js$third-party
 ||connect.facebook.net^*/pcm.js$third-party
 ||connect.idocdn.com^
-||connect.nosto.com/analytics/
 ||connext-cdn.azureedge.net^
 ||consensu.org/?log=
 ||consensu.org/geoip
@@ -11096,6 +11095,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pla.fwdcdn.com^
 ||platform.iteratehq.com^
 ||platform.twitter.com/impressions.js
+||plausible.flamekiller.org^
 ||plausible.io/js/p.js
 ||plausible.io/js/plausible.
 ||plausible.server.hakai.app^
@@ -11232,7 +11232,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||retail-client-events-service.internal.salsify.com/events
 ||retargeting.newsmanapp.com^
 ||reverbnation.com/widgets/trk/
-||rfksrv.com/rfk/$third-party
 ||rfksrv.com/rfkj/$image
 ||richrelevance.com/rrserver/tracking?
 ||rltd.io/tags/
@@ -11466,7 +11465,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stg-data-collector.playbuzz.com^
 ||stg.truvidplayer.com/*/v.php?st=
 ||stileproject.com/vhtk/
-||stk.px-cloud.net^
 ||storage.googleapis.com/afs-prod/tags
 ||storage.googleapis.com/nchq-dj-nid/prod/sp_v1.js
 ||storage.googleapis.com/snowplow-cto-office-tracker-bucket/
@@ -12697,7 +12695,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||counter.cnw.cz^
 ||h.imedia.cz^
 ||h.seznam.cz/hit
-||h.seznam.cz/js/dot-small.js
+||h.seznam.cz/js/dot-small.js$domain=~stream.cz
 ||hit.skrz.cz^
 ||i.imedia.cz^
 ||log.cpex.cz^
@@ -13539,6 +13537,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.doodle.com/data-layer/track
 ||api.ffm.to/sl/e/$image
 ||api.invideo.io/v3/send_analytics_event
+||api.meetup.com/pico/v4/web-events
 ||api.narrativ.com/favicon.ico
 ||api.samsungfind.com/log-collector
 ||api.streamelements.com/science/
@@ -14579,6 +14578,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rstat.rockmostbet.com^
 ||rt.newswire.ca^
 ||rt.prnewswire.com^
+||rt.whitebridge.ai^
 ||rta.dailymail.co.uk^
 ||rta2.inews.co.uk^
 ||rta2.metro.co.uk^
@@ -15527,6 +15527,8 @@ e-begin.jp##.inviewSection:not(.is-show):style(transform: translateY(0) !importa
 ! mustar.meitetsu.co.jp
 ||googletagmanager.com/gtm.js$domain=mustar.meitetsu.co.jp,important
 mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
+! coomer.su,kemono.su
+coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ! EOF
 ! #endif
 ! -----------------Individual cname tracking systems-----------------!
@@ -52948,7 +52950,7 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||cleverpush.com/channel/$script,domain=bsdex.de|heise.de
 @@||cleverpush.com/sdk/$script,domain=heise.de
 @@||cloudflare.com/ajax/libs/fingerprintjs2/$domain=extracttable.com|fckrasnodar.ru|login.kroton.com.br
-@@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|injora.com|kiichin.com|myair.resmed.com|twgtea.com
+@@||cloudflare.com/cdn-cgi/trace$domain=d1milano.com|infyspringboard.onwingspan.com|injora.com|kiichin.com|myair.resmed.com|twgtea.com
 @@||cloudflareinsights.com/beacon.min.js$script,domain=app.uniswap.org
 @@||cloudfront.net/atrk.js$domain=luxuryrealestate.com
 @@||cloudinary.com/perimeterx/$image,domain=perimeterx.com
@@ -53145,7 +53147,6 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||rest.edit.site/geoip-service/geoip$domain=systemshouse.com
 @@||retailmenot.com/__wsm.gif$ping,~third-party,xmlhttprequest
-@@||rfksrv.com/rfk/js/*/init.js$script,domain=riteaid.com|spirithalloween.com
 @@||riverlink.etcchosted.com/widgets/com/mendix/widget/web/googletag/GoogleTag.js$~third-party
 @@||rollbar.com^*/rollbar.min.js$domain=rollingstone.com|variety.com|wwd.com
 @@||s-microsoft.com/mscc/statics/$script,domain=microsoft.com
