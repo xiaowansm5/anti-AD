@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202502101758
+! Version: 202502131738
 ! Title: EasyPrivacy
-! Last modified: 10 Feb 2025 17:58 UTC
+! Last modified: 13 Feb 2025 17:38 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -2223,7 +2223,6 @@
 /tailtarget.js
 /talpa-analytics-pro/*
 /tatari-shopify/tracker-snippet-latest.min.js
-/tbl_nw_web_logs?
 /tc_analytics.js
 /tc_analytics.min.js
 /tc_imp.gif?
@@ -2908,6 +2907,7 @@ _WebVitalsReporter_
 .exponea.com/*/open$image
 .facebook.com/tr/$image
 .facebook.com/tr?$image
+.fiverr.com/js_event_tracking/v1/track_email_open/$image
 .flipboard.com/usage?
 .getblueshift.com/q/
 .getsendmail.com/p/$image
@@ -6630,6 +6630,7 @@ omni.soundestlink.com$image
 ||cumbersomecar.com^
 ||cumbersomecarpenter.com^
 ||cumbersomecloud.com^
+||curbminers.com^
 ||curiouschalk.com^
 ||curioussuccess.com^
 ||curlycannon.com^
@@ -8018,6 +8019,7 @@ omni.soundestlink.com$image
 ||stingycrush.com^
 ||stingyshoe.com^
 ||stingyspoon.com^
+||stockerator.com^
 ||stockingsleet.com^
 ||stockingsneeze.com^
 ||stocktheme.com^
@@ -10582,6 +10584,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||impel.io/releases/analytics/
 ||impress.vcita.com^
 ||impressionmedia.cz/statistics/
+||in.treasuredata.com^
 ||inbound-analytics.pixlee.co^
 ||incapdns.net/monitor.js
 ||incomaker.com//tracking/
@@ -13572,6 +13575,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||arttrk.com/pixel/
 ||as.coinbase.com/metrics
 ||assets.prod.abebookscdn.com/cdn/com/scripts/abepixel-$domain=abebooks.com
+||assets.s-bol.com/AppMeasurement-
 ||ats.alot.com^
 ||audacy.com/data-events/
 ||aulart.com/wp-admin/admin-ajax.php?data_send=pageView
@@ -39491,6 +39495,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ! ||go.oracle.com^
 ! ||info.medtronicdiabetes.com^
 ! ||info.mouser.com^
+! ||visit.tafensw.edu.au^
 ! 
 ||10stepswp.advancedtech.com^
 ||1stparty.equifax.co.uk^
@@ -44781,7 +44786,6 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||visit.hypertherm.com^
 ||visit.lifeblood.com.au^
 ||visit.oakstreethealth.com^
-||visit.tafensw.edu.au^
 ||visit.tenplay.com.au^
 ||visitor.arabiancentres.com^
 ||visitor.hotelex.cn^
@@ -51680,6 +51684,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||tracking.zaertlicheladies.de^
 ||tracking.zierlicheladies.de^
 ||tracksrv.zdf.de^
+||tutti.ch/api/v10/clientmetrics/report-metric
 ||ui-portal.de/pos-cdn/tracklib/
 ||united.web.de/confirm?
 ||united.web.de/event?
@@ -53307,7 +53312,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ! ! adobedtm.com^*_source.min.js
 @@||adobedtm.com^*_source.min.js$domain=ally.com|americanexpress.com|as.com|backcountry.com|crave.ca|disneyplus.disney.co.jp|hilton.com|hl.co.uk|homedepot.ca|kroger.com|mora.jp|nbarizona.com|pnc.com|tatacliq.com|telus.com
 ! ! adobedtm.com^*-source.min.js
-@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|as.com|atresplayer.com|automobiles.honda.com|backcountry.com|bbva.com.ar|bbvacib.com|bbvauk.com|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|deutsche-bank.de|dollargeneral.com|etihad.com|fedex.com|guitarcenter.com|healthsafe-id.com|healthy.kaiserpermanente.org|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ihg.com|imsa.com|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|manager-magazin.de|marriott.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|plasticsnews.com|pnc.com|poweredbycovermore.com|ralphlauren.com|samsung.com|sephora.com|snsbank.nl|ssrn.com|subway.com|tatacliq.com|telegraph.co.uk|telus.com|verizon.com|virginplus.ca|walgreens.com|xfinity.com
+@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|as.com|atresplayer.com|automobiles.honda.com|backcountry.com|bbva.com.ar|bbvacib.com|bbvauk.com|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|deutsche-bank.de|dollargeneral.com|etihad.com|fedex.com|guitarcenter.com|healthsafe-id.com|healthy.kaiserpermanente.org|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ihg.com|imsa.com|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|manager-magazin.de|marriott.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|plasticsnews.com|pnc.com|poweredbycovermore.com|ralphlauren.com|samsung.com|sephora.com|snsbank.nl|ssrn.com|subway.com|tatacliq.com|telegraph.co.uk|telus.com|verizon.com|virginplus.ca|walgreens.com|xfinity.com
 ! ! adobedtm.com^*/mbox-contents-
 @@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|as.com|backcountry.com|ceair.com|conad.it|costco.com|dhl.de|fcbarcelona.cat|fcbarcelona.cn|fcbarcelona.com|fcbarcelona.es|fcbarcelona.fr|fcbarcelona.jp|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|sony.jp|tatacliq.com|usanetwork.com|vanityfair.com|wired.com
 ! ! adobedtm.com/extensions/
@@ -53592,6 +53597,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 @@||guinnessworldrecords.jp/ezais/analytics$~third-party
 @@||h-cast.jp^$script,domain=bookoffonline.co.jp
 @@||howtonote.jp/google-analytics/$image,~third-party
+@@||in.treasuredata.com/js/*?api_key$script,domain=retty.me
 @@||js.appboycdn.com/web-sdk/$domain=kfc.co.jp
 @@||justmyshop.com/gate/criteo/product-id.js$~third-party
 @@||k-img.com/script/analytics/s_code.js$script,domain=kakaku.com
