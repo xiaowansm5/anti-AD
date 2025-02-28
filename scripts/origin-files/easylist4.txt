@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202502251742
+! Version: 202502281719
 ! Title: EasyPrivacy
-! Last modified: 25 Feb 2025 17:42 UTC
+! Last modified: 28 Feb 2025 17:19 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -3651,7 +3651,6 @@ omni.soundestlink.com$image
 ||adsave.co^$third-party
 ||adsensedetective.com^$third-party
 ||adsmatcher.com^$third-party
-||adsrvr.org^$third-party
 ||adtarget.me^$third-party
 ||adtector.com^$third-party
 ||adtelligence.de^$third-party
@@ -3689,6 +3688,7 @@ omni.soundestlink.com$image
 ||agilesrv.com^$third-party
 ||agilone.com^$third-party
 ||agrvt.com^$third-party
+||ahrefs.com^$third-party
 ||aimediagroup.com^$third-party
 ||air2s.com^$third-party
 ||airbrake.io^$third-party
@@ -10575,6 +10575,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||iadvize.com/collector/
 ||ibmcloud.com/collector/
 ||icbdr.com/images/pixel.gif
+||id.a-mx.com^
 ||id.google.*/verify/
 ||id.verticalhealth.net/script.js?partnerid=
 ||iddu1vvb7sk8-a.akamaihd.net^
@@ -10881,7 +10882,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mon.domdog.io^
 ||monitor-api.blackcrow.ai^
 ||monitor-frontend-collector.a.bybit-aws.com^
-||monitor.azure.com^
 ||monitoring.iraiser.eu^
 ||monorail-edge.shopifysvc.com^
 ||mormont.gamer-network.net^
@@ -12914,6 +12914,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analyzer51.fc2.com^
 ||api.all-internet.jp^$third-party
 ||api.popin.cc/conversion2.js
+||app.tag-plus.com/ja/api/v1/unison_planet/heat_map
 ||appront.net/click.js
 ||asumi.shinobi.jp^
 ||b.sli-spark.com^
@@ -13622,6 +13623,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bgro41vnmb.execute-api.us-east-2.amazonaws.com/production$domain=masterworks.com
 ||bhphotovideo.com/aperture/shared/js/dataLayer.js
 ||bi.banggood.com^
+||bicp-analytics.postscript.io^
 ||bigw.com.au/api/event/
 ||bigw.com.au/events/
 ||bing.com/fd/ls/GLinkPing.aspx?
@@ -15197,6 +15199,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||zion-telemetry.api.cnn.io^
 ||zoosk.com/cs/tp.png?
 ||zumper.com/events
+! Email trackers(for long urls, 9000+ chars not being filtered)
+||googleusercontent.com/*/wf/open?upn=$image
 ! OpenTable
 ://track.opentable.
 ! Vinted
@@ -15530,8 +15534,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||pcoptimizedsettings.com/wp-content/plugins/koko-analytics/$script,redirect=noop.js,important
 ||pcoptimizedsettings.com/wp-content/uploads/breeze/google/gtag.js$script,redirect=noop.js,important
 ! GPC
-x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
-x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
+twitch.tv,spotify.com,tidal.com,deezer.com,pandora.com,qobuz.com,soundcloud.com,vimeo.com,x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
+twitch.tv,spotify.com,tidal.com,deezer.com,pandora.com,qobuz.com,soundcloud.com,vimeo.com,x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 ! Clear GPC storage item
 visible.com##+js(set-local-storage-item, browser-ids, $remove$)
 ! server-side GTM
@@ -53085,7 +53089,6 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 @@||join.southerncross.co.nz/quote/_assets/js/sx/app/helpers/gtm.js
 @@||js-agent.newrelic.com^$domain=alliantcreditunion.com|giftcards.com|kapwing.com|live.griiip.com
 @@||js.datadome.co/tags.js$script,domain=monster.ca|sso.garena.com|thefork.com
-@@||js.monitor.azure.com/scripts/$script,domain=genya.it|microsoft.com|rubex.efilecabinet.net
 @@||js.sentry-cdn.com^$script,domain=app.homebinder.com|book.dmm.com|etsy.com|interacty.me|jobs.ch|pizzahut.com.au
 @@||jsrdn.com/s/$script,domain=distro.tv
 @@||kameleoon.eu/kameleoon.js$script,domain=buttercloth.com|jules.com
