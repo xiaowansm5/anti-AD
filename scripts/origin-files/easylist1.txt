@@ -1,9 +1,9 @@
-! Checksum: hsFpz3ZFWBXjtVJpoBkh1Q
-! Diff-Path: ../patches/224_optimized/224_optimized-s-1741365830-3600.patch
+! Checksum: X6tIYAzEACLbUgkuh/MzLg
+! Diff-Path: ../patches/224_optimized/224_optimized-s-1741592605-3600.patch
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.32.70
-! TimeUpdated: 2025-03-07T16:38:44+00:00
+! Version: 2.1.32.83
+! TimeUpdated: 2025-03-10T07:39:22+00:00
 ! Expires: 12 hours (update frequency)
 ||aizhantj.com^
 ||sm-cloud.yunsafe.top^
@@ -4364,8 +4364,27 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||qtbo.cn^
+||hnhmxj.icu^
+||fbphnn.icu^
+||vpydjogaytpg.xyz^
+||zokzavnea.com^
+||rswqfiy.top^
+||phinathuu.com^
+||lutn.cn^
+||fqnhjt.icu^
+||lelczf.icu^
+||shelluiqy.com^
+||ejti.cn^
+||pgyfzyv.top^
 ||thustilpn.com^
 ||nrgv.cn^
+||hltpdd.icu^
+||bxlulr.icu^
+||stralotsb.com^
+||pfhe.cn^
+||trorqaeao.com^
+||dvuz.cn^
 ||hbxmdf.icu^
 ||dupzbh.icu^
 ||jixurt.icu^
@@ -12114,6 +12133,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||i8tq.com/adImg/
 ||csgola.com/Public/img/lala/1.jpg
 ||adasset.flixfiend.top^
+6parknews.com##.ad-view
+appinn.com#?#.featured-section > .test:-abp-has(>.post-img>a[href^="http"]:not([href*="appinn."]))
 mydrivers.com##.baidu_left
 weather.com.cn##.guanggao
 178.com,nga.cn,ngabbs.com##[style^="background"][style*="vertical-align"]
