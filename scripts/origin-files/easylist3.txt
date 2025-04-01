@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202503311728
+! Version: 202504011633
 ! Title: Fanboy's Annoyance List
-! Last modified: 31 Mar 2025 17:28 UTC
+! Last modified: 01 Apr 2025 16:33 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -23943,7 +23943,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cookie-warning-modal--ribbon
 ##.cookie-warning-panel
 ##.cookie-warning-popup
-##.cookie-warning-wrapper
 ##.cookie-warning__overlay
 ##.cookie-warning__wrapper
 ##.cookie-warning_show
@@ -24251,7 +24250,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cookie__column
 ##.cookie__consent
 ##.cookie__container
-##.cookie__content
 ##.cookie__div
 ##.cookie__flex
 ##.cookie__float--container
@@ -24275,7 +24273,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cookie__warn__wrap
 ##.cookie__warning-messaging
 ##.cookie__window
-##.cookie__wrap
 ##.cookie__wrapper_noneuuk
 ##.cookie_accept_notebox
 ##.cookie_acceptance
@@ -31940,6 +31937,7 @@ cryptorank.io##.styled__Wrapper-sc-1xbee9a-0
 lareviewofbooks.org##.styles_cta__rFpfQ
 lareviewofbooks.org##.styles_membershipContainer__10uhb
 nowpatient.com##.su-advertisement-wrapper
+yahoo.com##.subs-upsell
 currentaffairs.org##.subscribe-block
 newsweek.com##.subscribe-block-wrapper
 nautil.us##.subscribe-cta
@@ -33145,6 +33143,7 @@ google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,
 reddit.com##bottom-bar[app-link-params]
 areena.yle.fi##button[aria-label="Jaa ohjelma"]
 cvs.com##cvs-smart-app-banner
+trademe.co.nz##div.responsive-wrapper[aria-label="App promotion banner"]
 m.bilibili.com##div[class*="-openapp"]
 genius.com##div[class*="AndroidBannermobile_"]
 thescore.com##div[class*="GetTheAppModal_"]
@@ -33333,6 +33332,7 @@ openspeedtest.com###footBox3
 aulart.com###footer-aulart-newsletter
 agfundernews.com###footer-cta-wrapper
 nomadicmatt.com###footer-email
+engadget.com###footer-newsletter
 independent.co.uk###footerPrompt
 glutenfreepalate.com###form-subscribe
 blogs.nvidia.com###formWidget
@@ -34130,6 +34130,7 @@ geneticliteracyproject.org##.elementor-element-1922719
 energy-storage.news##.elementor-element-20eaf3b
 geneticliteracyproject.org##.elementor-element-241f781c
 bingehulu.com##.elementor-element-2db20597
+tvtonight.com.au##.elementor-element-2f8c0be2
 analyticsindiamag.com##.elementor-element-36dbceb
 hiresaudiocentral.com##.elementor-element-3b03fc7c
 loyaltylobby.com##.elementor-element-515d4e87
@@ -34472,7 +34473,7 @@ draxe.com##.ju_overlay
 newstatesman.com##.july22-newsletter
 qz.com##.kHmXgL
 christinacooks.com##.kadence-conversion-wrap
-beautifulpublicdata.com,blog.privacyguides.org,codereliant.io,evinfocus.com,gkogan.co,micahflee.com,overkill.wtf,oxfordclarion.uk,scarletink.com##.kg-signup-card
+beautifulpublicdata.com,blog.privacyguides.org,codereliant.io,evinfocus.com,gkogan.co,micahflee.com,newslttrs.com,overkill.wtf,oxfordclarion.uk,scarletink.com##.kg-signup-card
 disconnect.blog##.kg-signup-card-content
 digitalocean.com##.khfYvn
 klima101.rs##.klima-subscribe
@@ -35600,6 +35601,7 @@ ctpost.com##.px20.pb32:has-text(Sign up for)
 aarp.org##.recommendationSection:has-text(Newsletter)
 cjr.org##.row > .entry-content > p:has-text(daily newsletter)
 brooklynvegan.com##.sidebar-form:has-text(Sign Up For Our Newsletter)
+axios.com##.sm\:my-10.xs\:my-6:has-text(Sign up for)
 interestingengineering.com##.t-bg-surface-zero.t-p-6:has-text(Newsletter)
 heatpumped.org##.text-wt-background:has-text(Subscribe)
 autonews.com##.u-space-y-6.u-items-center:has-text(Staying current)
@@ -39376,6 +39378,7 @@ vallartasupermarkets.com##.mb-accept-cookies-banner
 mbc.net##.mbc-policy
 unono.net##.mceRow--relative
 microchip.com##.mchp-cookie
+langchain-ai.github.io##.md-consent
 materialdistrict.com##.md-modal-wrap
 3dprinting.com##.mdl-js-bigsnackbar
 fifa.com##.mdl-overlay
@@ -41091,7 +41094,7 @@ yogainternational.com##div[class^="elements__Banner-"]:has(> div > a[href$="-pri
 ! googlefunding consent warning
 ##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
 ! medium blogs
-blog.discord.com,codeburst.io,eand.co,infosecwriteups.com,medium.com,medium.engineering,netflixtechblog.com,plainenglish.io,primegaming.blog,towardsdatascience.com,uxdesign.cc,windscribe.com##body > div:not([class]):not([id]) > div[class*=" "]:has(> div > div > div[class] > a[href^="https://policy.medium.com/medium-privacy-policy-"])
+blog.discord.com,codeburst.io,doublepulsar.com,eand.co,infosecwriteups.com,medium.com,medium.engineering,netflixtechblog.com,plainenglish.io,primegaming.blog,towardsdatascience.com,uxdesign.cc,windscribe.com##body > div:not([class]):not([id]) > div[class*=" "]:has(> div > div > div[class] > a[href^="https://policy.medium.com/medium-privacy-policy-"])
 blog.discord.com,codeburst.io,eand.co,infosecwriteups.com,medium.com,medium.engineering,netflixtechblog.com,plainenglish.io,primegaming.blog,towardsdatascience.com,uxdesign.cc,windscribe.com##div:has(div[role='alert'] > a[href^="https://policy.medium.com/medium-privacy-policy-"])
 ! Used with generichide
 guicheweb.com.br,mercadolibre.com###alert_cookie
@@ -45168,6 +45171,7 @@ tvgo.orange.pl###analyticsModal
 fitnessclubs4.pl,myfitnessplace.pl,zdrofit.pl,zdrofitzdrowemiejsce.pl###backdrop
 amarone.pl###bannerMSG
 codziennikfeministyczny.pl###bazinga-muffin-container
+helukabel.pl###bc-popup-container
 posilkiwchorobie.pl###blur
 alipaczka.pl###bottom-charm
 zgrzyt.info###box-polityka-pr
@@ -47345,6 +47349,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||files.bbci.co.uk^*/cookie-banner/$script,domain=bbc.co.uk
 @@||finnishdesignshop.fi^*/onetrust-consent$script,domain=finnishdesignshop.fi
 @@||fitnessfirst.upfit.de/wp-content/cache/min/209/cs/iubenda_cs.js$script,~third-party
+@@||forbo.com/scripts/cookieconsent.min.js$~third-party
 @@||fordblueadvantage.com/cars-for-sale/client/js/cookiebanner.$~third-party
 @@||fourseasons.com/alt/apps/fshr/shared/gdpr-banner.$~third-party
 @@||fourseasons.com/alt/fshr/shared/$~third-party
