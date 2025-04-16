@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202504131842
+! Version: 202504161333
 ! Title: EasyPrivacy
-! Last modified: 13 Apr 2025 18:42 UTC
+! Last modified: 16 Apr 2025 13:33 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -108,6 +108,7 @@
 /__utm.gif
 /__utm.js
 /__wsm.gif
+/_assets/oply/public/*
 /_blazor/*$ping
 /_ga?send&
 /_ga?sponsor_pixel=
@@ -9845,6 +9846,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||arkoselabs.com/metrics/
 ||asayer.io/tracker.js
 ||assets.apollo.io/micro/website-tracker/
+||assets.hearstapps.com/commerce/release/affiliate-bundle.
 ||assets.moneymade.io/js/fp.min.js
 ||assets.yumpu.com/release/*/tracking.js
 ||assistant.watson.appdomain.cloud/analytics/
@@ -11110,6 +11112,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||openpanel.dev/op1.js
 ||openxcdn.net^$third-party
 ||opinary.com/v1/events
+||oply.hearstapps.com^
 ||optimeeze.appspot.com^
 ||optmn.cloud/hb/
 ||ora.tv/j/ora_evttracking.js
@@ -11277,6 +11280,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||public.cobrowse.oraclecloud.com/rely/storage/
 ||public.fbot.me/track/
 ||publicbroadcasting.net/analytics/
+||pulse.ecmapps.com^
 ||pulse.shopflo.com^
 ||purevideo.com^*/pvshim.gif?
 ||pushly.com/pushly-event-tracker
@@ -13032,6 +13036,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.tag-plus.com/ja/api/v1/unison_planet/heat_map
 ||appront.net/click.js
 ||asumi.shinobi.jp^
+||b.clipkit.co^
 ||b.sli-spark.com^
 ||b0.yahoo.co.jp^
 ||bance.jp/bnctag.js
@@ -13485,6 +13490,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ! Thai
 ||sal.isanook.com^
 ||stat.matichon.co.th^
+||webpushstat.api.engagelab.cc^
 ! Turkish
 ||0.myikas.com^
 ||analitik.bik.gov.tr^
@@ -53151,6 +53157,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||logger.rm.uol.com.br^
 ||logger.uol.com.br^
 ||logsdk.kwai-pro.com^
+||master.cifraclub.com.br^
 ||matt.mercadolivre.com.br^
 ||metrics.uol.com.br^
 ||netshoes.com.br/tracking/
@@ -53315,6 +53322,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||caliente.mx/integration-scripts/tracking.min.js
 ||coletor.terra.com^
 ||compare.easyviajar.com^
+||data-ingest.xtralife.com^
 ||data.acierto.com^
 ||emol.com/bt/ping
 ||epimg.net/js/*/satelliteLib-
@@ -53372,6 +53380,8 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||stat.nyheter24.se^
 ! Thai
 ||dek-d.com^*/analytic.js
+||play.pp9yy.com/hall/home/heartbeat
+||play.pp9yy.com/hall/v1/netstat/
 ||scribe.wongnai.com^
 ||ta.sanook.com^
 ||thairath.co.th/event/
