@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202504191744
+! Version: 202504221650
 ! Title: EasyPrivacy
-! Last modified: 19 Apr 2025 17:44 UTC
+! Last modified: 22 Apr 2025 16:50 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -283,6 +283,7 @@
 /analytics/ga.js
 /analytics/google.js
 /analytics/layer
+/analytics/loggly.js
 /analytics/metric/*
 /analytics/pagestats
 /analytics/pageview
@@ -901,6 +902,7 @@
 /fbpix-events-
 /fbpixel.js
 /fe_logger?
+/feature/metrics$xmlhttprequest
 /figanalytics-short-ttl.js
 /fingerprint.js
 /fingerprint.min.js
@@ -1097,6 +1099,7 @@
 /gtm.js
 /gtm.min.js
 /gtm/gtm-
+/gtmDataLayer.js
 /gtmTracking.js
 /gv-analytics/riveted.js
 /h.gif?
@@ -2045,6 +2048,7 @@
 /smetrics.*/b/ss/*
 /smetrics.*/id?
 /smg_tracking/js/onthe.io.js
+/Smile_ElasticsuiteTracker/*$script
 /smmch-mine.js
 /smmch-own.js
 /snowman.gif?p=
@@ -2929,6 +2933,7 @@ _WebVitalsReporter_
 .flipboard.com/usage?
 .getblueshift.com/q/
 .getsendmail.com/p/$image
+.gif?mpe=*&mpn=
 .gif?stat=open
 .goodwell18.com/track/
 .google-analytics.com/
@@ -3221,6 +3226,7 @@ omni.soundestlink.com$image
 ||catsunrunjam.com^
 ||cbdatatracker.com^
 ||cdnhst.xyz^
+||cdnlogs.org^
 ||cdnwidget.com^
 ||ciqtracking.com^
 ||cityrobotflower.com^
@@ -3544,6 +3550,7 @@ omni.soundestlink.com$image
 ||vfghe.com^
 ||videocdnmetrika.com^
 ||videoplayerhub.com^
+||visit-server.inmobi-choice.io^
 ||vkanalytics.net^
 ||vmzqqmlpwwmazjnio.com^
 ||vpdcp.com^
@@ -4890,6 +4897,7 @@ omni.soundestlink.com$image
 ||mediaweaver.jp^$third-party
 ||mediego.com^$third-party
 ||mega-stats.com^$third-party
+||megpxs.com^$third-party
 ||memecounter.com^$third-party
 ||memo.co^$third-party
 ||mercadoclics.com^$third-party
@@ -10098,6 +10106,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cloudfront.net/code/keen-2.1.0-min.js
 ||cloudfront.net/dough/*/recipe.js
 ||cloudfront.net/esf.js
+||cloudfront.net/i?e=
 ||cloudfront.net/i?v=
 ||cloudfront.net/js/ca.js
 ||cloudfront.net/js/reach.js
@@ -10369,6 +10378,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||egmontpublishing.dk/tracking/
 ||elpais.com/t.gif
 ||emarketeer.com/tracker/
+||enc-90128738.b-cdn.net^
 ||endorsal.io/check/
 ||ensighten.com/error/e.php?
 ||epimg.net/js/gdt/
@@ -11773,6 +11783,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tr.marsflag.com^
 ||tr.outbrain.com^
 ||tr.snapchat.com^
+||tr.standardadmin.org^
 ||tr.vitals.co^
 ||tr.webantenna.info^
 ||tra.scds.pmdstatic.net/sourcepoint/
@@ -12276,6 +12287,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d3uvwl4wtkgzo1.cloudfront.net^
 ||d3vebqdofhigrn.cloudfront.net^
 ||d4ax0r5detcsu.cloudfront.net^
+||d5yoctgpv4cpx.cloudfront.net^
 ||d761erxl2qywg.cloudfront.net^
 ||d81mfvml8p5ml.cloudfront.net^
 ||danv01ao0kdr2.cloudfront.net^
@@ -12929,6 +12941,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kwikmotion.com^*/videojs-kwikstat.min.js
 ||stats-real-clients.zentech.gr^
 ! Hebrew
+||tag.weezmo.com^
 ||walla.co.il/stats/
 ! Hungarian
 ||gpr.hu/pr.pr?
@@ -13069,6 +13082,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||clipkit.co/clipkit_assets/beacon-
 ||cloudfunctions.net/trackEvent
 ||cnobi.jp^*/js/imp.
+||cnt.mail.netbk.co.jp^$image
 ||codemarketing.cloud/rest/
 ||collector.t-idr.com^
 ||cookie.sync.usonar.jp^
@@ -14270,6 +14284,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hn-ping*.hashnode.com^
 ||homedepot.ca/mr/thd-ca-prod.js
 ||hoo.be/api/hoobe/analytics
+||hostinger.com/api-proxy/api/sentry/
 ||hotels.com/api/bucketing/v1/evaluateExperimentsAndLog
 ||hotels.com/cl/data/omgpixel.json?
 ||hotpads.com/node/api/comscore
@@ -39674,6 +39689,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ! ||info.medtronicdiabetes.com^
 ! ||info.mouser.com^
 ! ||visit.tafensw.edu.au^
+! ||sw.broadcom.com^
 ! 
 ||10stepswp.advancedtech.com^
 ||1stparty.equifax.co.uk^
@@ -43702,7 +43718,6 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||sustainability.ricoh.co.za^
 ||sustainable.optum.com^
 ||suunta.visma.fi^
-||sw.broadcom.com^
 ||sweeps.la-z-boy.com^
 ||symantec.ecs.arrow.com^
 ||sys.hager.com^
@@ -52235,6 +52250,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||api.tacotax.fr/v2/amplitude_trackers
 ||at.pagesjaunes.fr^
 ||batiactu.com/cap_
+||bellesdemeures.com/Content/dist/js/libs/thor.js
 ||bmly.impots.gouv.fr^
 ||boingtv.fr/track_view
 ||cdtm.cdiscount.com^
@@ -52323,6 +52339,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||lemonde.fr^$ping
 ||leparking-moto.fr/jsV155/Tracker.js
 ||leparking.fr/*/Tracker.js
+||lepetitjournal.com/monitoring?
 ||lepoint.fr/img-l/$image
 ||liberation.fr/newsite/js/cmp/
 ||logstash-3.radio-canada.ca^
@@ -52726,6 +52743,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||tijd.be/track/
 ||topspin.npo.nl^
 ||track.pexi.nl^
+||tracking.gaslicht.com^
 ||tracking.voordeeluitjes.nl^
 ||tvgids.nl/collect
 ||tweakers.nl/track/
@@ -53275,6 +53293,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||mirtesen.ru/js/ms.js
 ||ms.dzen.ru^
 ||ms.vk.com^
+||mstat.mos.ru^
 ||mts.ru/fe-api/logger
 ||mytoys.ru/ka_z.jpg?
 ||ngs.ru/s/
