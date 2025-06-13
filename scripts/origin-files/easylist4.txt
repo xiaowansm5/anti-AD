@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202506101820
+! Version: 202506131738
 ! Title: EasyPrivacy
-! Last modified: 10 Jun 2025 18:20 UTC
+! Last modified: 13 Jun 2025 17:38 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -476,6 +476,7 @@
 /bineos.min.js
 /bing-bat.js
 /bingimpression?
+/bitmovinanalytics.min.js
 /bitrix/spread.php?
 /bizo.js
 /bk-coretag.js
@@ -1403,6 +1404,7 @@
 /log_beacon.js
 /log_e.php?id=
 /log_h.jsp
+/log_js_error$ping
 /log_stats.php?
 /log_view.php
 /LogAction?
@@ -3278,6 +3280,7 @@ omni.soundestlink.com$image
 ||as3.io^
 ||aseads.com^
 ||astarsbuilding.com^
+||atmtd.com^
 ||australiarevival.com^
 ||avads.net^
 ||awmonitor.com^
@@ -3457,7 +3460,6 @@ omni.soundestlink.com$image
 ||jams.wiki^
 ||jcpclick.com^
 ||jubbie.de^
-||k5a.io^
 ||klarinsights.net^
 ||krxd.net^
 ||kspotson.de^
@@ -7921,6 +7923,7 @@ omni.soundestlink.com$image
 ||subjectivepoint.com^
 ||subletyoke.com^
 ||sublimequartz.com^
+||subseaagent.com^
 ||subseacare.com^
 ||subseasecurity.com^
 ||subsequentstew.com^
@@ -8025,6 +8028,7 @@ omni.soundestlink.com$image
 ||topbookgifts.com^
 ||topcrazypress.com^
 ||touristfuel.com^
+||toysbasics.com^
 ||toytakeover.com^
 ||trackcaddie.com^
 ||traderbyte.com^
@@ -9438,6 +9442,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics-scripts.cablelabs.com^
 ||analytics-sg.tiktok.com^
 ||analytics-static.ugc.bazaarvoice.com^
+||analytics-tracker.thescore.com^
 ||analytics.30m.com^
 ||analytics.adobe.io^
 ||analytics.agoda.com^
@@ -10592,6 +10597,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||juicer.io/api/page_views
 ||k.keyade.com^
 ||k.streamrail.com^
+||k5a.io/?i=
 ||kalstats.kaltura.com^
 ||kbb.com/partner/$third-party
 ||kelkoogroup.net/st?
@@ -13846,6 +13852,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||console-telemetry.oci.oraclecloud.com^
 ||consumer.org.nz/session/ping/
 ||containers.appdomain.cloud/api/send-log$domain=ibm.com
+||contentpass.net/error-tunnel
+||contentpass.net/stats
 ||cookpad.com/*/activity_logs
 ||copilot-telemetry.githubusercontent.com^
 ||count.all.biz^
@@ -52347,6 +52355,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg.ping, noopFunc)
 ||email.nautiljon.com/oo/$image
 ||europe1.fr/assets/europe1/estat.
 ||events-logs.doctolib.com^
+||events.verifymy.io^
 ||flow.kiloutou.fr^
 ||fourchette-et-bikini.fr/core/modules/statistics/
 ||fr.shopping.rakuten.com/rakuten-static-deliver/mob/*/js/track.js
@@ -54083,8 +54092,6 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg.ping, noopFunc)
 @@||cdn.optimizely.com/public/*.json/tag.js$domain=mobile.de
 ! ! omtrdc.net
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=absa.co.za|att.com|pnc.com|vodafone.it
-! ! k5a.io
-@@||k5a.io^$script,xmlhttprequest,domain=20min.ch|itavisen.no
 ! ! tags.tiqcdn.com
 @@||tags.tiqcdn.com/utag/*/utag.sync.js$domain=bankofamerica.com|hsbc.co.uk|samsung.com|sony.jp|visible.com|vmware.com
 ! statcounter.com charts https://github.com/uBlockOrigin/uAssets/issues/11321
@@ -54316,6 +54323,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg.ping, noopFunc)
 @@||clarity.ms/tag/$script,domain=phileweb.com
 @@||cmn.gyro-n.com/js/gyr.min.js$domain=benesse-style-care.co.jp
 @@||cpt.geniee.jp/hb/*/wrapper.min.js$domain=hoyme.jp
+@@||cybozu.com/*/event.gif?$~third-party
 @@||delivery.satr.jp^$script,domain=mieru-ca.com
 @@||deteql.net/recommend/provision?$xmlhttprequest,domain=t-fashion.jp
 @@||disneyplus.disney.co.jp/view/vendor/analytics/$~third-party
@@ -54345,6 +54353,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg.ping, noopFunc)
 @@||linksynergy.com/minified_logic.js$xmlhttprequest
 @@||log000.goo.ne.jp/gcgw.js$domain=nttxstore.jp
 @@||logly.co.jp/recommend/$image,domain=benesse.ne.jp|sponichi.co.jp
+@@||matsukiyococokara-online.com/store/*/rtoaster.js
 @@||moneypartners.co.jp/web/*/fingerprint.js$~third-party
 @@||nakanohito.jp^*/bi.js$domain=kenko-tokina.co.jp|myna.go.jp
 @@||nittsu.com/Tracking/Scripts/Tracking/track.js
