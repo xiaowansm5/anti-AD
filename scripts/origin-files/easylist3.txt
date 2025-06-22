@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202506191840
+! Version: 202506221820
 ! Title: Fanboy's Annoyance List
-! Last modified: 19 Jun 2025 18:40 UTC
+! Last modified: 22 Jun 2025 18:20 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1621,6 +1621,7 @@ _social_footer_
 /sf-tagomo-privacy.js
 /si-cookie-manager.js
 /sibbo-cmp-core.js
+/silktide-consent-manager.js
 /silverstripe-dsgvo-cookies/js/cookies.js
 /simpler-cookie-consent.umd.js
 /sizzlegdpr.snippet.min.js
@@ -1694,7 +1695,7 @@ _social_footer_
 /wp-content/plugins/gdpr-cookie-compliance/*
 /wp-content/plugins/real-cookie-banner-pro/*
 /wp-content/plugins/webtoffee-cookie-consent/*
-/wp-content/plugins/wpconsent-premium/*
+/wp-content/plugins/wpconsent-premium/build/frontend-pro.js
 /wp-gdpr-compliance/assets/js/front.min.js
 /wp-tarteaucitron-js-self-hosted/js/main.js
 /wp-tarteaucitron-js/js/tarteaucitron/tarteaucitron.js
@@ -6890,6 +6891,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.articlesharebox
 ##.articleshares
 ##.artlsocl
+##.asd_share_buttons
 ##.ashare_box
 ##.asicon-facebook
 ##.asicon-google-plus
@@ -36201,6 +36203,7 @@ thewildest.com##.dJ_xt
 ourworldindata.org##.data-insight-copy-link-button
 bostonagentmagazine.com##.dd-share
 drugs.com##.ddc-footer-column-social
+horiba.com##.desc
 techfirstnow.com##.desktop-shareables
 thesportingtribune.com##.desktopSocialShare
 capital.com##.detail__soc
@@ -36744,6 +36747,7 @@ newsnow.co.uk##.share-highlight
 cgtn.com,citynews.ca##.share-icon
 knowablemagazine.org##.share-icons-box
 builder.io##.share-icons-column
+cuttty.com##.share-icons-container
 picsart.com##.share-icons-single-icons-0-2-82
 agsiw.org##.share-icons__social-shares___2eB-m
 crooksandliars.com##.share-inner
@@ -38361,6 +38365,7 @@ lareviewofbooks.org##.Toastify
 fotor.com##.UseCookie_useCookieModle__6d4kz
 vermontcountrystore.com##.VCSCookieControl
 hydratecinc.com##.Vue-Toastification__container
+wurmonline.com##.WurmCookieBanner
 clipchamp.com##.Xlovq
 tabii.com##.\!bottom-0.lg\:opacity-100
 seekube.com##._1AsHk
@@ -38563,6 +38568,7 @@ home.sandvik##.bg-gray
 unitedglobalsim.com##.bg-green
 mastersintime.com##.bg-green-200
 icoone.com##.bg-modal
+rareseeds.com##.bg-opacity-20
 capadriano.com##.bg-opacity-75
 amana.app##.bg-pink-brand
 herzum.com##.bg-primary.fixed.w-full.text-white.z-40.flex.flex-col.justify-center.items-center
@@ -38723,7 +38729,7 @@ behaviourchangeagency.com##.ck-cookie-w
 ilovepdf.com##.ck-tstr
 dotycat.com,phone-updates.com##.ckWrap
 img.ly##.cke-overlay
-ruijienetworks.com##.cke2022fr
+ruijie.com,ruijienetworks.com##.cke2022fr
 stayinwales.co.uk##.ckinfo-panel
 clineva.com##.clineva-cookies-info
 oipc.bc.ca##.clsPopupContainer
@@ -40182,6 +40188,7 @@ omio.com##[class^="app-container-"]
 visartech.com##[class^="cookie-banner-"]
 rsdelivers.com##[class^="cookie-policy-component_"]
 ganjing.com##[class^="cookie_notice"]
+content.techgig.com##[class^="gdpr-info"]
 bybit.com##[class^="style_gdpr"]
 underarmour.com##[class^="trustarc_consent"]
 fischer-technology.com##[data-ajax-loading="false"]
@@ -41179,7 +41186,7 @@ fabocompany.com,polipc.hu##.mysticky-welcomebar-fixed-wrap
 ! ! .cli-modal-backdrop
 bestofjazz.org,datakauppa.fi,larionews.com,misaij.fi,puglia.com,reproduccionasistida.org,salmonsoftware.ie,wemabank.com##.cli-modal-backdrop
 ! ! cookie-law-info-bar
-1bazar.sk,300dollardatarecovery.com,42krunning.com,78rpm.club,aboutitgroup.co.za,adevinta.com,adimorahblog.com,admiralparkhotel.com,admvital.com,advister.it,agenciaidweb.com.br,agrolio.com,aldrimer.no,ammirati.org,arcasting.it,arcturus.be,autexier.fr,author-it.com,autobusweb.com,beatotemilano.it,bestofjazz.org,biogaran.fr,blackview.es,bodymaja.fi,bookinglive.com,bookitit.com,boost.com.mt,boticadelpuerto.com,briefyourmarket.com,carujeme.cz,carzine.gr,castgroup.com.br,castlebrook.fr,cats.com,ciociaria24.net,clevergirlfinance.com,codinaarchitectural.com,colisexpat.com,contact-telephone.com,copenhagenlightfestival.org,costcocouple.com,crimsontech.jp,cryptogyani.com,cuatroochenta.com,dcmais.com.br,designtagebuch.de,doogweb.es,dsgta.ch,dynamicauctioneers.co.za,ecole-steiner-verrieres.org,eetimes.com,eluxemagazine.com,energylandia.pl,enthralling.eu,entrepreneursdumonde.org,eteknix.com,ferienwohnungen-ignazhof.de,fitinteriors.com,florianwmueller.com,francemuseums.fr,fromthemurkydepths.co.uk,gamalin.com,gazteberri.eus,gentjazz.com,gezond.info,gilsonazevedo.com.br,glutarama.com,grupafachowiec.eu,gs1es.org,guildford-dragon.com,gulf.de,hotel-engiadina.ch,howwegettonext.com,ibmix.de,iempresa.net,ilpatronato.it,implantate.org,ina.hr,infusioncentre.co.za,innoplexus.com,jalkapallon-mm.fi,jtag.com,kegsofftap.com.au,kleinjagtlust.nl,kudowa.pl,kuluttaja.fi,kunstverein-friedrichshafen.de,kuribay.fr,larionews.com,lazertelecom.com,littletalks.at,louroe.com,lubiehrubie.pl,lzautomobile.de,majorleaguetrading.com,materom.ro,mbbuzz.com,mimioconnect.com,mirusmed.com,misaij.fi,mizunogolf.com,myllarin.fi,newcare.agency,nokioteca.net,oley.com,pcs.com.mt,pierregignoux.fr,podcaliptus.com,popcorncinemashow.com,power-sprays.com,power-type.com,praktijkreestenregge.nl,premiumsound.co.uk,pylades.com,radiogalileo.it,radioitaliacina.com,radiologen-mansfelder-land.de,radioplayeritalia.it,regioneo.pl,reinventer-le-monde.fr,remadewithlove.nl,renasterea.ro,ridecake.com,rinconpsicologia.com,risecannabis.com,robertobeloki.com,router-kaufen.com,rubbella.nl,runspree.com,sannicandro.org,seapointleisure.ie,shellsoul.com,sigfox.fr,silverbt.com,sivamspa.it,smcexclusive.co.za,softsuggester.com,sora24.it,spaccioitalia.com,spinbreak.fr,ssarezzo.it,sub5.se,termometropolitico.it,thecatholictravelguide.com,thefetishistas.com,theghostinmymachine.com,thesushitimes.com,tilomotion.com,ttigroup.com,tuxera.com,unimooc.com,uvetgbt.com,uw.edu.pl,vimentis.ch,webmanuals.aero,whatsup.es,windowsteca.net,woesteland.nl,woodeal.fr,wpweb.com,zampadigallina.com,zapolsky.fr###cookie-law-info-bar
+1bazar.sk,300dollardatarecovery.com,42krunning.com,78rpm.club,aboutitgroup.co.za,adevinta.com,adimorahblog.com,admiralparkhotel.com,admvital.com,advister.it,agenciaidweb.com.br,agrolio.com,aldrimer.no,ammirati.org,arcasting.it,arcturus.be,autexier.fr,author-it.com,autobusweb.com,beatotemilano.it,bestofjazz.org,biogaran.fr,blackview.es,bodymaja.fi,bookinglive.com,bookitit.com,boost.com.mt,boticadelpuerto.com,briefyourmarket.com,carujeme.cz,carzine.gr,castgroup.com.br,castlebrook.fr,cats.com,ciociaria24.net,clevergirlfinance.com,codinaarchitectural.com,colisexpat.com,contact-telephone.com,copenhagenlightfestival.org,costcocouple.com,crimsontech.jp,cryptogyani.com,cuatroochenta.com,dcmais.com.br,designtagebuch.de,doogweb.es,dsgta.ch,dynamicauctioneers.co.za,ecole-steiner-verrieres.org,eetimes.com,eluxemagazine.com,energylandia.pl,enthralling.eu,entrepreneursdumonde.org,eteknix.com,ferienwohnungen-ignazhof.de,fitinteriors.com,florianwmueller.com,francemuseums.fr,fromthemurkydepths.co.uk,gamalin.com,gazteberri.eus,gentjazz.com,gezond.info,gilsonazevedo.com.br,glutarama.com,grupafachowiec.eu,gs1es.org,guildford-dragon.com,gulf.de,hotel-engiadina.ch,howwegettonext.com,ibmix.de,iempresa.net,ilpatronato.it,implantate.org,ina.hr,infusioncentre.co.za,innoplexus.com,jalkapallon-mm.fi,jtag.com,kegsofftap.com.au,kleinjagtlust.nl,kudowa.pl,kuluttaja.fi,kunstverein-friedrichshafen.de,kuribay.fr,larionews.com,lazertelecom.com,littletalks.at,louroe.com,lubiehrubie.pl,lzautomobile.de,majorleaguetrading.com,materom.ro,mbbuzz.com,mimioconnect.com,mirusmed.com,misaij.fi,mizunogolf.com,myllarin.fi,newcare.agency,nokioteca.net,oley.com,pcs.com.mt,pierregignoux.fr,podcaliptus.com,popcorncinemashow.com,power-sprays.com,power-type.com,praktijkreestenregge.nl,premiumsound.co.uk,prenota.humanitas.it,pylades.com,radiogalileo.it,radioitaliacina.com,radiologen-mansfelder-land.de,radioplayeritalia.it,regioneo.pl,reinventer-le-monde.fr,remadewithlove.nl,renasterea.ro,ridecake.com,rinconpsicologia.com,risecannabis.com,robertobeloki.com,router-kaufen.com,rubbella.nl,runspree.com,sannicandro.org,seapointleisure.ie,shellsoul.com,sigfox.fr,silverbt.com,sivamspa.it,smcexclusive.co.za,softsuggester.com,sora24.it,spaccioitalia.com,spinbreak.fr,ssarezzo.it,sub5.se,termometropolitico.it,thecatholictravelguide.com,thefetishistas.com,theghostinmymachine.com,thesushitimes.com,tilomotion.com,ttigroup.com,tuxera.com,unimooc.com,uvetgbt.com,uw.edu.pl,vimentis.ch,webmanuals.aero,whatsup.es,windowsteca.net,woesteland.nl,woodeal.fr,wpweb.com,zampadigallina.com,zapolsky.fr###cookie-law-info-bar
 ! ! #exampleModalCenter
 roval.be,roval.eu,roval.nl,rovalaluminium.fr###exampleModalCenter
 ! ! onlinecasinoreports.com.br/onlinecasinoreports.com
@@ -42787,6 +42794,7 @@ atoananet.com.br##.link-compartilhar
 brasil247.com##.links
 omelete.com.br##.links--social
 pinkluna.com.br##.lista-redes
+jornaldacidadeonline.com.br##.main-nav__social-icon
 uai.com.br##.margen_icon
 canaltech.com.br##.mb-8.flex.flex-col.flex-wrap.justify-between.gap-3.tablet\:flex-row
 vermelho.org.br##.menu-social-networks
@@ -46411,6 +46419,7 @@ gorodperm.ru###cookb
 vladimir-city.ru###cookie_pp
 so-ups.ru###cookieagreement
 1000.menu###cookiescript_injected_wrapper
+pridegym.fit###cookinfowin
 bki-okb.ru###indexis-cookies-consent-wrapper
 printn1.ru###info-bott-message
 patee.ru###informer2
@@ -46504,6 +46513,7 @@ chance.ru##.check_cookie
 cardsmobile.ru##.cm-m_c-w
 web-axioma.ru##.confform
 aquagrunt.ru##.confidentalInfo
+darina.su##.container-coocke
 2x2tv.ru##.cook-web
 mnogo.ru##.cook_LFPnK
 propb.ru##.cooke

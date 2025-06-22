@@ -1,11 +1,10 @@
-! Checksum: riQbEsZSheRSEZX4AOQoAA
-! Diff-Path: ../patches/224_optimized/224_optimized-s-1750349536-3600.patch
+! Checksum: B8NzpdrVTPVtVcpkA8ib2w
+! Diff-Path: ../patches/224_optimized/224_optimized-s-1750612221-3600.patch
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.39.29
-! TimeUpdated: 2025-06-19T16:08:15+00:00
+! Version: 2.1.39.43
+! TimeUpdated: 2025-06-22T17:06:29+00:00
 ! Expires: 12 hours (update frequency)
-||tracyspb.com^
 ||au.adhacker.online^$third-party
 ||kai5741.xyz^
 ||mernrza.com^
@@ -4339,12 +4338,49 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||gegeoq.icu^
+||00p034d0dw.com^
+||3hads4i5hm.com^
+||moa06220ju.com^
+||rthrondrae.com^
+||aubergineq8.top^
+||nqlzlr.icu^
+||jwjwtw.top^
+||moa06221ju.com^
+||wpuzzcudultv.com^
+||kai5741.xyz^
+||4kxczstxil.com^
+||gcsh3bxck.com^
+||moa06210ju.com^
+||iokmey.icu^
+||paphzz.icu^
+||wio06210j7.com^
+||lqdcvj.top^
+||gqxwfhe7o.com^
+||1k8j786ks5.com^
+||moa06200ju.com^
+||fo1ykm6ph1.com^
+||clorso.icu^
+||kk3fefl2b3.com^
+||honkellnl.com^
+||potatosa6.com^
+||jxtmnp.icu^
+||jrbnxw.top^
+||dnokacraldho.com^
+||moa06201ju.com^
+||vbphograewy.com^
+||go22zd6lwm.com^
+||zno9qw80o.com^
+||uy8f8z9uy.com^
+||radishon33.top^
+||thaadotyvrf.com^
 ||moa06191ju.com^
 ||owchaavetonb.com^
 ||0w58wpq55.com^
 ||tracyspb.com^
 ||3pefw1lz4.com^
 ||vl3rw9roj.com^
+||5x17591y3b.com^
 ||moa06190ju.com^
 ||eiszgw.icu^
 ||luxrbx.icu^
@@ -7705,6 +7741,7 @@ newduba.cn###jq_youxi
 ||zwlxnj.xyz^
 ||zxqiwe.cn^
 ||zyfnbl.xyz^
+||burniecrepes.com^
 ||663008888.com^
 ||xxxx68xxxx.com^
 ||cai75tp.com^
@@ -12349,6 +12386,7 @@ meijutt.*/js/pcjs/
 ||yximgs.com/bs2/adcarsku/*.gif
 ||waipian*.com/statics/recommend/
 ||taozi.icu/asfile/m/js/guding.
+||komiic.com/ads/
 zhihu.com##.Pc-word-new
 twword.com##.gadBlock
 mydrivers.com##.jdong1div_double
@@ -17956,6 +17994,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@/adfile/*$domain=cidianwang.com
 @@/adimage/*$domain=scyts.com|wacom.tw
 @@/adimages/*$domain=p9.com.tw
+@@||fpyf8.com/88/tag.min.js$domain=wxredian.com
 @@/adimg/*$domain=laniqu.com
 @@/adjs_pic_$domain=168gamer.net|slit.cn
 @@/adLoader.$domain=shejiben.com
