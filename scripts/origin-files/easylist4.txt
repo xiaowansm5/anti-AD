@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202506251837
+! Version: 202506281823
 ! Title: EasyPrivacy
-! Last modified: 25 Jun 2025 18:37 UTC
+! Last modified: 28 Jun 2025 18:23 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -2868,6 +2868,15 @@ _trackWebtrekkEvents.
 _view_pixel&$image
 _webanalytics.
 _WebVitalsReporter_
+! https://github.com/AdguardTeam/AdguardFilters/commit/934912b3e760e068a91cd6cb502096a55ab1ca16
+! Tracking on parked domains
+/_static/deliver.js?nonce=$script,~third-party
+/javascripts/browserfp.min.js?templateId=
+/munin/a/ls?t=$xmlhttprequest
+/munin/a/tr/browserjs?domain=
+/sk-park.php?pid=
+/sxp/i/*$script,third-party
+/tc_imp.gif?
 ! https://www.mcclatchy.com/our-impact/markets
 /ng.gif?
 ! Facebook pixels
@@ -3688,6 +3697,13 @@ omni.soundestlink.com$image
 ||zononi.com^
 ||zqtk.net^
 ||ztsrv.com^
+! https://github.com/AdguardTeam/AdguardFilters/commit/934912b3e760e068a91cd6cb502096a55ab1ca16
+||rsra-ph.cdn-fileserver.com^
+||rsra.cdn-fileserver.com^
+||rsras-ph.cdn-fileserver.com^
+||rsras.cdn-fileserver.com^
+||sra-px.cdn-fileserver.com^
+||youseasky.com^
 ! *** easylist:easyprivacy/easyprivacy_trackingservers_thirdparty.txt ***
 ! easyprivacy_trackingservers_thirdparty.txt
 ! Third-party
@@ -9829,6 +9845,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdn-channels-pixel.ex.co^
 ||cdn-ds.com/analytics/
 ||cdn.clkmc.com/cmc.js
+||cdn.cuty.io/fps.js
 ||cdn.debugbear.com^$third-party
 ||cdn.one.store/xdomain_cookie.html
 ||cdn.polarbyte.com^
@@ -14390,6 +14407,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lensdirect.com/page-tracking/
 ||letsdoeit.com/tracking/
 ||lexology.com/pd.js
+||lgforbes.akamaized.net/rtblog.php?
 ||libhunt.com/api/ahoy/event
 ||librato-collector.genius.com^
 ||lightstep.medium.systems^*/reports
@@ -14590,6 +14608,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ntvid.online/cdn-cgi/trace
 ||nyt.com/ads/tpc-check.html$domain=nytimes.com
 ||nytimes.com/v1/purr-cache
+||nzherald.co.nz/pf/resources/scripts/tracking/data-ref.js
 ||nzpages.co.nz/modules/common/track.js
 ||observe.metarouter.io^
 ||ocular.hotukdeals.com^
@@ -15212,6 +15231,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ultimate-guitar.com/components/ab/event?
 ||ultimedia.com/deliver/statistiques/
 ||um.contentstudio.io^
+||umami.flixer.su^
+||umami.spencerdevs.xyz^
 ||umami.vidfast.pro^
 ||umami.wakarimasen.moe^
 ||unibling.com/eclytics/
@@ -52907,6 +52928,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg.ping, noopFunc)
 ||hs.fi/stats
 ||huuto.net/js/analytic/
 ||ilcdn.fi^*/Bootstrap.js
+||insights.mtv.a2d.tv^
 ||io-tech.fi/io/www/delvr/lokiz.php
 ||is.fi/stats/
 ||logger.omio.com^
