@@ -1,9 +1,9 @@
-! Checksum: VCY1KWd9TVnz/ALRuT+V1A
-! Diff-Path: ../patches/224_optimized/224_optimized-s-1752153686-3600.patch
+! Checksum: cCQ6tTWeQqFUclGv84xfYg
+! Diff-Path: ../patches/224_optimized/224_optimized-s-1752405028-3600.patch
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.40.43
-! TimeUpdated: 2025-07-10T13:17:19+00:00
+! Version: 2.1.40.54
+! TimeUpdated: 2025-07-13T11:06:40+00:00
 ! Expires: 12 hours (update frequency)
 ||au.adhacker.online^$third-party
 ||kai5741.xyz^
@@ -687,10 +687,10 @@ news.qq.com#?##content-right div[class]:has(> h1:contains(热门应用))
 ||h1.azuimeh.top^
 ||hsvtdj.top^$all
 nodeseek.com###nsk-right-panel-container > div.category-list + div:not([class])
-tw.yahoo.com##aside > div[id^="module-adgroup"]
-tw.yahoo.com##aside > div[id^="module-sponsoredad"]
-tw.yahoo.com###fullbleed > div[data-content="廣告"]
-tw.yahoo.com##.ntk-list > .grid-item:has(> div[data-wf-benji-config])
+hk.yahoo.com,tw.yahoo.com##aside > div[id^="module-adgroup"]
+hk.yahoo.com,tw.yahoo.com##aside > div[id^="module-sponsoredad"]
+hk.yahoo.com,tw.yahoo.com###fullbleed > div[data-content="廣告"]
+hk.yahoo.com,tw.yahoo.com##.ntk-list > .grid-item:has(> div[data-wf-benji-config])
 chigua69.com##.video-list > div.video-item:has(> a[adv_id])
 hk01.com##article > .items-center:has(.lazyload-wrapper > .js-ad-slot)
 hk01.com##.article-grid__desktop-rhs-section > .items-center:has(.lazyload-wrapper > .js-ad-slot)
@@ -4334,6 +4334,36 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||p4gdt4um6.com^
+||awywlb89y.com^
+||huo07130hy.com^
+||oesnwi.icu^
+||designx08.com^
+||m1vvvv1k2.com^
+||huo07131hy.com^
+||xrus.cn^
+||huo07120hy.com^
+||qxn9qlvmca.com^
+||yh823ogu6b.com^
+||chanced112.com^
+||ibwvky.icu^
+||j4mxrs21gh.com^
+||rliwiqr.icu^
+||jfpo.cn^
+||huo07121hy.com^
+||dklhflksd.com^
+||smjfbjsfvrf.com^
+||irzi.cn^
+||chedethw.com^
+||ctsp4jao1.com^
+||huo07110hy.com^
+||1dm6ccvy8.com^
+||klaayg.icu^
+||pdrv.cn^
+||agenter32.top^
+||03t441b8w.com^
+||huo07111hy.com^
+||yetacdn.org^
 ||nh3ymjjdkx.com^
 ||huo07100hy.com^
 ||gai1359.xyz^
