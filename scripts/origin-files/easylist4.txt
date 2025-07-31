@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202507281845
+! Version: 202507311828
 ! Title: EasyPrivacy
-! Last modified: 28 Jul 2025 18:45 UTC
+! Last modified: 31 Jul 2025 18:28 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1324,6 +1324,7 @@
 /LandingPageHitLog.aspx?
 /LandingPageInteractionLog.aspx?
 /lasso-ga.js
+/ldc.js?pid=
 /lead-tracking.min.js
 /leadgen/ga.js
 /leadtag.js
@@ -4768,6 +4769,7 @@ omni.soundestlink.com$image
 ||imtwjwoasak.com^$third-party
 ||inboxtag.com^$third-party
 ||incentivesnetwork.net^$third-party
+||increasingcustomers-tag.com^$third-party
 ||index.ru^$third-party
 ||indexstats.com^$third-party
 ||indextools.com^$third-party
@@ -5504,6 +5506,7 @@ omni.soundestlink.com$image
 ||rettica.com^$third-party
 ||returnpath.net^$third-party
 ||revenuepilot.com^$third-party
+||revenueroll.com^$third-party
 ||revenuescience.com^$third-party
 ||revenuewire.net^$third-party
 ||revhunter.tech^$third-party
@@ -8163,6 +8166,7 @@ omni.soundestlink.com$image
 ||unwieldyplastic.com^
 ||uppitytime.com^
 ||upscaledigest.com^
+||urbanlaurel.com^
 ||usabilitybook.com^
 ||uselesslumber.com^
 ||userballot.com^
@@ -9771,6 +9775,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||b5media.com/bbpixel.php
 ||b7tp47v2nb3x-a.akamaihd.net^
 ||b8cdn.com/assets/v1/analytics-
+||backend.alia-cloudflare.com/launcher/events/
+||backend.alia-cloudflare.com/user/events
 ||backend.leadconnectorhq.com/forms/form-survey-event
 ||backend.verbolia.com/content/js/velw.min.js
 ||baidu.com/pixel?
@@ -9893,6 +9899,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ccexperimentsstatic.oracleoutsourcing.com^
 ||cdn-channels-pixel.ex.co^
 ||cdn-ds.com/analytics/
+||cdn-eu.usefathom.com^
 ||cdn.clkmc.com/cmc.js
 ||cdn.cuty.io/fps.js
 ||cdn.debugbear.com^$third-party
@@ -11942,7 +11949,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||twitter.com/oct.js
 ||twitter.com/scribe/
 ||typeform.com/*/insights/events^
-||tzm.px-cloud.net^
 ||uaas.yandex.ru^
 ||uadblocker.com/pixel1.php?$third-party
 ||ubm.docu.info^
@@ -12000,6 +12006,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||video-ad-stats.googlesyndication.com^
 ||video-analytics-api.cloudinary.com^
 ||video-cdn.net/event?
+||video-intel.pixels.ai^
 ||video.google.com/api/stats/
 ||videoevents.outbrain.com^
 ||videoly.co^*/event/
@@ -13998,6 +14005,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||contentpass.net/error-tunnel
 ||contentpass.net/stats
 ||cookpad.com/*/activity_logs
+||coomer.st/api/v1/creators|
 ||copilot-telemetry.githubusercontent.com^
 ||count.all.biz^
 ||count.darkreader.app^
@@ -14355,6 +14363,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||healthline.com/api/metrics
 ||heap.drop.com^
 ||hellopeter.com/api/consumer-tracking/
+||hepsiburada.com/api/$ping
 ||hilton.com/zJbufaUX/
 ||hindustantimes.com/res/images/one-pixel.png
 ||hlogger.heraldcorp.com^
@@ -14475,6 +14484,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kayak.*/vestigo/measure
 ||kbb.com/pixall/
 ||kck.st/web/track
+||keirin.netkeiba.com/ndtracker/
+||kemono.cr/api/v1/creators|
 ||kgoma.com/v1/stat/
 ||khanacademy.org/api/internal/_analytics/
 ||kinesis.us-east-1.analytics.edmentum.com^
@@ -15127,6 +15138,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.kck.st^
 ||t.lataco.com/collect
 ||t.nypost.com^
+||t.optiwizehealth.com^
 ||t.pagesix.com^
 ||t.paypal.com^$image
 ||t.perigold.com^
@@ -15548,6 +15560,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bing.com/fd/ls/lsp.aspx
 ||bing.com^*/glinkping.aspx$ping,xmlhttprequest
 ||bing.com^*/GLinkPingPost.aspx$ping,xmlhttprequest
+! recommended content
+birminghammail.co.uk,bristolpost.co.uk,dailyrecord.co.uk,irishstar.com,liverpoolecho.co.uk,manchestereveningnews.co.uk,stokesentinel.co.uk,walesonline.co.uk###right-aside-wrapper
 ! Site specific elements (due to EP)
 ###cxense-recs-in-article
 ##.embed-responsive-trendmd
@@ -15907,8 +15921,8 @@ e-begin.jp##.inviewSection:not(.is-show):style(transform: translateY(0) !importa
 ! mustar.meitetsu.co.jp
 ||googletagmanager.com/gtm.js$domain=mustar.meitetsu.co.jp,important
 mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
-! coomer.su,kemono.su
-coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
+! coomer.party,kemono.party
+coomer.st,kemono.cr##+js(set-local-storage-item, plausible_ignore, true)
 ! EOF
 ! #endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/205925
@@ -53328,6 +53342,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||service.webgoto.net/*?wAnalytics
 ||shipping.jp/raa/rd.js
 ||shopch.jp/com/js/analytics.js
+||shueisha.online/op/analytics.js
 ||so-zou.jp/js/ga.js
 ||ssai.api.streaks.jp/*/ad_info?
 ||stats.nhk.or.jp^

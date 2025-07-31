@@ -1,9 +1,9 @@
-! Checksum: kKSXQVARrojzSCa+VGa7Ng
-! Diff-Path: ../patches/224_optimized/224_optimized-s-1753715547-3600.patch
+! Checksum: 0heGwqI/1syWpDEsSQbFvQ
+! Diff-Path: ../patches/224_optimized/224_optimized-s-1753971212-3600.patch
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.41.13
-! TimeUpdated: 2025-07-28T15:08:26+00:00
+! Version: 2.1.41.31
+! TimeUpdated: 2025-07-31T14:09:25+00:00
 ! Expires: 12 hours (update frequency)
 ||tw-726620180914.*.run.app^
 ||au.adhacker.online^$third-party
@@ -343,7 +343,8 @@ linovelib.com#$#body[style] { overflow: auto !important; }
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=linovelib.com,important
 linovelib.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'adBlock')
 linovelib.com#%#//scriptlet('set-constant', 'adblock', '0')
-@@/wp-content/themes/radio-hub/static/js/adpro.js$domain=tingfm.com
+@@/wp-content/themes/radio-hub/static/js/*.js$domain=tingfm.com
+tingfm.com#%#//scriptlet('trusted-replace-node-text', 'script', 'wndt.can_run_ads', '/wndt\.can_run_ads.*=.*;/', 'wndt.can_run_ads = !0;')
 tingfm.com#%#//scriptlet('set-constant', 'canRunAds', 'true')
 tingfm.com#%#//scriptlet('set-constant', 'can_run_ads', 'true')
 tingfm.com#%#//scriptlet("prevent-setTimeout", "adblock")
@@ -688,7 +689,7 @@ cesu.ai##div[class^="money_"]
 codernav.com##.io-widget-ad-lunbotu
 news.qq.com###content-right div[class][style*='background-image: url("https://inews.gtimg.com/newsapp_bt/']:has(img[alt^="QQ"])
 tw.news.yahoo.com##div[data-google-query-id]
-news.yahoo.com##div[id^="sda-"]
+tw.yahoo.com,news.yahoo.com##div[id^="sda-"]
 tw.news.yahoo.com##.YDC-Lead
 news.qq.com#?##content-right div[class]:has(> h1:contains(热门应用))
 ||isyd.net/images/ad1.jpg
@@ -2463,6 +2464,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_apps
 !+ PLATFORM(windows, mac, android)
 ||101.qq.com/js/base.js$replace=/(el\.getAttribute\("type"\) === "text\/javascript")/\(\$1 && !el\.getAttribute\("nonce"\)\)/
 ||acs.youku.com/*/mtop.youku.play.ups.appinfo.get/*/?jsv=$replace=/("ad":\{)[\s\S]*?(\}\,"playlog")/\$1\$2/,important
+#@#.uk-container.uk-container-expand
 ||cdn77.org^*.mp4|$badfilter
 video4k.cc#@#a[href*="/?aff="][target="_blank"]
 linovelib.com#@#.ads_box
@@ -4278,11 +4280,14 @@ newduba.cn###jq_youxi
 ###fucku.col-md-8
 ###index_banner[src*=".imgdd.com"]
 ###ad-float.kyty
+##.banner-adv-new
 ##body[ontouchstart] > .wrap > div[id^="content_"][style="display: block;"]
 ##body[ontouchstart] > div[id^="content_"][style="display: block;"]
 ##.relative > div > img[sizes="100vh"][width="0"]
 ##a[href^="/archives/"] > .post-card > .blog-background[style*="gif;base64"]
 ###banner_links.banner-container
+##.a-media.ex-728-90
+##a[clickmode="cpt"]
 ##a[href="https://t.me/bokaiyunwujiankaiyun"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 ##td[id^="td_"] > a[href^="/htmm/"]
@@ -4307,6 +4312,38 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||f7ugx6b863.com^
+||q7qhlnyfx.com^
+||sportuay.com^
+||wuyjtew.icu^
+||yopo0hx26.com^
+||nug07310lu.com^
+||stsgus.icu^
+||kibn.cn^
+||nug07311lu.com^
+||tinjsicyt.com^
+||gio07311rp.com^
+||82e9ac3c1.com^
+||dkngfkgbc.com^
+||qhaazaduez.com^
+||4xicd08qs.com^
+||cinemaup.top^
+||udwlki.icu^
+||nug07300lu.com^
+||5fyme6x6uy.com^
+||utve.cn^
+||b82q168jgj.com^
+||gio07300rp.com^
+||34mede82hj.com^
+||nug07301lu.com^
+||gio07301rp.com^
+||oaatyq.icu^
+||sneakersq5.com^
+||xpya.cn^
+||gio07290rp.com^
+||3rre9r4t2.com^
+||aai07291mu.com^
+||wkzvf2658.com^
 ||nhy9i8t56f.com^
 ||zrzgsdocqm.com^
 ||aai07280mu.com^
@@ -4321,6 +4358,8 @@ newduba.cn###jq_youxi
 ||qlghunil.com^
 ||aai07281mu.com^
 ||wozlx.cn^
+||r6q4mtfno.com^
+||aai07290mu.com^
 ||jxdyk65ay.com^
 ||pjcg3864p.com^
 ||gio07270rp.com^
@@ -12429,6 +12468,7 @@ meijutt.*/js/pcjs/
 ||xc.macd.cn^
 ||xc.mydrivers.com^
 ||xcar.com.cn/dsp/ad
+||xchina.*/scripts/modal/modal.js
 ||xchina.*/ad/
 ||xchina.*/plugins/jquery.modal/
 ||xchina.*/plugins/sweetAlert2/
@@ -12743,6 +12783,8 @@ meijutt.*/js/pcjs/
 ||komiic.com/ads/
 ||v2ex.com/pro/emitter
 zhihu.com##.Pc-word-new
+vmlib.com##.wp-caption
+vmlib.com##.elementor-widget > .elementor-widget-container > a[href^="http"]:not([href*="vmlib."])
 mydrivers.com##div[style="margin: auto;width: 580px;padding: 10px 0;"]
 docin.com##.mini-series-container
 5dm.link###player_pause
@@ -17090,7 +17132,7 @@ ikjzd.com##.wv-right-content > .imgTop-right
 52pk.com##.wxbox
 55188.com##.wz_text
 eyy5.cn##.wzgg
-tmioe.com##.ekssxhn
+tmioe.com##.ekxxhn
 tmioe.com##a[href*=".zps.im"]
 sohu.com##.x-adv-band-panel
 sohu.com##.x-adv-flogo-panel
