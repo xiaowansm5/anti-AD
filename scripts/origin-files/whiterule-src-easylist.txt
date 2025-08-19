@@ -226,6 +226,7 @@
 @@||ifttt.com^$generichide
 @@||image.coolapk.com^
 @@||img.ads.tvb.com^
+@@||img.logo.dev^$image,third-party
 @@||imydl.com^$generichide
 @@||inflight.pacwisp.net^
 @@||inoreader.com^$genericblock,generichide
@@ -258,7 +259,6 @@
 @@||lnk2.cc^$generichide
 @@||logging.apache.org^$~third-party
 @@||login.csdisco.com^$generichide
-@@||logo.clearbit.com^$image,third-party
 @@||ltzn.9377.com^
 @@||luoxiadushu.com^$generichide
 @@||mail.google.com^$generichide
@@ -382,6 +382,7 @@
 @@||sssbozh.com^$generichide
 @@||stackblitz.com^$generichide
 @@||stapewithadblock.monster^$generichide
+@@||stats.britishbaseball.org.uk^
 @@||sto520.com^$generichide
 @@||stream4free.live^$generichide
 @@||succeedscene.com^$script
