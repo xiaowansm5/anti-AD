@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202510071820
+! Version: 202510101813
 ! Title: EasyPrivacy
-! Last modified: 07 Oct 2025 18:20 UTC
+! Last modified: 10 Oct 2025 18:13 UTC
 ! Expires: 4 days (update frequency)
-! Commit: eef367bf3c2885141bfa2d08108d402d6d9053cf
+! Commit: 66c0071a9c06782a1083f14970a97efce62433de
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2601,7 +2601,7 @@
 /v1/log/web-vitals$xmlhttprequest
 /v1/pixel.js
 /v1/pixel?
-/v1/rgstr|
+/v1/rgstr^
 /v1/stats/track
 /v1/tracker.js
 /v1/viewport_events
@@ -3760,7 +3760,6 @@ omni.soundestlink.com$image
 ||venusrevival.com^
 ||veozn3f.com^
 ||vfghe.com^
-||videocdnmetrika.com^
 ||videoplayerhub.com^
 ||visit-server.inmobi-choice.io^
 ||vkanalytics.net^
@@ -7518,6 +7517,7 @@ omni.soundestlink.com$image
 ||notifyglass.com^
 ||noundictionary.com^
 ||novaseekers.com^
+||nowaymail.com^
 ||nudgeduck.com^
 ||nullnorth.com^
 ||numerousnest.com^
@@ -9692,6 +9692,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.reyrey.net^
 ||analytics.rogersmedia.com^
 ||analytics.salesanalytics.io^
+||analytics.sayprimer.com^
 ||analytics.scorpion.co^
 ||analytics.shareaholic.com^
 ||analytics.shorte.st^
@@ -11148,6 +11149,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nvidia.partners/telemetry/
 ||nwr.static.mmcdn.com^
 ||o.aolcdn.com/js/mg1.js
+||o.momently.info^
 ||o9tt6h08li.execute-api.eu-west-1.amazonaws.com^
 ||obs.esnlocco.com^
 ||obs.jollyoutdoorjogger.com^
@@ -54826,6 +54828,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||3voor12.vpro.nl^*/streamsense.min.js$~third-party
 @@||ad.crwdcntrl.net^$script,domain=rtl.nl
 @@||gdh.postcodeloterij.nl/gdltm.js$domain=vriendenloterij.nl
+@@||hzcdn.io/bff/static/vendor/sourcepoint-lib/index.*.js$script,domain=marktplaats.nl
 @@||josiad.ns.nl/DG/DEFAULT/$xmlhttprequest
 @@||marketingautomation.services^$script,domain=leeuwerik.nl
 @@||tag.aticdn.net/piano-analytics.js$script,domain=boerzoektvrouw.kro-ncrv.nl
