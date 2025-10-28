@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202510251834
+! Version: 202510281848
 ! Title: Fanboy's Annoyance List
-! Last modified: 25 Oct 2025 18:34 UTC
+! Last modified: 28 Oct 2025 18:48 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 95cf307d841166a1c2048ddbc361a29b9ec78b85
+! Commit: 77fa8c08a63798dcc9a9b8be4f91c2c906511893
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -38446,7 +38446,7 @@ urbanbar.com###shopify-section-cookie-modal
 hairbro.com###shopify-section-cookie-popup
 babymori.com###shopify-section-cookie-settings
 bewellbykelly.com###shopify-section-cookies-banner
-arcade1up.com###shopify-section-cookies_consent
+arcade1up.com,infinitygametable.com###shopify-section-cookies_consent
 ankerwork.com,elginusa.com,manlymanco.com,recongearusa.com,seedbarn.com,techmarkit.co.za###shopify-section-fixed-message
 koifootwear.com###shopify-section-popup
 itinstock.com###shopui-cookie-popup-container
@@ -38626,8 +38626,7 @@ aapfalsestarts.com,onebrandssweepstakes.com,tjc.co.uk##.GDPR
 support.meduza.io##.GDPRPanel_root__MhcjB
 atoocall.com##.GDPRPopup-module--popup--3chjm
 venngage.com##.GDPR_main__fxmFf
-boosty.to##.GdprOffer_block_Ir4kJ
-boosty.to##.GdprOffer_root_pCuOO
+laufcycles.com##.GdprBanner_banner___hVQl
 airasia.com##.Gdpr__GdprParentWrapper-sc-z30mcl-0
 flyfi.com##.HASH_COOKIE_ALERT_GRID_ITEM_FIXED
 tunemymusic.com##.HeaderMenu_CookieAlert__ipEfK
@@ -41081,7 +41080,7 @@ abrakadabra.com,etherealmechanics.info,evaair.com,flender.com.cn,heuristic.pl,la
 ! ! .cookies-component
 proprospan.ru,worksmile.com##.cookies-component
 ! ! #cc-main
-14000.cz,aitum.tv,aktivia.it,andromede-cms.com,any.run,bienpreter.com,bistrono.cz,boldem.cz,caesium.app,capriz.it,century21.pt,codesandbox.io,cointracker.io,corporate.freedompay.com,datawrapper.de,derslig.com,dervit.cz,devunus.com,edb.cz,edb.eu,exquisitetimepieces.com,ferrari-tower.com,foxsports.com.mx,gitschberg.it,givesendgo.com,gl-inet.com,gmanetwork.com,goldplay.it,goodinternetmagazine.com,habito.com,hellochefs.es,home.s.id,jackbox.tv,jenmusic.ai,jurga.lt,kirchberg.ch,knihobot.cz,konverto.eu,liu.se,localidautore.it,localizely.com,loetje.nl,modeliukai.lt,mostostal.waw.pl,msha.ke,nabidka.net,ndsas.sk,new-dashboard.phishfort.com,nixcademy.com,openresearchlab.org,poptavka.net,primocanale.it,renderai.app,rogold.live,rustdesk.com,sampi.net.br,sardynkibiznesu.pl,soleretriever.com,sporthotel-zoll.com,trae.ai,trakt.tv,tutotoons.com,unibz.it,velostreet.com,whitebit.au,whitebit.com,whoisxmlapi.com,yodayo.com,ytlarge.com,zeno.fm,zitadel.com###cc-main
+14000.cz,aitum.tv,aktivia.it,andromede-cms.com,any.run,bienpreter.com,bistrono.cz,boldem.cz,caesium.app,capriz.it,century21.pt,codesandbox.io,cointracker.io,corporate.freedompay.com,cortinabikes.com,datawrapper.de,derslig.com,dervit.cz,devunus.com,edb.cz,edb.eu,exquisitetimepieces.com,ferrari-tower.com,foxsports.com.mx,gitschberg.it,givesendgo.com,gl-inet.com,gmanetwork.com,goldplay.it,goodinternetmagazine.com,habito.com,hellochefs.es,home.s.id,jackbox.tv,jenmusic.ai,jurga.lt,kirchberg.ch,knihobot.cz,konverto.eu,liu.se,localidautore.it,localizely.com,loetje.nl,modeliukai.lt,mostostal.waw.pl,msha.ke,nabidka.net,ndsas.sk,new-dashboard.phishfort.com,nixcademy.com,openresearchlab.org,poptavka.net,primocanale.it,renderai.app,rogold.live,rustdesk.com,sampi.net.br,sardynkibiznesu.pl,soleretriever.com,sporthotel-zoll.com,trae.ai,trakt.tv,tutotoons.com,unibz.it,velostreet.com,whitebit.au,whitebit.com,whoisxmlapi.com,yodayo.com,ytlarge.com,zeno.fm,zitadel.com###cc-main
 ! ! #cc--main
 acelen.com.br,advtraining.it,albengacorsara.it,alde.se,alper.cz,arbetsgivarverket.se,asbis.com,auxologico.it,bambulab.com,bigmotoringworld.co.uk,blackcomb-shop.eu,blog.fanfiktion.de,boardgamegeek.com,bokomo.co.za,carteantennesuisse.ch,cdw.com,cdwg.com,cnb.cz,coros.com,czechuniversities.com,danielroth.com,data.europa.eu,defector.com,delhivery.com,doctoranytime.be,eufymake.com,eujicha.cz,excellentmagazine.it,excellentmarketing.it,fangear.cz,fashionnetwork.com,feedoptimise.com,flowforge.com,garfidi.it,gatehousebank.com,gls-group.com,hc-slavia.cz,hc-vsetin.cz,hcdukla.cz,hcdynamo.cz,hcf-m.cz,hcporuba.cz,hokejprerov.cz,holba.cz,hotelvillaastra.com,hstrebic.cz,idfnet.net,kroo.com,krusovice.cz,lajairadeana.com,lataco.com,levior.cz,linaro.org,login.mercedes-benz.com,luxardo.it,marken.cz,mcsystems.cz,mightybytes.com,mojecity.cz,msem.cz,myenlightencommunity.com,myjob.ch,nowpatient.com,olkraj.cz,omegasport.cz,packtpub.com,piratichomutov.cz,psg.cz,reteimprese.it,returnsportal.online,royalbelgiancaviar.be,runnea.co.uk,shmu.sk,soundcore.com,spielregeln-spielanleitungen.de,sprintesport.it,stocksy.com,streetsblog.org,suncalc.org,superspeedyplugins.com,teksavvy.com,theactive.thaipbs.or.th,toscana-notizie.it,toscana.it,ungeziefer-ratgeber.info,urbantufting.com,watchesbysjx.com,webtic.it,wifiwijs.nl,woche-bb.ch,woergl.at,wongnai.com,worldmarathonmajors.com,zlinskykraj.cz,zubr.cz###cc--main
 ! ! .c--anim
@@ -48094,7 +48093,7 @@ tmstor.es#@#.top_social
 swingliteracy.com#@#.tve_social_items
 nothiefsallowed.com#@#.twitter-timeline
 google.com#@#SHARE-BUTTON
-geki-cine.jp,heiwa-9inday.jp,hypnosismic-anime.com,mamodan-plus.clony.co.jp,monsterhunternow.belugacpn.jp,ufret.jp#@#a[href^="https://twitter.com/intent/tweet?"]
+geki-cine.jp,heiwa-9inday.jp,hypnosismic-anime.com,idolmaster-official.jp,mamodan-plus.clony.co.jp,monsterhunternow.belugacpn.jp,ufret.jp#@#a[href^="https://twitter.com/intent/tweet?"]
 petsmart.com#@#a[href^="https://www.facebook.com/sharer/sharer.php"]
 playswellwithbutter.com#@#a[href^="https://www.pinterest.com/pin/create/button/"]
 ! *** easylist:fanboy-addon/fanboy_newsletter_allowlist.txt ***
