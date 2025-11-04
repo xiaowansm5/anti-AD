@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202511011840
+! Version: 202511041838
 ! Title: EasyPrivacy
-! Last modified: 01 Nov 2025 18:40 UTC
+! Last modified: 04 Nov 2025 18:38 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 2064e0e0a275c6180a891a4cae45c50c39722725
+! Commit: 10ccc0602f7bbfd8483f9a478e59a5c442f92777
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -6531,6 +6531,7 @@ omni.soundestlink.com$image
 ||alikeaddition.com^
 ||aliveachiever.com^
 ||alloutdubstep.com^
+||alltypo.com^
 ||alluringbucket.com^
 ||almostsugar.com^
 ||alohamiles.com^
@@ -6620,6 +6621,7 @@ omni.soundestlink.com$image
 ||bewilderedblade.com^
 ||bhcumsc.com^
 ||bidpapers.com^
+||bigworldfashion.com^
 ||bikepaws.com^
 ||bikesboard.com^
 ||bikinginspire.com^
@@ -6850,6 +6852,7 @@ omni.soundestlink.com$image
 ||cratecamera.com^
 ||creatorcherry.com^
 ||creatorpassenger.com^
+||creatorsnote.com^
 ||creaturecabbage.com^
 ||crimsonmeadow.com^
 ||critictruck.com^
@@ -6883,6 +6886,7 @@ omni.soundestlink.com$image
 ||cushiondrum.com^
 ||cutecalculator.com^
 ||cutechin.com^
+||cyclinghere.com^
 ||cyclopsdial.com^
 ||damagedadvice.com^
 ||damageddistance.com^
@@ -7035,6 +7039,7 @@ omni.soundestlink.com$image
 ||faithrowold.com^
 ||fakedisguise.com^
 ||fallaciousfifth.com^
+||fallingshoals.com^
 ||falseframe.com^
 ||falsesight.com^
 ||familiarrod.com^
@@ -7344,6 +7349,7 @@ omni.soundestlink.com$image
 ||justicejudo.com^
 ||justpickaname.com^
 ||justwebcards.com^
+||justwowjars.com^
 ||keenquill.com^
 ||kidpowers.com^
 ||kindasingle.com^
@@ -7605,6 +7611,7 @@ omni.soundestlink.com$image
 ||parchedsofa.com^
 ||parentpicture.com^
 ||parsimoniouspolice.com^
+||partnerhut.com^
 ||partplanes.com^
 ||passivepolo.com^
 ||pastoralroad.com^
@@ -7938,6 +7945,7 @@ omni.soundestlink.com$image
 ||siliconslow.com^
 ||sillyscrew.com^
 ||simplenaming.com^
+||simplesafari.com^
 ||simplesidewalk.com^
 ||simulateswing.com^
 ||sincerebuffalo.com^
@@ -7946,6 +7954,7 @@ omni.soundestlink.com$image
 ||singroot.com^
 ||sinkportal.com^
 ||sixauthority.com^
+||sixpants.com^
 ||sixscissors.com^
 ||sizzlingsmoke.com^
 ||sketchpals.com^
@@ -8206,6 +8215,7 @@ omni.soundestlink.com$image
 ||ticketssponge.com^
 ||ticklesign.com^
 ||tidymitten.com^
+||tidysprite.com^
 ||tightpowder.com^
 ||tinybluewhale.com^
 ||tinyswans.com^
@@ -8331,6 +8341,7 @@ omni.soundestlink.com$image
 ||watersensible.com^
 ||waterywave.com^
 ||waveinverter.com^
+||wavesimple.com^
 ||wavesmachine.com^
 ||waxsirens.com^
 ||wayjoyfarm.com^
@@ -15077,6 +15088,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pftk.temu.com^
 ||phonearena.com/_track.php
 ||pi.ai/proxy/api/event
+||pics-view.com/ad-track
 ||pie.org/g/collect?
 ||pie.org/v1/experiments/view
 ||pikbest.com/?m=Stats&
@@ -16243,6 +16255,7 @@ bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 iwb.jp##+js(acs, document.createElement, googletag)
 apnews.com,sidereel.com##+js(acs, document.getElementsByTagName, .pubads)
 ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}\./)
+reuters.com##+js(aost, admiral, .js?)
 gbatemp.net##+js(set, admiral, noopFunc)
 abc17news.com,adoredbyalex.com,agrodigital.com,al.com,aliontherunblog.com,allaboutthetea.com,allmovie.com,allmusic.com,allthingsthrifty.com,amessagewithabottle.com,androidpolice.com,antyradio.pl,artforum.com,artnews.com,awkward.com,awkwardmom.com,bailiwickexpress.com,barnsleychronicle.com,becomingpeculiar.com,bethcakes.com,blogher.com,bluegraygal.com,briefeguru.de,carmagazine.co.uk,cattime.com,cbr.com,chaptercheats.com,cleveland.com,collider.com,comingsoon.net,commercialobserver.com,competentedigitale.ro,crafty.house,dailyvoice.com,decider.com,didyouknowfacts.com,dogtime.com,dualshockers.com,dustyoldthing.com,faithhub.net,femestella.com,footwearnews.com,freeconvert.com,frogsandsnailsandpuppydogtail.com,fsm-media.com,funtasticlife.com,fwmadebycarli.com,gamerant.com,gfinityesports.com,givemesport.com,gulflive.com,helloflo.com,homeglowdesign.com,honeygirlsworld.com,hotcars.com,howtogeek.com,insider-gaming.com,insurancejournal.com,jasminemaria.com,kion546.com,lehighvalleylive.com,lettyskitchen.com,lifeinleggings.com,liveandletsfly.com,lizzieinlace.com,localnews8.com,lonestarlive.com,madeeveryday.com,maidenhead-advertiser.co.uk,makeuseof.com,mardomreport.net,masslive.com,melangery.com,milestomemories.com,mlive.com,modernmom.com,momtastic.com,mostlymorgan.com,motherwellmag.com,movieweb.com,muddybootsanddiamonds.com,musicfeeds.com.au,nationalreview.com,nj.com,nordot.app,nothingbutnewcastle.com,nsjonline.com,oakvillenews.org,observer.com,oregonlive.com,pagesix.com,pennlive.com,pinkonthecheek.com,predic.ro,puckermom.com,qtoptens.com,realgm.com,robbreport.com,royalmailchat.co.uk,samchui.com,sandrarose.com,screenrant.com,sheknows.com,sherdog.com,sidereel.com,silive.com,simpleflying.com,sloughexpress.co.uk,spacenews.com,sportsgamblingpodcast.com,spotofteadesigns.com,stacysrandomthoughts.com,ssnewstelegram.com,superherohype.com,syracuse.com,tablelifeblog.com,thebeautysection.com,thecelticblog.com,thecurvyfashionista.com,thefashionspot.com,thegamer.com,thenerdyme.com,thenonconsumeradvocate.com,theprudentgarden.com,thethings.com,timesnews.net,topspeed.com,toyotaklub.org.pl,travelingformiles.com,tutsnode.org,tvline.com##+js(rmnt, script, '"v4ac1eiZr0"')
 baeldung.com,cheatsheet.com,pwinsider.com,mensjournal.com##+js(rmnt, script, admiral)
@@ -54312,6 +54325,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||c.lytics.io/api/tag/$script,domain=time.com
 @@||c.paypal.com/da/r/fb.js$script
 @@||c.webtrends-optimize.com/acs/$image,script,domain=tvlicensing.co.uk
+@@||camel3.live/lib/sensorsdata.full.min.js$~third-party
 @@||canadacomputers.com/templates/ccnew/assets/js/jquery.browser-fingerprint-$~third-party
 @@||cdc.gov/jscript/metrics/adobe/launch/$script,~third-party
 @@||cdn-net.com/cc.js
@@ -54504,7 +54518,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||optimove.net^$domain=app.touchnote.com
 @@||ots.webtrends-optimize.com/$xmlhttprequest,domain=tvlicensing.co.uk
 @@||outbrain.com/outbrain.js$domain=cnn.com
-@@||p.typekit.net/p.css$stylesheet,domain=athleticpropulsionlabs.com|browserstack.com|bungie.net|business.untappd.com|petsafe.com|robertsspaceindustries.com
+@@||p.typekit.net/p.css$stylesheet,domain=athleticpropulsionlabs.com|browserstack.com|bungie.net|business.untappd.com|getty.edu|petsafe.com|robertsspaceindustries.com
 @@||palmettostatearmory.com/static/$script,~third-party
 @@||pals.pa.gov/vendor/analytics/$~third-party
 @@||parcel.app/webtrack.php?$~third-party
@@ -54751,6 +54765,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||cbsi.map.fastly.net^
 @@||content.ingbank.pl^
 @@||ct.ddc.venmo.com.fpc.datadome.co^$domain=id.venmo.com
+@@||datadome.garena.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=auth.garena.com
 @@||dd.blackhawknetwork.com.first-party-js.datadome.co^$domain=redeem.rewardlink.com
 @@||dd.wizzair.com.first-party-js.datadome.co^$domain=wizzair.com
 @@||gva.et-gv.fr^$script,domain=culture.gouv.fr
@@ -54920,6 +54935,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ! 
 ! ---------- Hungarian ----------
 ! 
+@@||configurator.porsche.com/public/adobe-analytics-$~third-party
 @@||keytiles.com/tracking/$script,domain=blikk.hu
 @@||kozkutak.hu/getdata.php?v*=pageview$~third-party
 ! 
