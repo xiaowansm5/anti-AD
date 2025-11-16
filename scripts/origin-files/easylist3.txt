@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202511131840
+! Version: 202511161829
 ! Title: Fanboy's Annoyance List
-! Last modified: 13 Nov 2025 18:40 UTC
+! Last modified: 16 Nov 2025 18:29 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 2028b36b7e9bddebb1d6cf124e15f9a40ed49832
+! Commit: 4a8ee98dc8e2c2ff746fc45f8cd26a95ee07fefb
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -249,6 +249,7 @@ _backToTop.
 /webpush.js
 /webpush.min.js
 /webpush_register.php
+/webpush_service-worker.js
 /webPushNotifications.js
 /wonderpush-loader.min.js
 /wonderpush.js
@@ -38005,7 +38006,6 @@ idp.vodafone.com,shopto.net###cookie-consent-wrapper
 amnesty.org###cookie-consent__modal
 autism-unlimited.org###cookie-cover
 asianlemansseries.com###cookie-dialog
-betfair.com.au,dots.dev###cookie-holder
 cpac.ca###cookie-law-bar-holder
 ecigarettedirect.co.uk###cookie-message-slide-in
 dirsyncpro.org###cookie-notice-modal
@@ -40739,6 +40739,9 @@ trumpf.com##ux-cookie-layer
 pacificpower.net,rockymountainpower.net##wcss-cookie-banner
 web.dev##web-snackbar
 wirexapp.com##wx-cookie-policy-notification
+! history.com
+history.com##.p11s5o4
+history.com##[data-sentry-component="Box"]:has-text(Legal Terms and Privacy)
 ! Interest-Based Ads Notice
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.es,amazon.fr,amazon.ie,amazon.pl###sp-cc-wrapper
 ! 
@@ -40865,6 +40868,8 @@ austrian.com,comparethemarket.com,gsk.com,pepperl-fuchs.com###__tealiumGDPRcpPre
 ammeraalbeltech.com,asst-lecco.it,community.dyson.com,community.sonos.com,freestyle.abbott,mahle-aftermarket.com,mega-monheim.de,nautadutilh.com,purejingles.com,sigmanet.lv,trtcocuk.net.tr,um.edu.mt##.cookiebar
 ! ! #cliSettingsPopup
 shv.nl,wornandwound.com###cliSettingsPopup
+! ! #cookie-holder
+arionbanki.is,betfair.com.au,dots.dev###cookie-holder
 ! ! .pr-cookie-modal
 8020.net,furn-on.com,hughrice.co.uk,ipercomp.ro,nothinkin.com,shop.transposafe.be,sigmaphoto.com,spiuk.com,truffle-hunter.com,verberckmoes.be,vinsdefrance.ee,vonkuester.de,wilsoncombat.com##.pr-cookie-modal
 ! ! #cookie-policy
@@ -41684,7 +41689,6 @@ coopmobile.ch##.top-0.z-9999.fixed.bg-opacity-30:has-text(Website Cookies)
 studocu.com##.undefined:has([data-test-selector="click-the-cookie-banner"])
 istockphoto.com##.warning:has([data-cookie-type])
 app.filen.io##.z-50:has-text(This site uses cookies)
-history.com##[data-sentry-component="Box"]:has-text(Legal Terms and Privacy)
 unsplash.com##[open]:has(a[href="/cookies"])
 canva.com##[role="dialog"]:has-text(/cookie/i)
 bitbucket.org,chat.mistral.ai##[role="dialog"]:has-text(cookies)
@@ -44859,6 +44863,7 @@ bulles-de-bonheur.com###checkBrowser
 compte-famille.bry94.fr###ciril-cookie-banner
 infojobs.net###cmpContainer
 assurland.com###consentManagementPlatform
+banquelaurentienne.ca###cookie-bar-desktop
 esma-artistique.com###cookie-mention
 izmopics.com###cookieConcernPanel
 maindruphoto.com###cookieManageMeRoot

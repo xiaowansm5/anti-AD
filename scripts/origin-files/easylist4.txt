@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202511131830
+! Version: 202511161829
 ! Title: EasyPrivacy
-! Last modified: 13 Nov 2025 18:30 UTC
+! Last modified: 16 Nov 2025 18:29 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 9908f16f6d23b61b7eea4cf3f4e832ff4f092ccf
+! Commit: 4a8ee98dc8e2c2ff746fc45f8cd26a95ee07fefb
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1700,6 +1700,7 @@
 /partner-analytics/*
 /partner/transparent_pixel-$image
 /partnermetrics.js
+/pay/collect|$xmlhttprequest
 /pbasitetracker.min.js
 /pcount.asp
 /pdp.gif?
@@ -6692,6 +6693,7 @@ omni.soundestlink.com$image
 ||brotherslocket.com^
 ||brownboxgroup.com^
 ||bruisebaseball.com^
+||bubblyaction.com^
 ||bugpizza.com^
 ||buildingknife.com^
 ||bulbbait.com^
@@ -6709,6 +6711,7 @@ omni.soundestlink.com$image
 ||buttonladybug.com^
 ||buzzaoutlet.com^
 ||cafefrench.com^
+||cafescampfires.com^
 ||cakeagenda.com^
 ||cakesdrum.com^
 ||calculatingcircle.com^
@@ -6959,9 +6962,11 @@ omni.soundestlink.com$image
 ||doggieshome.com^
 ||dollardelta.com^
 ||dollarthrill.com^
+||doomhedge.com^
 ||doubledefend.com^
 ||doubtdrawer.com^
 ||dq95d35.com^
+||dragonbats.com^
 ||drainpaste.com^
 ||dramaticdirection.com^
 ||dreamsdome.com^
@@ -7343,6 +7348,7 @@ omni.soundestlink.com$image
 ||jamexport.com^
 ||jazzstadium.com^
 ||jazzwholesale.com^
+||jellyfinstream.com^
 ||jetskiscovers.com^
 ||jewelryforest.com^
 ||jewelrysprings.com^
@@ -9906,6 +9912,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||arkoselabs.com/metrics/
 ||asayer.io/tracker.js
 ||aservice.cloud/trc/mastertag
+||assets.9gtb.com^
 ||assets.apollo.io/micro/website-tracker/
 ||assets.hearstapps.com/commerce/release/affiliate-bundle.
 ||assets.moneymade.io/js/fp.min.js
@@ -10111,6 +10118,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdns.brsrvr.com^
 ||ceros.com/a?data
 ||cf-pixelfront-analytics.widencdn.net^
+||cf.api.instant.one^
 ||cf.overblog.com^
 ||cfmediaview.com/API/MV_Visit.ashx
 ||cgicounter.oneandone.co.uk^
@@ -10508,6 +10516,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||eventlog.chatlead.com^
 ||eventlog.inspsearchapi.com^
 ||events-endpoint.pointandplace.com^
+||events-ocu.zipify.com^
 ||events-proxy.mintlify.com
 ||events.air.tv^
 ||events.api.secureserver.net^
@@ -10875,6 +10884,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||instagram.com/logging_client_events
 ||instagram.com/paid_ads/
 ||installiq.com/Pixels/
+||instant.one/a/tk
 ||intake-analytics.wikimedia.org^
 ||intelligems.io/track
 ||intelligencefocus.com^*/sensor.js
@@ -11402,6 +11412,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.sprinklr.com^
 ||pixel.veritone-ce.com^
 ||pixel.videohub.tv^
+||pixel.wetracked.io^
 ||pixel.wp.com^
 ||pixel.yabidos.com^
 ||pixel.yola.com^
@@ -11910,6 +11921,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.spbx.app^
 ||t.splicky.com^
 ||t.spot.im^
+||t.vibe.co^
 ||t2.profityi.com/api/visit/
 ||t2.t2b.click^
 ||ta.trs.cn^
@@ -14124,6 +14136,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||assets.prod.abebookscdn.com/cdn/com/scripts/abepixel-$domain=abebooks.com
 ||assets.s-bol.com/AppMeasurement-
 ||ats.alot.com^
+||att.com/scripts/adobe/prod/marketing.min.js
 ||audacy.com/data-events/
 ||aulart.com/wp-admin/admin-ajax.php?data_send=pageView
 ||aurum.tirto.id^
@@ -14442,6 +14455,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||duckduckgo.com/t/
 ||dumpster.cam4.com^
 ||duolingo.com/2017-06-30/tracking-status
+||dynatrace.att.com^
 ||e.quizlet.com^
 ||e.used.ca/event
 ||e.zg-api.com/event$domain=zillow.com
@@ -54991,6 +55005,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||adobedtm.com^*/AppMeasurement.min.js$script,domain=sky.it
 @@||adobetag.com/d2/telecomitalia/live/Aggregato119TIM.js$domain=tim.it
 @@||analytics.edgekey.net/config/beacon-$xmlhttprequest,domain=raiplay.it
+@@||app.hype.it/assets/packages/mixpanel_flutter/assets/mixpanel.js$~third-party
 @@||areaclienti.generali.it/plugins/cordova-plugin-fingerprint-aio/www/Fingerprint.js$script,~third-party
 @@||cdnb.4strokemedia.com/carousel/v4/comscore-JS-$script
 @@||chartbeat.com/js/chartbeat_brightcove_plugin.js$domain=capital.it|deejay.it|m2o.it
