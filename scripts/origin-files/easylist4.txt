@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202511191835
+! Version: 202511221814
 ! Title: EasyPrivacy
-! Last modified: 19 Nov 2025 18:35 UTC
+! Last modified: 22 Nov 2025 18:14 UTC
 ! Expires: 4 days (update frequency)
-! Commit: d8af12114c3c287c40ae1373c499fed32cdabbcb
+! Commit: e27018eec341ac5e347a89f3d5f24e496ac7e38b
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1475,6 +1475,7 @@
 /logview_new.js
 /logviewedpage?
 /ls.gif?
+/lst/universal-script?ph=
 /lunametrics-
 /m.gif?
 /madAnalytics.js
@@ -6495,6 +6496,7 @@ omni.soundestlink.com$image
 ||4jnzhl0d0.com^
 ||82o9v830.com^
 ||abilityscale.com^
+||abilitytoucan.com^
 ||abjectattempt.com^
 ||aboardamusement.com^
 ||aboardlevel.com^
@@ -6637,6 +6639,7 @@ omni.soundestlink.com$image
 ||billowybelief.com^
 ||billtable.com^
 ||binarycrest.com^
+||binarykite.com^
 ||binspiredtees.com^
 ||birthdaybelief.com^
 ||blackbrake.com^
@@ -6994,6 +6997,7 @@ omni.soundestlink.com$image
 ||effervescentvista.com^
 ||effulgentnook.com^
 ||effulgenttempest.com^
+||eightgreens.com^
 ||elasticchange.com^
 ||elderlybean.com^
 ||elderlytown.com^
@@ -7125,6 +7129,7 @@ omni.soundestlink.com$image
 ||flutteringfireman.com^
 ||foambench.com^
 ||followborder.com^
+||fontserif.com^
 ||foodczar.com^
 ||foodfunfestivals.com^
 ||forecasttiger.com^
@@ -7483,6 +7488,7 @@ omni.soundestlink.com$image
 ||materialparcel.com^
 ||materialplayground.com^
 ||maxcruisers.com^
+||maybetony.com^
 ||meadowlullaby.com^
 ||measlymiddle.com^
 ||meatydime.com^
@@ -7599,6 +7605,7 @@ omni.soundestlink.com$image
 ||oafishobservation.com^
 ||objecthero.com^
 ||objectsnetwork.com^
+||oblivionfleet.com^
 ||obscenesidewalk.com^
 ||octaneblood.com^
 ||offerniche.com^
@@ -7756,6 +7763,7 @@ omni.soundestlink.com$image
 ||quantumshine.com^
 ||queenjam.com^
 ||queenskart.com^
+||questionate.com^
 ||quicklyedit.com^
 ||quicksandear.com^
 ||quietknowledge.com^
@@ -10058,6 +10066,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||browser.pipe.aria.microsoft.com^
 ||bs.yandex.ru^
 ||bucklemail.com/a/$image
+||buffet.identityservices.io^
 ||bundle.9gtb.com^
 ||bundle.dyn-rev.app^
 ||bundle.ppas.monster^
@@ -10486,6 +10495,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||emarketeer.com/tracker/
 ||enc-90128738.b-cdn.net^
 ||endorsal.io/check/
+||engageplatform.com/api/trace/d/record?
 ||ensighten.com/error/e.php?
 ||envato.market/i/
 ||epimg.net/js/gdt/
@@ -11114,6 +11124,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mc.yandex.com^
 ||mc.yandex.ru^
 ||mc.yango.com^
+||mccdn.me/assets/js/widget.js
 ||mcdp-*.outbrain.com^
 ||mcssl.com^*/track.ashx?
 ||mdxprod.io/analytics.js
@@ -11851,10 +11862,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stg.truvidplayer.com/*/v.php?st=
 ||stileproject.com/vhtk/
 ||storage.googleapis.com/afs-prod/tags
+||storage.googleapis.com/builder-preview/iframe/pixel.js
 ||storage.googleapis.com/nchq-dj-nid/prod/sp_v1.js
 ||storage.googleapis.com/snowplow-cto-office-tracker-bucket/
 ||storage.googleapis.com/tm-frend-graffiti/
 ||storage.syncmedia.io/libs/sm_capture_
+||stormgate.production.raptive.com^
 ||stream-log.dditscdn.com^
 ||streamads.com/view?
 ||streamate.icfcdn.com/dist/getPerformanceMetrics.$script
@@ -13960,6 +13973,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||a.tellonym.me^
 ||a10.nationalreview.com^
 ||aa.avvo.com^
+||aa.com/aileron/api/log
 ||aawsat.com/pageview/
 ||aax-eu-dub.amazon.com^$script
 ||aax-us-iad.amazon.com^$script
@@ -14081,6 +14095,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.nike.com^
 ||analytics.ovh.com^
 ||analytics.oyorooms.com^
+||analytics.passes.com^
 ||analytics.pgncs.notion.so^
 ||analytics.plex.tv^
 ||analytics.productreview.com.au^
