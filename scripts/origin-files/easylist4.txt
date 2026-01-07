@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601041836
+! Version: 202601071826
 ! Title: EasyPrivacy
-! Last modified: 04 Jan 2026 18:36 UTC
+! Last modified: 07 Jan 2026 18:26 UTC
 ! Expires: 4 days (update frequency)
-! Commit: aa904adaffea94e6b872767a3b9612b2af7198e1
+! Commit: ee595a1822d4c5f21fce0b20d2837fe2444b74e7
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -6521,7 +6521,6 @@ omni.soundestlink.com$image
 ||webminerpool.com^$third-party
 ||webmining.co^$third-party
 ||webxmr.com^$third-party
-||ws_storage.funnyjunk.com^
 ||wtm.monitoringservice.co^$third-party
 ||wtmtrack.com^$third-party
 ||xmrpool.net^$third-party
@@ -7306,6 +7305,7 @@ omni.soundestlink.com$image
 ||gripcorn.com^
 ||grocerycrew.com^
 ||grocerydog.com^
+||groovespacing.com^
 ||groovyornament.com^
 ||grouchybrothers.com^
 ||grouchypush.com^
@@ -7654,6 +7654,7 @@ omni.soundestlink.com$image
 ||muddledmemory.com^
 ||mundanenail.com^
 ||mushywaste.com^
+||musicflashcard.com^
 ||muteknife.com^
 ||mutemailbox.com^
 ||mutualhappy.com^
@@ -7712,15 +7713,19 @@ omni.soundestlink.com$image
 ||objectsnetwork.com^
 ||oblivionfleet.com^
 ||obscenesidewalk.com^
+||obsidiangems.com^
 ||octaneblood.com^
 ||offerniche.com^
 ||offgridcrops.com^
 ||offshoreassets.com^
 ||offshorecyclone.com^
 ||offshoregeology.com^
+||okaysurethat.com^
 ||oldandindie.com^
 ||oldfashionedoffer.com^
+||oldportcoffee.com^
 ||omgthink.com^
+||onecrow.net^
 ||onedropocean.com^
 ||onlinestarten.net^
 ||onlywoofs.com^
@@ -7745,6 +7750,7 @@ omni.soundestlink.com$image
 ||owlreporter.com^
 ||owlsr.us^
 ||owlstwo.com^
+||owltin.com^
 ||oxygenfuse.com^
 ||pailcrime.com^
 ||pailpatch.com^
@@ -9851,6 +9857,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.aweber.com^
 ||analytics.bestreviews.com^
 ||analytics.bitrix.info^
+||analytics.bomiv.com^
 ||analytics.carambo.la^
 ||analytics.carbaselive.com^
 ||analytics.chegg.com^
@@ -12212,6 +12219,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.91app.io^
 ||track.atgstores.com^$third-party
 ||track.bannedcelebs.com^
+||track.bomiv.com^
 ||track.btdmp.com^
 ||track.coherentpath.com^
 ||track.contently.com^
@@ -15836,6 +15844,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||thesun.ie/track?
 ||thetimes.co.uk/track?
 ||thetruth.com/pd.js
+||thetruthaboutcars.com/api/slots
 ||thewindowsclub.com/wp-content/themes/genesis/lib/js/skip-links.min.js
 ||thisiswhyimbroke.com/api/user/gift-guide-thumbnail-homepage/tracking
 ||thisiswhyimbroke.com/api/user/tracking
