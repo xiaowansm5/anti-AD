@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601101841
+! Version: 202601131817
 ! Title: EasyPrivacy
-! Last modified: 10 Jan 2026 18:41 UTC
+! Last modified: 13 Jan 2026 18:17 UTC
 ! Expires: 4 days (update frequency)
-! Commit: b24b16148ed6b3fd2707196783475267b582757f
+! Commit: e585d36476243078c165f26d8fe98c249a3ab91d
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3056,6 +3056,7 @@ _WebVitalsReporter_
 .acemlna.com/Prod/link-tracker?$image
 .acemlnb.com/Prod/link-tracker?$image
 .alcmpn.com/
+.animatebookstore.com/c/$image
 .aozorabank.co.jp/r/*/open/$image
 .app.returnpath.net/
 .aveda.com/t/$image
@@ -3155,6 +3156,7 @@ _WebVitalsReporter_
 .pledgebox.com/t/$image
 .pstmrk.it/open^
 .publish0x.com/t/
+.qualtrics.com/subscription/watermark.gif?
 .quora.com/qemail/mark_read?
 .recolution.de/tools/emails/open/$image
 .redsift.com/e/o/$image
@@ -3897,6 +3899,7 @@ omni.soundestlink.com$image
 ||aamsitecertifier.com^$third-party
 ||aaxdetect.com^$third-party
 ||abcstats.com^$third-party
+||ablecdp.com^$third-party
 ||ablsrv.com^$third-party
 ||ablyft.com^$third-party
 ||abmr.net^$third-party
@@ -4527,6 +4530,7 @@ omni.soundestlink.com$image
 ||easycounter.com^$third-party
 ||easyhitcounters.com^$third-party
 ||easyresearch.se^$third-party
+||eazydata.io^$third-party
 ||ebtrk1.com^$third-party
 ||ec-track.com^$third-party
 ||ecommstats.com^$third-party
@@ -5177,6 +5181,7 @@ omni.soundestlink.com$image
 ||measured.com^$third-party
 ||measuremap.com^$third-party
 ||measurementapi.com^$third-party
+||media.net^$third-party
 ||media01.eu^$third-party
 ||mediaarmor.com^$third-party
 ||mediaforgews.com^$third-party
@@ -5400,6 +5405,7 @@ omni.soundestlink.com$image
 ||ositracker.com^$third-party
 ||otoshiana.com^$third-party
 ||ournet-analytics.com^$third-party
+||oursprivacy.com^$third-party
 ||outbid.io^$third-party
 ||outbrainimg.com^$third-party
 ||overstat.com^$third-party
@@ -5429,6 +5435,7 @@ omni.soundestlink.com$image
 ||pdbu.net^$third-party
 ||pdmntn.com^$third-party
 ||pdst.fm^$script,third-party
+||peasy.so^$third-party
 ||peerius.com^$third-party
 ||percentmobile.com^$third-party
 ||perf-serving.com^$third-party
@@ -7104,6 +7111,7 @@ omni.soundestlink.com$image
 ||etherealpinnacle.com^
 ||evanescentedge.com^
 ||evasivejar.com^
+||evencoating.com^
 ||eventexistence.com^
 ||eventsmall.com^
 ||exampleshake.com^
@@ -7993,8 +8001,10 @@ omni.soundestlink.com$image
 ||roseincome.com^
 ||rottenray.com^
 ||rovememoirs.com^
+||royalsbagels.com^
 ||royalsweeper.com^
 ||ruralrobin.com^
+||rusticfrench.com^
 ||rusticprice.com^
 ||ruthlessdegree.com^
 ||sableshelf.com^
@@ -8015,6 +8025,7 @@ omni.soundestlink.com$image
 ||samuraibots.com^
 ||sandboxbid.com^
 ||sandstrophies.com^
+||sapnest.com^
 ||satisfycork.com^
 ||savoryink.com^
 ||savoryorange.com^
@@ -8038,6 +8049,8 @@ omni.soundestlink.com$image
 ||scenicapparel.com^
 ||scenicchicago.com^
 ||scenicdrops.com^
+||scentedkindly.com^
+||scholarloop.com^
 ||sciencedart.com^
 ||scientificshirt.com^
 ||scintillatingscissors.com^
@@ -8062,6 +8075,7 @@ omni.soundestlink.com$image
 ||secretturtle.com^
 ||seedscissors.com^
 ||seekmyshop.com^
+||seekremote.com^
 ||seenvault.com^
 ||seespice.com^
 ||selectivesummer.com^
@@ -9925,6 +9939,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.mlstatic.com^
 ||analytics.myfidevs.io^
 ||analytics.myfinance.com^
+||analytics.netronline.dev^
 ||analytics.newscred.com^
 ||analytics.onlyonlinemarketing.com^
 ||analytics.optilead.co.uk^
@@ -10278,6 +10293,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdn.stamped.io/cdn/images/pixel.png
 ||cdn.statically.io/gh/opcdn/analytics/main/script.js
 ||cdn.super.com/remote-event-registry.json
+||cdn.tolt.io/tolt.js
 ||cdn.usefathom.com^
 ||cdn.zg-api.com^*/analytics.js
 ||cdnjs.work/metrics.js
@@ -11152,6 +11168,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||leadliaison.com/tracking_engine/
 ||leadpages.net/leadboxes/current/embed.js
 ||leadpages.net^*/tracking.js
+||leads.whatboxdigital.com^
 ||leadtracking.plumvoice.com^
 ||leadvision.dotmailer.co.uk^$third-party
 ||lederer.nl/incl/stats.js.php?
@@ -12266,6 +12283,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.yfret.com^
 ||track.yieldsoftware.com^
 ||track.zappos.com^
+||track1.avplayer.com^
 ||trackdesk.com/tracking.js
 ||tracker-dot-optimeeze.appspot.com^
 ||tracker-server.high-cdn.com^
@@ -13811,6 +13829,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ave-caesar-mas.modivo.io^
 ||cafenews.pl/mpl/static/static.js?
 ||cmp.dreamlab.pl^
+||cpu-api.infor.pl^
 ||dsg.interia.pl^
 ||hit.interia.pl^
 ||hypemarketing.pl/cdn/fhmm-tracker.js
@@ -15930,6 +15949,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.game8.co^
 ||tracking.hsn.com^
 ||tracking.peopleareeverything.com^
+||tracking.pixelz.com^
 ||tracking.rocketleague.com^
 ||tracking.shopstyle.co.uk^
 ||tracking.shopstyle.com^
@@ -54523,6 +54543,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||ta.sanook.com^
 ||thairath.co.th/event/
 ! Turkish
+||a.n11.com^
 ||analytics.cosmopolitanmag.com.tr^
 ||athena-event-provider.n11.com^
 ||c.gazetevatan.com^
@@ -54959,6 +54980,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||trackonomics.net/client/$script,domain=popsugar.com
 @@||travel-assets.com/platform-analytics-prime/$domain=chase.com
 @@||try.abtasty.com^$script,domain=tickpick.com
+@@||tt.personio.com/9sgqlkuag.js$script,domain=personio.com
 @@||tunein.com/api/v1/comscore$~third-party
 @@||unpkg.com/@adobe/magento-storefront-event-collector@$domain=osprey.com
 @@||userapi.com^*.gif?extra=$image,domain=vk.com
