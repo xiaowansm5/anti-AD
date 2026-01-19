@@ -1,9 +1,9 @@
-! Checksum: h0eWUhEBY3G3Gpl+2Sa+eQ
-! Diff-Path: ../patches/224_optimized/224_optimized-s-1768569777-3600.patch
+! Checksum: BPviJPzdH4mHgeYcnJPt8Q
+! Diff-Path: ../patches/224_optimized/224_optimized-s-1768825007-3600.patch
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.52.11
-! TimeUpdated: 2026-01-16T13:19:33+00:00
+! Version: 2.1.52.30
+! TimeUpdated: 2026-01-19T12:13:47+00:00
 ! Expires: 12 hours (update frequency)
 ||hs.178yc.com^
 ||aa67678156.com^$third-party
@@ -4591,6 +4591,59 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||rwtzv9ehv.com^
+||wxikfd89f.com^
+||yy1veaxhf.com^
+||bugs01190ko.com^
+||meander32.com^
+||zlnitethia.com^
+||butoqj0vh.com^
+||xkum.cn^
+||ulx1cpf68.com^
+||xktoy8fub.com^
+||bugs01191ko.com^
+||nfksjkfs.com^
+||rubrafoz.com^
+||zwlhfjh4h.com^
+||hizechizr.com^
+||w56953.cc^
+||preuquqre.com^
+||kasgnh7xwl.com^
+||cmesgpqq8z.com^
+||67qlvj0jcj.com^
+||hecwgmokvc.com^
+||bugs01180ko.com^
+||leektiylpi.com^
+||solitaire50.top^
+||xylophone37.com^
+||kacq.cn^
+||8fdmj67f5e.com^
+||nie8fe9far.com^
+||zqqwr9snx1.com^
+||bugs01181ko.com^
+||rxi8jcy0aq.com^
+||mukkoiigam.com^
+||354xxcdt1.com^
+||hbz8v.com^
+||w5c6d9.cc^
+||bugs01171ko.com^
+||lqbe7i5gf.com^
+||1gj8lhfa1.com^
+||tomharrph.com^
+||s45hkb25i.com^
+||ra0mpyy93.com^
+||bugs01170ko.com^
+||evpxl9a8h.com^
+||u6yzoru6u.com^
+||yyutfzv.com^
+||vgtmosn.com^
+||gvje.cn^
+||fhgaikrolq.com^
+||nxkyiwh.com^
+||snowman77.com^
+||dowrrav.com^
+||saxophone90.top^
+||6cmxoje5k.com^
 ||trombone48.com^
 ||1qocqk1fho.com^
 ||s0p6s02x28.com^
@@ -13424,6 +13477,7 @@ meijutt.*/js/pcjs/
 ||douyucdn.cn/adxdsp/
 ||711dm.com/color.
 ||joyacg.top/wp-content/uploads/*-640
+||wnacg.com/game/
 zhihu.com##.Pc-word-new
 supercloudsms.com##.container > img
 muinz.top##.module
@@ -21227,6 +21281,7 @@ wss://*.*.top/$third-party
 ||uaa.com/js/dxj.
 uaa.com##.popup_dialog_box
 wss://*.com:29*/$third-party
+wss://*.com:800*/$third-party
 ##.row.nav-bottom + div[style^="display: block; position: relative; width: 0px; height:"]
 ##a[href*="aHR0cHM6Ly9xc2Z2bDExLmFsYXp2LmNvbS8zNzA4Lmh0bWw="]
 ||lzbao.net/syster.

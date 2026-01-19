@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601161849
+! Version: 202601191843
 ! Title: EasyPrivacy
-! Last modified: 16 Jan 2026 18:49 UTC
+! Last modified: 19 Jan 2026 18:43 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 2f2b8d286e7d19a3dfaa20a97d378c6a37ce91b7
+! Commit: a1cfb334406168091b662e4e137e44c0c0e77408
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3457,7 +3457,6 @@ omni.soundestlink.com$image
 ||cloudwp.io^
 ||clrt.ai^
 ||cnna.io^
-||cnstrc.com^
 ||cntxtfl.com^
 ||confiant-integrations.net^
 ||convead.io^
@@ -3814,6 +3813,7 @@ omni.soundestlink.com$image
 ||venture-365-inspired.com^
 ||venusrevival.com^
 ||veozn3f.com^
+||veradata.network^
 ||vfghe.com^
 ||videoplayerhub.com^
 ||visit-server.inmobi-choice.io^
@@ -6579,6 +6579,7 @@ omni.soundestlink.com$image
 ||adventurousamount.com^
 ||aerialapps.com^
 ||afraidlanguage.com^
+||agencysignals.com^
 ||agileformer.com^
 ||agonyshark.com^
 ||agreeablearch.com^
@@ -7223,6 +7224,7 @@ omni.soundestlink.com$image
 ||fortunatemark.com^
 ||forwardslashetc.com^
 ||fossilzero.com^
+||fourlevelsgame.com^
 ||fourpawsahead.com^
 ||foxlagoon.com^
 ||foxtrotdata.com^
@@ -8260,6 +8262,7 @@ omni.soundestlink.com$image
 ||squishybears.com^
 ||stageschine.com^
 ||stakedances.com^
+||stakeschips.com^
 ||stakingbasket.com^
 ||stakingshock.com^
 ||stakingsmile.com^
@@ -8286,6 +8289,7 @@ omni.soundestlink.com$image
 ||stereotypedsugar.com^
 ||stiffgame.com^
 ||stiffstem.com^
+||stillpeace.com^
 ||stimulatingsneeze.com^
 ||stingsquirrel.com^
 ||stingycrush.com^
@@ -8422,6 +8426,8 @@ omni.soundestlink.com$image
 ||tidymitten.com^
 ||tidysprite.com^
 ||tightpowder.com^
+||tiltonbots.com^
+||timecrossed.com^
 ||tinybluewhale.com^
 ||tinyswans.com^
 ||tinytendency.com^
@@ -8449,6 +8455,7 @@ omni.soundestlink.com$image
 ||tranquilveil.com^
 ||tranquilveranda.com^
 ||trappush.com^
+||travelerpic.com^
 ||treadbun.com^
 ||treatoceans.com^
 ||tremendousplastic.com^
@@ -9868,6 +9875,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics-cms.whitebeard.me^
 ||analytics-consent-manager-v2-prod.azureedge.net^
 ||analytics-fe.digital-cloud-prem.medallia.com^
+||analytics-fe.digital-cloud.medallia.com^
 ||analytics-prd.aws.wehaa.net^
 ||analytics-prod-alb-292764149.us-west-2.elb.amazonaws.com^
 ||analytics-production.hapyak.com^
@@ -10064,6 +10072,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.qualified.com/*/sentry/
 ||app.qualified.com/*/visitor_events
 ||app.revenuehero.io/logs/ingest
+||app.termly.io/api/*/statistics
 ||app.trytada.com/addImpression
 ||app.varify.io/varify.js
 ||app.yesware.com/t/$third-party
@@ -14496,6 +14505,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||carsandbids.com/a/p
 ||cbc.ca/g/stats/
 ||cc.cc/visit_log_ajax/visit_log_save_ajax.php?
+||cdapi.collegedunia.com^
 ||cdn.gov.cfigroup.com/webmon/s/source/webmon/$domain=weather.gov
 ||cdn.jsdelivr.net/npm/@adshield/
 ||centerblog.net/stats.js
@@ -15279,6 +15289,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mov.t-mobile.com/p/js/1.js
 ||movetv.com/sa-events
 ||mp.imgur.com^
+||mp.sintra.ai^
 ||mp.theepochtimes.com^
 ||mparticle.weather.com/identity/
 ||mps.nbcuni.com/request/page/json/params/*&adunits=$xmlhttprequest
@@ -16249,7 +16260,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ! akamaihd.net
 ||akamaihd.net^$image,domain=globalnews.ca|nycgo.com|stcatharinesstandard.ca
 ! Non-legit domains
-||edge-client^$script,domain=barrons.com
+://edge-client/$domain=barrons.com
 ! Plausible selfhosted
 ||jeremiahlee.com/fanboynz.js
 ! confection.io
@@ -16396,7 +16407,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
 ! Other resource abuse
-||gyrovague.com^$domain=archive.is|archive.ph|archive.today
+||gyrovague.com^$domain=archive.fo|archive.is|archive.li|archive.md|archive.ph|archive.today|archive.vn
 ! *** easylist:easyprivacy/easyprivacy_specific_perimeterx.txt ***
 ! easyprivacy_specific_perimeterx.txt
 ||alaskaair.com/AlXMT4Ma/init.js
@@ -53246,6 +53257,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||allocine.fr/_/geolocalize
 ||analytics.allovoisins.com^
 ||analytics.clubic.com^
+||api.bookvillage.app/analytics/track
 ||api.doctolib.fr/nr_insert_
 ||api.odysee.com/locale/get
 ||api.ouedkniss.com^*&xTrackId=
@@ -53260,7 +53272,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||cesu.urssaf.fr/clm10
 ||clubic.com/tview
 ||compteur.developpez.com^
-||courrierinternational.com/*&vtag=
+||courrierinternational.com/*.pa.js
 ||datalayer.orange.fr^
 ||dd.bellesdemeures.com^
 ||dd.leboncoin.fr^
@@ -53343,8 +53355,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||lecho.be/fb2?
 ||lecho.be/tag/tag-
 ||ledevoir.com/js/pianoAnalyticsTags.js
-||lemonde.fr/*&cts=
-||lemonde.fr/*&stc=
+||lemonde.fr/*.pa.js
 ||lemonde.fr/bucket/*/tagistan.
 ||lemonde.fr^$ping
 ||leparking-moto.fr/jsV155/Tracker.js
@@ -54666,6 +54677,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||api.zeeg.me/api/analytics/events/$~third-party
 @@||assets.fyers.in/Lib/analytics/Analytics.js$~third-party
 @@||assets.msn.com/staticsb/statics/latest/adboxes/$script,~third-party
+@@||assets.yasno.live/packs/assets/analytics-events-$script,~third-party
 @@||att.com/scripts/adobe/prod/$script,~third-party
 @@||att.com/scripts/adobe/virtual/detm-container-hdr.js$~third-party
 @@||att.com/ui/services_co_myatt_common/$script,~third-party
@@ -55366,6 +55378,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||cmn.gyro-n.com/js/gyr.min.js$domain=benesse-style-care.co.jp
 @@||cpt.geniee.jp/hb/*/wrapper.min.js$domain=hoyme.jp
 @@||cybozu.com/*/event.gif?$~third-party
+@@||dan-ball.jp/en/javagame/mine/data/d.gif$image,~third-party
 @@||datadoghq-browser-agent.com/*/datadog-logs.js$domain=crosset.onward.co.jp
 @@||delivery.satr.jp^$script,domain=mieru-ca.com
 @@||deteql.net/recommend/provision?$xmlhttprequest,domain=t-fashion.jp
