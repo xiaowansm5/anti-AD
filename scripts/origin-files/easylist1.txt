@@ -1,9 +1,9 @@
-! Checksum: TuzgAYBKQUL91Vk/PFABBw
-! Diff-Path: ../patches/224_optimized/224_optimized-s-1769088395-3600.patch
+! Checksum: e8DEnlEk4hDswOp3CgoRUQ
+! Diff-Path: ../patches/224_optimized/224_optimized-s-1769347199-3600.patch
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.52.54
-! TimeUpdated: 2026-01-22T13:23:16+00:00
+! Version: 2.1.52.70
+! TimeUpdated: 2026-01-25T13:17:10+00:00
 ! Expires: 12 hours (update frequency)
 ||hs.178yc.com^
 ||aa67678156.com^$third-party
@@ -4592,6 +4592,51 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||7ryx7ph5y.com^
+||acqephvfx.com^
+||m5uiy5gd1.com^
+||gsk801250hh.com^
+||ohlanaizn.com^
+||plateau77.com^
+||torrent25.com^
+||cpgve9dnj.com^
+||ffuakv5nl.com^
+||19dkfu1wg.com^
+||cp7iys8fp.com^
+||gsk801251hh.com^
+||qsne.cn^
+||ruziecoraz.com^
+||thj36m3dm.com^
+||w55b76.cc^
+||rgoxcknehm.com^
+||zrz0c0sh7e.com^
+||gsk801240hh.com^
+||2fjxw3dyip.com^
+||6n528aywi9.com^
+||freshet40.top^
+||tableland06.top^
+||fbtacriikh.com^
+||8k69vb6421.com^
+||ngfkrduait.com^
+||35kjurwwb6.com^
+||gsk801241hh.com^
+||gdqu.cn^
+||dbvedren.com^
+||oiu132jhz.com^
+||oqvodgp36.com^
+||p2muoczf5.com^
+||etff5y04k.com^
+||clo41zgrs.com^
+||bugs01231ko.com^
+||gsk801231hh.com^
+||gfvk.cn^
+||nenodhezm.com^
+||1fp9k4zrm.com^
+||fkhagviev.com^
+||promontory32.com^
+||waterfall90.top^
+||vbw3q6jxn.com^
+||mtaitdupf.com^
 ||vkoq4kyzmj.com^
 ||gwbb1p2t9s.com^
 ||xvbwjd.icu^
@@ -19171,6 +19216,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@.adserver.$domain=litv.tv
 @@||holmesmind.com/js/drawV2.$domain=bingfong.com
 @@||hkcards.com^$generichide
+@@||linovelib.com^$generichide
 @@/prebid.$script,domain=mingpao.com
 @@||txws.yyzb456.top^$domain=857zb7.tv
 @@||jinritemai.com^$generichide
