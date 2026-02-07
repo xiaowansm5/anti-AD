@@ -1,9 +1,9 @@
-! Checksum: BURfsARtJv1DnDVQF19skQ
-! Diff-Path: ../patches/224_optimized/224_optimized-s-1770218569-3600.patch
+! Checksum: LF7oUYGSb1xCYGJe+iyYsA
+! Diff-Path: ../patches/224_optimized/224_optimized-s-1770488133-3600.patch
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.53.49
-! TimeUpdated: 2026-02-04T15:19:43+00:00
+! Version: 2.1.53.66
+! TimeUpdated: 2026-02-07T18:12:32+00:00
 ! Expires: 12 hours (update frequency)
 ||hs.178yc.com^
 ||aa67678156.com^$third-party
@@ -222,6 +222,7 @@
 ||two.fsylr.com^
 ||ad.juksy.com^
 ||ads.tvb.com^
+tstrs.me#%#//scriptlet('prevent-setTimeout', 'offsetHeight === 0')
 tt1069.com#@#.adzone
 w.waipian.sbs##.popup-tips
 w.waipian.sbs##.shortcuts-mobile-overlay
@@ -689,9 +690,7 @@ xiazai.zol.com.cn##div[onclick^="zol_niux_tongji"]
 wzzy.cc##.xgplayer-error
 wzzy.cc###notice-overlay
 ||s.yimg.com/cv/apiv2/tw/bwchou25/
-quote.cngold.org##.foot_megagame
 cngold.org##.jams
-cngold.org##.fixed_jt
 cngold.org##.headCompanys
 huaren.live#%#//scriptlet('prevent-window-open')
 ||static.okokserver.com/uploads/lesi/$image,domain=huaren.live
@@ -4600,6 +4599,49 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||412dyo1ef.com^
+||ivza0m05f.com^
+||dcwxhamq0.com^
+||zyek35wsn.com^
+||reluctance58.com^
+||avpr.cn^
+||gnla02070qp.com^
+||vwvaddoet.com^
+||gjt6z9wga.com^
+||wo6h5tx8w.com^
+||gnla02071qp.com^
+||i7xkqmhjw.com^
+||xjwhad.com^
+||lcugzodfdo.com^
+||vcz9kuhac.com^
+||aztwrmsgn4.com^
+||fvk6k2jrdu.com^
+||ny70zesy5v.com^
+||gsk802061hh.com^
+||gnla02061qp.com^
+||gxvf.cn^
+||agricultural64.top^
+||nneephon.com^
+||w58ce6.com^
+||pkdcfefqqf.com^
+||bhidhaerb.com^
+||4br824ktty.com^
+||immediate49.com^
+||k0tdrkbhx.com^
+||d6gsujd8v.com^
+||guuia6hxf.com^
+||gnla02050qp.com^
+||bvrukrud.com^
+||gsk802050hh.com^
+||j3fvhzit0.com^
+||nnvx.cn^
+||nv0cl4nnq.com^
+||embofjpks.com^
+||inzy3qq8q.com^
+||balvehgmhw.com^
+||gsk802051hh.com^
+||qirqritp.com^
+||gnla02051qp.com^
 ||tlq8ufqddj.com^
 ||8gptk28oag.com^
 ||oudw850vbx.com^
