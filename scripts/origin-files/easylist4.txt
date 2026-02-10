@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202602071822
+! Version: 202602101931
 ! Title: EasyPrivacy
-! Last modified: 07 Feb 2026 18:22 UTC
+! Last modified: 10 Feb 2026 19:31 UTC
 ! Expires: 4 days (update frequency)
-! Commit: d8cac9d73c25fb3c4b2d658551492215176b4da1
+! Commit: 82d76d799ed45f630ef6dd2443574890bca9c717
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -946,6 +946,7 @@
 /fbevents.min.js
 /fbpix-events-
 /fbpixel.js
+/fdmg-tag-manager/tags.js
 /fe_logger?
 /feature/metrics$xmlhttprequest
 /federated-analytics.all.min.js
@@ -2323,6 +2324,7 @@
 /supercookie.asp
 /supercookie.js
 /svs.gif?
+/sw.js?origin=
 /sw/analytics.js
 /swa_t.gif?
 /swatag.js
@@ -2904,6 +2906,7 @@
 ://signal.*/hardal
 ://signals.*/hardal
 ://sp.*/sp/h|$xmlhttprequest
+://ssgtm.
 ://stat.*/pageview/$xmlhttprequest
 ://stats.*/code/e.js
 ://t.targito.
@@ -2960,6 +2963,12 @@ _trackWebtrekkEvents.
 _view_pixel&$image
 _webanalytics.
 _WebVitalsReporter_
+! outfitters.com.pk/cdn/wpm/b7cecd0b6w90c54c6cpe92089d5m57a67346m.js
+! www.32degrees.com/cdn/wpm/b7cecd0b6w90c54c6cpe92089d5m57a67346m.js
+! stylo.pk/cdn/wpm/b7cecd0b6w90c54c6cpe92089d5m57a67346m.js
+! flyingtiger.com/cdn/wpm/b7cecd0b6w90c54c6cpe92089d5m57a67346m.js
+! shop.mattel.com/cdn/wpm/b7cecd0b6w90c54c6cpe92089d5m57a67346m.js
+/cdn/wpm/b3918e4e0wbf3ac3cepc5707306mb02b36c6m.js
 ! https://github.com/AdguardTeam/AdguardFilters/commit/934912b3e760e068a91cd6cb502096a55ab1ca16
 ! Tracking on parked domains
 /_static/deliver.js?nonce=$script,~third-party
@@ -3492,6 +3501,7 @@ omni.soundestlink.com$image
 ||counter247.live^
 ||cpx.to^
 ||cr-relay.com^
+||crcldu.com^
 ||crossengage.io^
 ||crwdcntrl.net^
 ||cvlb.dev^
@@ -7553,6 +7563,7 @@ omni.soundestlink.com$image
 ||knottyswing.com^
 ||laboredlocket.com^
 ||lackadaisicalkite.com^
+||lakesecure.com^
 ||lameletters.com^
 ||lamplow.com^
 ||landkarts.com^
@@ -7982,6 +7993,7 @@ omni.soundestlink.com$image
 ||radiantcanopy.com^
 ||radiantlullaby.com^
 ||radiateprose.com^
+||radiosfax.com^
 ||raidmedics.com^
 ||railwaygiraffe.com^
 ||railwayrainstorm.com^
@@ -8032,6 +8044,7 @@ omni.soundestlink.com$image
 ||rentpenny.com^
 ||repeatsweater.com^
 ||replaceroute.com^
+||rescueothers.com^
 ||rescuerhino.com^
 ||resonantbrush.com^
 ||resonantrock.com^
@@ -8536,6 +8549,7 @@ omni.soundestlink.com$image
 ||truejasmine.com^
 ||tumbleicicle.com^
 ||tuneupcoffee.com^
+||twelvedawn.com^
 ||twistloss.com^
 ||typepredict.com^
 ||typewebsite.com^
@@ -8579,6 +8593,7 @@ omni.soundestlink.com$image
 ||valuebuttons.com^
 ||vanfireworks.com^
 ||vanishmemory.com^
+||vastmillions.com^
 ||velvetquasar.com^
 ||vengefulgrass.com^
 ||venomousvessel.com^
@@ -10404,6 +10419,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdnma.com/apps/capture.js
 ||cdnplanet.com/static/rum/rum.js
 ||cdns.brsrvr.com^
+||cdp.sph.com.sg/activation/activation.js
 ||ceros.com/a?data
 ||cf-pixelfront-analytics.widencdn.net^
 ||cf.api.instant.one^
@@ -14521,6 +14537,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||assets.engoo-static.com/tracking.js
 ||assets.prod.abebookscdn.com/cdn/com/scripts/abepixel-$domain=abebooks.com
 ||assets.s-bol.com/AppMeasurement-
+||assets.targetimg1.com/ssx/ssx.mod.js$domain=target.com
 ||ats.alot.com^
 ||att.com/scripts/adobe/prod/marketing.min.js
 ||audacy.com/data-events/
@@ -14645,6 +14662,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||change.org/api-proxy/-/et
 ||change.org/api-proxy/-/event_tracker
 ||channel.io/front/v*/channels/*/events
+||chat.groq.com/global_stats
 ||chatfuel.com/cf-analytics/
 ||chatroll.com/t.gif
 ||chewy.com/api/event/
@@ -15548,6 +15566,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||papi.stylar.ai^
 ||pappagallu.onefootball.com^
 ||pardot.com/pd.js
+||partsgeek.com/sspgt/
 ||pay4fans.com/api/analytics
 ||paypal.com/credit-presentment/log
 ||paypal.com/platform/tealeaftarget
@@ -15844,6 +15863,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ss.photospecialist.co.uk^
 ||sst.brodo.com^
 ||sst.bwt.com^
+||sst.carwow.
 ||sst.shopware.com^
 ||st.sawlive.tv^
 ||stackoverflow.com/_/client-timings
@@ -18533,6 +18553,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||analytics.churchthemes.com^
 ||analytics.codeforscience.org^
 ||analytics.codeskulptor.org^
+||analytics.editorialedomani.it^
 ||analytics.eikko.ai^
 ||analytics.ericafischerphotography.com^
 ||analytics.gamedatacrunch.com^
@@ -52817,6 +52838,8 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||geoip.finanzen.net^
 ||glomex.com^$ping
 ||gmx.net/monitoring/
+||go.absolventa.de^
+||go.azubi.de^
 ||golem.de/staticrl/scripts/external/snow-390-min.js
 ||golem.de/staticrl/scripts/golem_cpxl_
 ||hamburger-stadtplan.com/t.gif
@@ -52841,6 +52864,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||lynx.gruender.de^
 ||mat.ukraine-nachrichten.de^
 ||metrics.n-tv.de^
+||metrik.freitag.de^
 ||moviepilot.de/assets/autotrack-
 ||msboul.gruenwelt.de^
 ||mtb-news.de/metric/
