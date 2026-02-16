@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202602131915
+! Version: 202602161851
 ! Title: EasyPrivacy
-! Last modified: 13 Feb 2026 19:15 UTC
+! Last modified: 16 Feb 2026 18:51 UTC
 ! Expires: 4 days (update frequency)
-! Commit: aad568140e306381bd6ca2434c14d0b7a7808a3e
+! Commit: 16ce7549284d40c8e91d3017adb44e5703cb20c3
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3860,6 +3860,7 @@ omni.soundestlink.com$image
 ||veozn3f.com^
 ||veradata.network^
 ||vfghe.com^
+||vhit.io^
 ||videoplayerhub.com^
 ||visit-server.inmobi-choice.io^
 ||visitor-speed.com^
@@ -4362,6 +4363,7 @@ omni.soundestlink.com$image
 ||clickreport.com^$third-party
 ||clicksagent.com^$third-party
 ||clicksen.se^$third-party
+||clicksentry.nl^$third-party
 ||clickshift.com^$third-party
 ||clicktale.net^$third-party
 ||clicktracks.com^$third-party
@@ -6986,6 +6988,7 @@ omni.soundestlink.com$image
 ||cosplaygalaxy.com^
 ||costumeoffers.com^
 ||costwinner.com^
+||couponrail.com^
 ||courageousbaby.com^
 ||coverlayer.com^
 ||cowbelltime.com^
@@ -7038,6 +7041,7 @@ omni.soundestlink.com$image
 ||cutechin.com^
 ||cyclinghere.com^
 ||cyclopsdial.com^
+||dailydomino.com^
 ||damagedadvice.com^
 ||damageddistance.com^
 ||damdoor.com^
@@ -7527,6 +7531,7 @@ omni.soundestlink.com$image
 ||jetskiscovers.com^
 ||jewelryforest.com^
 ||jewelrysprings.com^
+||jigsawlucky.com^
 ||joblessdrum.com^
 ||jobmist.com^
 ||joyfulharbor.com^
@@ -7820,6 +7825,7 @@ omni.soundestlink.com$image
 ||omgthink.com^
 ||onecrow.net^
 ||onedropocean.com^
+||onespecify.com^
 ||onlinestarten.net^
 ||onlywoofs.com^
 ||opalquill.com^
@@ -7829,6 +7835,7 @@ omni.soundestlink.com$image
 ||optionsnomad.com^
 ||opulentsylvan.com^
 ||orangebirdie.com^
+||orchidgenius.com^
 ||orgbackups.com^
 ||orientedargument.com^
 ||originblocks.com^
@@ -8240,6 +8247,7 @@ omni.soundestlink.com$image
 ||sketchpals.com^
 ||skilledview.com^
 ||skillfuldrop.com^
+||skillfullyfrugal.com^
 ||skillsresults.com^
 ||skisofa.com^
 ||skullmagnets.com^
@@ -14352,6 +14360,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||a-da.invideo.io^
 ||a-reporting.nytimes.com^
 ||a.apkeditor.io^
+||a.boredpanda.bio^
 ||a.electerious.com^
 ||a.sputniknews.com/js/sputnik.js
 ||a.streamed.pk/js/script.js
