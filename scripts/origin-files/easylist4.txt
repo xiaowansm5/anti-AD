@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202602161851
+! Version: 202602191912
 ! Title: EasyPrivacy
-! Last modified: 16 Feb 2026 18:51 UTC
+! Last modified: 19 Feb 2026 19:12 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 16ce7549284d40c8e91d3017adb44e5703cb20c3
+! Commit: 567457f800cdfd9236d0dce1b7338f0925f702c5
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1856,6 +1856,7 @@
 /post-views-counter-pro/js/crawler-detect.js
 /post-views-counter-pro/js/frontend.js
 /postcounter.php?
+/posthog-recorder.js
 /postlog?
 /postview.gif?
 /pp/micro.tag.min.js
@@ -3665,6 +3666,7 @@ omni.soundestlink.com$image
 ||leadhit.io^
 ||leadsy.ai^
 ||lemonpi.io^
+||lipstat.com^
 ||liveyield.com^
 ||lltrck.com^
 ||lmepbq.com^
@@ -8193,6 +8195,7 @@ omni.soundestlink.com$image
 ||serpentshampoo.com^
 ||servicesscoop.com^
 ||settleshoes.com^
+||sevendeer.com^
 ||sevenhalves.com^
 ||shadeship.com^
 ||shadowmade.com^
@@ -8477,6 +8480,7 @@ omni.soundestlink.com$image
 ||teenytinycellar.com^
 ||teenytinyshirt.com^
 ||teenytinytongue.com^
+||teeshining.com^
 ||telephoneapparatus.com^
 ||tempertrick.com^
 ||temptteam.com^
@@ -11369,6 +11373,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||livelyvideo.tv/lb/logger
 ||liverail.com/?metric=
 ||liverail.com/track/?
+||livesearch-metrics.magento-ds.com^
 ||livestats.kaltura.com^
 ||livestory.io/*/collect
 ||llama.fi/script.js
@@ -13317,6 +13322,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trck.spoteffects.net^
 ||trecker.aklamio.com^
 ||tw.reppublika.com^
+||umi.cloudful.de^
 ||uni-duesseldorf.de/cgi-bin/nph-count?
 ||united-infos.net/event?
 ||veeseo.com^*/url.gif?
@@ -13644,6 +13650,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ! Estonian
 ! Finnish
 ||almamedia.fi^*/scroll-monitor.min.js
+||ddl.alma.iltalehti.fi^
 ||dnt-userreport.com^
 ||er.sanoma-sndp.fi/stats/
 ||er.sanoma-sndp.fi/v2/stats/
@@ -14040,6 +14047,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||biggylabs.com.br/track-api/v2/track/site?
 ||collect.chaordicsystems.com^
 ||events.chaordicsystems.com^
+||eventsourcing.ms.harmo.me^
 ||feature-flag-edge.live.clickbus.net^
 ||gke.econodata.com.br^
 ||hitserver.ibope.com.br^
@@ -52932,8 +52940,10 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||srf.ch/udp/tracking/
 ||ss.photospecialist.at^
 ||ss.photospecialist.de^
+||stat.rz.htw-berlin.de^
 ||statistic2.reichelt.de^
 ||statistics.riskommunal.net^
+||statistics.werkenntdenbesten.de^
 ||stats.autoscout24.ch^
 ||stats.rocketbeans.tv^
 ||stats.sumikai.com^
@@ -52973,6 +52983,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||tracking.badeladies.de^
 ||tracking.behaarteladies.de^
 ||tracking.bizarrladies.de^
+||tracking.buhl.de^
 ||tracking.busenladies.de^
 ||tracking.deutscheladies.de^
 ||tracking.devoteladies.de^
@@ -53014,6 +53025,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||united.web.de/event?
 ||vfd2dyn.vodafone.de^
 ||vinted.de/relay/events
+||volksverpetzer.de/pl/v.js
 ||wa.gmx.ch^
 ||wa.gmx.net^
 ||wa.web.de^
@@ -53030,6 +53042,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||ymprove.web.de^
 ||zooplus.de/om/pxl/
 ! TrustPid/Utiq
+! ||service.utiq.com^
 ||a1at.mno.link^
 ||bgtfr-test.mno.link^
 ||bob-a1at.mno.link^
@@ -53042,7 +53055,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||o2de.mno.link^
 ||orangefr-test.mno.link^
 ||orangefr.mno.link^
-||service.utiq.com^
 ||sfr.mno.link^
 ||timit.mno.link^
 ||tmi.jv-telcoid.es^
