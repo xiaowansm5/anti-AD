@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202602191912
+! Version: 202602221852
 ! Title: EasyPrivacy
-! Last modified: 19 Feb 2026 19:12 UTC
+! Last modified: 22 Feb 2026 18:52 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 567457f800cdfd9236d0dce1b7338f0925f702c5
+! Commit: d36c10db3034ac048bc142fb64c9eb3bc90e7857
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3247,6 +3247,7 @@ _WebVitalsReporter_
 /beaconimages.netflix.net/*$image
 /c.vialoops.com/*$image
 /ck.m.honto.jp/c/*$image
+/cl.mos.jp/q/*$image
 /click.*/q/*$image
 /click.comicomi-studio.com/mail/u/*$image
 /click.em.nike.com/*$image
@@ -15488,7 +15489,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mtm.bondagevalley.cc^
 ||mx.eneba.com^
 ||myanimelist.net/static/logging.html
-||mybbc-analytics.files.bbci.co.uk/reverb-client-js/smarttag-
 ||myfreecams.com/php/tracking.php?
 ||mylocal.co.uk/api/trpc/analytics.
 ||myspace.com/beacon/
@@ -54985,6 +54985,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||ensighten.com^*/code/$script
 @@||ensighten.com^*/scode/$script,domain=norton.com
 @@||ensighten.com^*/serverComponent.php?$script
+@@||epstore.com/file_includes.php?path=*/pageview.js$script,~third-party
 @@||etsy.com/api/v3/ajax/bespoke/*log_performance_metrics=$~third-party
 @@||events.raceresult.com^$~third-party,xmlhttprequest
 @@||evergage.com/api2/event/$domain=mbusa.com
