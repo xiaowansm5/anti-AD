@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603011845
+! Version: 202603041901
 ! Title: EasyPrivacy
-! Last modified: 01 Mar 2026 18:45 UTC
+! Last modified: 04 Mar 2026 19:01 UTC
 ! Expires: 4 days (update frequency)
-! Commit: e2bb4259e6bb3f797301ba6403b923bcf72d98fb
+! Commit: c23876f4c179543c4b49c8cd0a9b54092270b2f8
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -121,6 +121,7 @@
 /__utm.js
 /__wsm.gif
 /_assets/oply/public/*
+/_astro/useProtonTelemetry.$script
 /_blazor/*$ping
 /_events/api/setEvent$xmlhttprequest
 /_ga?send&
@@ -2141,6 +2142,7 @@
 /silveregg/js/cookie_lib.js
 /simple_reach.js
 /simtracker.min.js
+/site24x7rum-min.js
 /site_statistics.js
 /site_stats.js
 /site_stats/*
@@ -6642,6 +6644,7 @@ omni.soundestlink.com$image
 ||adorableattention.com^
 ||adventurousamount.com^
 ||aerialapps.com^
+||affectionknit.com^
 ||afraidlanguage.com^
 ||agencysignals.com^
 ||agileformer.com^
@@ -6658,6 +6661,7 @@ omni.soundestlink.com$image
 ||allnewhost.com^
 ||alloutdubstep.com^
 ||allsunflowers.com^
+||allthelogs.com^
 ||alltypo.com^
 ||alluringbucket.com^
 ||almondbuns.com^
@@ -6730,6 +6734,7 @@ omni.soundestlink.com$image
 ||bandborder.com^
 ||barbadoshello.com^
 ||barbarousbase.com^
+||barbershirts.com^
 ||baseboosters.com^
 ||basilfish.com^
 ||basketballbelieve.com^
@@ -6873,6 +6878,7 @@ omni.soundestlink.com$image
 ||carpentercomparison.com^
 ||carpoolqueen.com^
 ||carryenjoy.com^
+||carsarace.com^
 ||cartelsalsa.com^
 ||cartkitten.com^
 ||carvecakes.com^
@@ -7833,6 +7839,7 @@ omni.soundestlink.com$image
 ||obscenesidewalk.com^
 ||obscurespace.com^
 ||obsidiangems.com^
+||oceancloudhosts.com^
 ||octaneblood.com^
 ||offerniche.com^
 ||offgridcrops.com^
@@ -11158,6 +11165,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hearstmags.com^*/hdm-lib_hearstuser_proxy.html$third-party
 ||hearstnp.com/log?
 ||heg-cp.com/upm/$third-party
+||helix.bitformations.ca^
 ||hello.myfonts.net/count/
 ||hello.staticstuff.net^
 ||hellobar.com/ping?
@@ -11828,6 +11836,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||play.ht/views/
 ||player-metrics.instaread.co^
 ||player.ooyala.com/errors/report?
+||player.target-video.com/player/build/plugins/googleanalytics/
 ||playhop.com/clck/
 ||playtomic.com/Tracker/
 ||plista.com/activity
@@ -11861,6 +11870,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||prod.benchmarkemail.com/tracker.bundle.js
 ||prod.ew.srp.navigacloud.com^
 ||prod.fennec.atp.fox^
+||prod.tahoe-analytics.publishers.advertising.a2z.com^
 ||propps.com/v1/referrer/
 ||propsid.b-cdn.net^
 ||providesupport.com/cmd/$image
@@ -12748,6 +12758,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vizury.com/analyze/
 ||vk.com/rtrg?
 ||vk.com/videostats.php
+||vm.target-video.com^
 ||vmixcore.com/vmixcore/playlog?
 ||vmweb.net/identity.min.js
 ||vo.msecnd.net/api/beYableJSv2.js
@@ -27641,6 +27652,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||somni.suntrust.com^
 ||somni.superonline.net^
 ||somni.syf.com^
+||somni.syfpayments.com^
 ||somni.synchrony.com^
 ||somni.synchronybank.com^
 ||somni.synchronybusiness.com^
@@ -48633,6 +48645,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ! ||deeplink.xeropan.com^
 ! ||app.naga.com^
 ! ||t.vrbo.io^
+! ||join.tlon.io^
 ! 
 ! Company name: Branch.io
 ! 
@@ -50988,7 +51001,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||join.stuypend.com^
 ||join.talker.network^
 ||join.thekrishi.com^
-||join.tlon.io^
 ||join.travelxp.com^
 ||join.vibely.io^
 ||join.vtail.co^
@@ -54073,6 +54085,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||io-tech.fi/io/www/delvr/lokiz.php
 ||is.fi/stats/
 ||logger.omio.com^
+||logs.kaya.delfi.ee^
 ||mha.fi/simple.gif?
 ||mtv3.fi/remarketing.js
 ||nelonenmedia.fi/hitcounter$image
@@ -54971,6 +54984,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||cdn.facil-iti.app/tags/faciliti-tag.min.js$script,domain=apec.fr|kyoto.travel
 @@||cdn.getblueshift.com/blueshift.js$script,domain=rentcafe.com
 @@||cdn.heapanalytics.com^$script,domain=libertymutual.com
+@@||cdn.intellimize.co/snippet/$script,domain=talkspace.com
 @@||cdn.jsdelivr.net^*/fp.min.js$script,domain=cuevana2.io
 @@||cdn.matomo.cloud/tekuchi.matomo.cloud/matomo.js$domain=berkeleygroup.digital
 @@||cdn.mxpnl.com/libs/$script,domain=get.pumpkin.care
