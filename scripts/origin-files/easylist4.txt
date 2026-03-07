@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603041901
+! Version: 202603071842
 ! Title: EasyPrivacy
-! Last modified: 04 Mar 2026 19:01 UTC
+! Last modified: 07 Mar 2026 18:42 UTC
 ! Expires: 4 days (update frequency)
-! Commit: c23876f4c179543c4b49c8cd0a9b54092270b2f8
+! Commit: 219e2829446a8aae4500afd46d672348ed3ea2e8
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -121,7 +121,6 @@
 /__utm.js
 /__wsm.gif
 /_assets/oply/public/*
-/_astro/useProtonTelemetry.$script
 /_blazor/*$ping
 /_events/api/setEvent$xmlhttprequest
 /_ga?send&
@@ -6747,6 +6746,7 @@ omni.soundestlink.com$image
 ||bedsberry.com^
 ||beewhispering.com^
 ||beginnerpancake.com^
+||bentengine.com^
 ||berserkhydrant.com^
 ||bespokesandals.com^
 ||bestboundary.com^
@@ -6797,6 +6797,7 @@ omni.soundestlink.com$image
 ||boilingmadsoup.com^
 ||boldbars.com^
 ||bonuscomplex.com^
+||bookbeef.com^
 ||bookprobe.com^
 ||boomboomcloud.com^
 ||boostbehavior.com^
@@ -6819,6 +6820,7 @@ omni.soundestlink.com$image
 ||breakfastboat.com^
 ||breezybright.com^
 ||breezygrove.com^
+||brewthing.com^
 ||brianwould.com^
 ||briefstem.com^
 ||brighttoe.com^
@@ -7990,6 +7992,7 @@ omni.soundestlink.com$image
 ||promiseair.com^
 ||propertypotato.com^
 ||propsynergy.com^
+||protectpool.com^
 ||protestcopy.com^
 ||psychedelicarithmetic.com^
 ||pubfs.com^
@@ -11850,6 +11853,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||popup-static.unisender.com^
 ||porpoise.azettl.net^
 ||postageapp.com/receipt/$third-party
+||posthog.com/*/?retry_count
 ||poweredbyeden.com/widget/tracker/
 ||ppx.com/tracking/
 ||pr-bh.ybp.yahoo.com^
@@ -12093,6 +12097,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sftrack.searchforce.net^
 ||sgali-mcs.byteoversea.com^
 ||sgm-w.jd.com^
+||shallspark.com/athena/tracking/
 ||share-online.biz/affiliate/$third-party
 ||shareaholic.com/analytics_
 ||shareaholic.com/partners.js
@@ -12272,6 +12277,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||storage.googleapis.com/nchq-dj-nid/prod/sp_v1.js
 ||storage.googleapis.com/snowplow-cto-office-tracker-bucket/
 ||storage.googleapis.com/tm-frend-graffiti/
+||storage.googleapis.com/vs-scripts/intentiq/vsintentiq.js
 ||storage.syncmedia.io/libs/sm_capture_
 ||stormgate.production.raptive.com^
 ||stream-log.dditscdn.com^
@@ -15949,6 +15955,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||srv.plesk.com^
 ||ss.esade.edu^
 ||ss.photospecialist.co.uk^
+||ssl-images-amazon.com/images/I/21auWwkMYgL.js$domain=imdb.com
 ||sst.brodo.com^
 ||sst.bwt.com^
 ||sst.carwow.
@@ -52975,6 +52982,8 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||pixel.ionos.de^
 ||plausible.motorpresse.de^
 ||playox.de/analytics/
+||pons.com/pons-site-website-assets/lib/analytics.min.js
+||pons.com/pons-site-website-int/_astro/website-analytics.$script
 ||potsdamer-stadtplan.com/t.gif
 ||pstt.mtb-news.de^
 ||px.derstandard.at^
