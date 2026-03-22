@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603191914
+! Version: 202603221852
 ! Title: EasyPrivacy
-! Last modified: 19 Mar 2026 19:14 UTC
+! Last modified: 22 Mar 2026 18:52 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f4f6e74a6bac645e1b4d9f62e8baf1d5a5aed586
+! Commit: 0acf74e9c888895fe0aa917b78608c55589f1173
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1584,6 +1584,7 @@
 /mpulse.min.js
 /ms-widgets/tracking-cookies/*
 /ms.analytics-web-3.min.js
+/msq.tracker.min.js
 /mtc.js
 /mtifonttracker.js
 /mtiFontTrackingCode.js
@@ -1681,6 +1682,7 @@
 /oval_web_analytics_latest.js
 /owa.Analytics.m.js
 /owa.tracker-combined-min.js
+/owa.tracker.js
 /oxAnalytics.js
 /p.gif?
 /p/tm.js?
@@ -2783,6 +2785,7 @@
 /whisper?event=
 /white_pixel.gif?
 /wildfire/i/CIMP.gif?
+/wix-code-telemetry-collector/*
 /wix-engage-visitors-
 /wlexpert_tracker.js
 /wmxtracker.js
@@ -4948,6 +4951,7 @@ omni.soundestlink.com$image
 ||ibpxl.net^$third-party
 ||ic-live.com^$third-party
 ||iclive.com^$third-party
+||icreate-campaign.com^$third-party
 ||icstats.nl^$third-party
 ||iculture.report^$third-party
 ||id-visitors.com^$third-party
@@ -6441,6 +6445,7 @@ omni.soundestlink.com$image
 ||zesep.com^$third-party
 ||zeustechnology.com^$third-party
 ||zoomanalytics.co^$third-party
+||zoomengage.com^$third-party
 ||zoomino.com^$third-party
 ||zoosnet.net^$third-party
 ||zoossoft.net^$third-party
@@ -7288,6 +7293,7 @@ omni.soundestlink.com$image
 ||fitnessmapper.com^
 ||fivesidedsquare.com^
 ||fixedfold.com^
+||fjordsand.com^
 ||flakyfeast.com^
 ||flameuncle.com^
 ||flashtexting.com^
@@ -7539,6 +7545,7 @@ omni.soundestlink.com$image
 ||inquisitiveice.com^
 ||inquisitiveinvention.com^
 ||insectmacros.com^
+||insidepsych.net^
 ||inspirebees.com^
 ||insulatech.com^
 ||intelligentscissors.com^
@@ -8273,6 +8280,7 @@ omni.soundestlink.com$image
 ||shylibrary.com^
 ||sicksmash.com^
 ||siderain.com^
+||sidetrades.com^
 ||sierrakermit.com^
 ||signalszone.com^
 ||signaturepod.com^
@@ -8428,6 +8436,7 @@ omni.soundestlink.com$image
 ||steelmaiden.com^
 ||steepsister.com^
 ||steepsquirrel.com^
+||stellarduel.com^
 ||stepcattle.com^
 ||stepwisevideo.com^
 ||stereoproxy.com^
@@ -15635,6 +15644,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nid.thetimes.com^
 ||nike.com/assets/measure/data-capture/
 ||nimbusweb.me/gtlytics.js
+||nixie.starlightnet.work^
 ||no9pldds1lmn3.soundcloud.com^
 ||noblocktape.com/stat/
 ||noodle.backmarket.io^
@@ -16167,6 +16177,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t810.ctpost.com^
 ||tagger.ope.scmp.com^
 ||tagging.steelseries.com^
+||tags-event.woolworths.co.nz^
 ||tags.air1.com^
 ||tags.aljazeera.com^
 ||tags.johnlewis.com^
