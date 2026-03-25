@@ -111,6 +111,7 @@
 @@||ccllaa.com^$generichide
 @@||cdpn.io^$generichide
 @@||centro.co.il^$generichide
+@@||challenges.cloudflare.com^$generichide
 @@||changyou.com^$generichide
 @@||chart-embed.service.newrelic.com^$subdocument,xmlhttprequest
 @@||chatgpt.com^$generichide
@@ -118,6 +119,7 @@
 @@||chinatelecom.com.cn^
 @@||chineseanime.vip^$generichide
 @@||chuangkit.com^$generichide
+@@||claude.ai^$generichide
 @@||cloud.google.com^$generichide
 @@||cloud.google.com^$~third-party
 @@||cloud.mail.ru^$image,~third-party
@@ -334,6 +336,7 @@
 @@||plugins.matomo.org^$image,~third-party
 @@||poedb.tw^$generichide
 @@||proton.me^$generichide
+@@||proxmox.local^$generichide
 @@||publicwww.com^$generichide
 @@||qobuz.com^$generichide
 @@||qqdie.com^$generichide
