@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603251917
+! Version: 202603281843
 ! Title: EasyPrivacy
-! Last modified: 25 Mar 2026 19:17 UTC
+! Last modified: 28 Mar 2026 18:43 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 4c06c25602458c6dc324ef93e5a3b33a9468decd
+! Commit: 325fb25a9da7cfd24917fa9f90bc077166ccb631
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1605,6 +1605,7 @@
 /nb-collector|
 /ncj-pixel.js
 /neilson.js
+/nelio-ab-testing/assets/dist/js/visitor-type.js
 /neoworx_tracker.php
 /netmining.js
 /netresults.js
@@ -1959,6 +1960,7 @@
 /RcAnalyticsEvents.js
 /rcAnalyticsLib.js
 /rd-js-integration.min.js
+/rdtracker/rdtracker.min.js
 /readReceipt/notify/?img=$image
 /readthedocs-analytics.js
 /realtimeapi/impression?
@@ -2132,6 +2134,7 @@
 /sf-recommendations-events-listener.js
 /sfCounter/*
 /sfdc/networktracking.js
+/sftouch?branchId=
 /sgtracker.js
 /shared/sentry/*
 /sherlock.gif?
@@ -5123,7 +5126,6 @@ omni.soundestlink.com$image
 ||landingpg.com^$third-party
 ||lasagneandands.com^$third-party
 ||lasso.link^$third-party
-||ldoverseas.com^$third-party
 ||lead-123.com^$third-party
 ||leadberry.com^$third-party
 ||leadbi.com^$third-party
@@ -5296,6 +5298,7 @@ omni.soundestlink.com$image
 ||minewhat.com^$third-party
 ||minkatu.com^$third-party
 ||mirabelsmarketingmanager.com^$third-party
+||mirakl.net^$third-party
 ||mixi.mn^$third-party
 ||mixpanel.com^$third-party
 ||mkt3261.com^$third-party
@@ -8638,6 +8641,7 @@ omni.soundestlink.com$image
 ||truculentrate.com^
 ||truebackpack.com^
 ||truejasmine.com^
+||trueselfkeys.com^
 ||tumbleicicle.com^
 ||tuneupcoffee.com^
 ||twelvedawn.com^
@@ -8695,6 +8699,7 @@ omni.soundestlink.com$image
 ||verdantsculpture.com^
 ||verifiedarts.com^
 ||verseballs.com^
+||versuswall.com^
 ||vibrantcelebration.com^
 ||vibrantgale.com^
 ||vibranthaven.com^
@@ -8732,6 +8737,7 @@ omni.soundestlink.com$image
 ||waxsirens.com^
 ||wayjoyfarm.com^
 ||weatherbytes.net^
+||weatherpush.net^
 ||websitesdude.com^
 ||weeklybanner.com^
 ||wellgroomedapparel.com^
@@ -10248,6 +10254,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.visitorapi.com^$third-party
 ||api.wipmania.com^
 ||apibaza.com/pixel/
+||aplus.alibaba.com^
 ||apm-engine.meteor.com^$third-party,xmlhttprequest
 ||app.abralytics.com/assets/tracker/index.js
 ||app.adjust.com^$third-party
@@ -10495,6 +10502,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdn-channels-pixel.ex.co^
 ||cdn-ds.com/analytics/
 ||cdn-eu.usefathom.com^
+||cdn-js.xyz/code?
 ||cdn-staging.delivr.ai/pixels/
 ||cdn.9gtb.com^
 ||cdn.app.cfigroup.com/webmon/$script
@@ -11408,6 +11416,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||laurel.rovicorp.com^
 ||lciapi.ninthdecimal.com^
 ||lcs.naver.com^
+||ldoverseas.com/public-gateway/*/activity
 ||leadliaison.com/tracking_engine/
 ||leadpages.net/leadboxes/current/embed.js
 ||leadpages.net^*/tracking.js
@@ -11942,6 +11951,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||public.9gtb.com^
 ||public.cobrowse.oraclecloud.com/rely/storage/
 ||public.fbot.me/track/
+||public.profitwell.com^
 ||publicbroadcasting.net/analytics/
 ||pulse.ecmapps.com^
 ||pulse.shopflo.com^
@@ -12809,10 +12819,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vissle.me/track/
 ||visual.ly/track.php?
 ||visualstudio.com/_da.gif?
+||visualwebsiteoptimizer.com*/ee.gif
 ||visualwebsiteoptimizer.com/analysis/
 ||visualwebsiteoptimizer.com/cdn/analysis/
 ||visualwebsiteoptimizer.com/dyn
-||visualwebsiteoptimizer.com/ee.gif?
 ||visualwebsiteoptimizer.com/events/t?
 ||visualwebsiteoptimizer.com/gv.gif?
 ||visualwebsiteoptimizer.com/server-side/track-user?
@@ -13286,6 +13296,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.fanmatics.com/event
 ||api.nexx.cloud/*/session/
 ||api.tv.de/*/tracking/
+||app.elitedomains.de/js/service/statistics.service.js
 ||artemis-cdn.ocdn.eu^
 ||ats.otto.de^
 ||audimark.de/tracking/
@@ -13414,6 +13425,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||strongvpn.com/aff/
 ||suedtirol.live/slc.js
 ||t.cpurls.net^
+||t.elitedomains.de^
 ||t.etraveli.com^
 ||t.nativendo.de^
 ||t.quisma.com^
@@ -14438,6 +14450,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.ticimax.cloud^
 ||analytics.turk.pro^$third-party
 ||app.kulgacdn.com/js/script.js
+||apps.ihlasdigitalassets.com/stats
 ||c.keltis.com^
 ||collector.wawlabs.com^
 ||core.dehapi.com/ip.php
@@ -14452,6 +14465,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||statistics.daktilo.com^
 ||stats.vidyome.com^
 ||track.livasoft.com.tr^
+||tracker.adcluster.com.tr^
 ||traffic.wdc.center^
 ||web.tv/analytics/
 ! Ukranian
@@ -14699,6 +14713,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||autoblog.com/.api/admiral
 ||autotrader.com/*/pep?pixallId
 ||autotrader.com/pixall/
+||aviasales.*-analytics.
+||aviasales.*/analytics_pv.
+||aviasales.*/sentry-replay.
 ||avitop.com/aviation/hitlist.asp
 ||b2c-unleash-proxy.fresha.com^
 ||b629.electronicdesign.com^
@@ -15249,6 +15266,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||girlsofdesire.org/images/girlsofdesire.org/analytics.js
 ||github.com/_private/browser/stats
 ||github.dev/diagnostic?
+||givefreely.com/ingest/
 ||glassdoor.*/geb/events/
 ||glassmoni.researchgate.net^
 ||global.canon/00cmn/js/*/analytics-
@@ -16074,6 +16092,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stapewithadblock.xyz/stat/
 ||starfiles.co/analytics.php
 ||startpage.com/sp/$ping
+||startpage.com/sp/atq/ep2/sodar/sodar2.js
 ||startpage.com/sp/dplpxs?
 ||startpage.com/sp/jst
 ||starzplay.com/resources/js/analytics.js
@@ -16970,8 +16989,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ! https://github.com/AdguardTeam/AdguardFilters/issues/218663
 ||d21y75miwcfqoq.cloudfront.net/436f3341$image,redirect=nooptext
 ! GPC
-accuweather.com,acmemarkets.com,boston.com,capezio.com,chime.com,costco.com,crunchyroll.com,deezer.com,delta.com,dnb.co.uk,dnb.com,dollargeneral.com,engadget.com,espn.com,eventbrite.com,flyfrontier.com,formula1.com,geizhals.de,gladiatorgarageworks.com,harborfreight.com,hopwtr.com,jdsports.com,kkrt.com,lenscrafters.com,livewithkellyandmark.com,madewell.com,mazdausa.com,milesplit.live,monsterenergy.com,newyorker.com,norton.com,pandora.com,payment.nba.com,porsche.com,qobuz.com,rivals.com,soundcloud.com,spotify.com,subway.com,techcrunch.com,ticketmaster.*,tidal.com,tirerack.com,twitch.tv,twitter.com,uber.com,ubereats.com,usaa.com,vimeo.com,visible.com,weather.com,wunderground.com,x.com,yahoo.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
-accuweather.com,acmemarkets.com,boston.com,capezio.com,chime.com,costco.com,crunchyroll.com,deezer.com,delta.com,dnb.co.uk,dnb.com,dollargeneral.com,engadget.com,espn.com,eventbrite.com,flyfrontier.com,formula1.com,geizhals.de,gladiatorgarageworks.com,harborfreight.com,hopwtr.com,jdsports.com,kkrt.com,lenscrafters.com,livewithkellyandmark.com,madewell.com,mazdausa.com,milesplit.live,monsterenergy.com,newyorker.com,norton.com,pandora.com,payment.nba.com,porsche.com,qobuz.com,rivals.com,soundcloud.com,spotify.com,subway.com,techcrunch.com,ticketmaster.*,tidal.com,tirerack.com,twitch.tv,twitter.com,uber.com,ubereats.com,usaa.com,vimeo.com,visible.com,weather.com,wunderground.com,x.com,yahoo.com##+js(set, navigator.globalPrivacyControl, false)
+accuweather.com,acmemarkets.com,boston.com,capezio.com,chime.com,costco.com,crunchyroll.com,deezer.com,delta.com,dnb.co.uk,dnb.com,dollargeneral.com,engadget.com,espn.com,eventbrite.com,flyfrontier.com,formula1.com,geizhals.de,gladiatorgarageworks.com,harborfreight.com,hopwtr.com,jdsports.com,kkrt.com,lenscrafters.com,livewithkellyandmark.com,madewell.com,mazdausa.com,milesplit.live,monsterenergy.com,newyorker.com,norton.com,pandora.com,payment.nba.com,porsche.com,qobuz.com,rivals.com,soundcloud.com,spotify.com,subway.com,techcrunch.com,ticketmaster.*,tidal.com,tirerack.com,twitch.tv,twitter.com,uber.com,ubereats.com,usaa.com,vimeo.com,visible.com,weather.com,wunderground.com,www.yahoo.com,x.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
+accuweather.com,acmemarkets.com,boston.com,capezio.com,chime.com,costco.com,crunchyroll.com,deezer.com,delta.com,dnb.co.uk,dnb.com,dollargeneral.com,engadget.com,espn.com,eventbrite.com,flyfrontier.com,formula1.com,geizhals.de,gladiatorgarageworks.com,harborfreight.com,hopwtr.com,jdsports.com,kkrt.com,lenscrafters.com,livewithkellyandmark.com,madewell.com,mazdausa.com,milesplit.live,monsterenergy.com,newyorker.com,norton.com,pandora.com,payment.nba.com,porsche.com,qobuz.com,rivals.com,soundcloud.com,spotify.com,subway.com,techcrunch.com,ticketmaster.*,tidal.com,tirerack.com,twitch.tv,twitter.com,uber.com,ubereats.com,usaa.com,vimeo.com,visible.com,weather.com,wunderground.com,www.yahoo.com,x.com##+js(set, navigator.globalPrivacyControl, false)
 ! Clear GPC storage item
 madewell.com##+js(cookie-remover, dns_cookie)
 visible.com##+js(set-local-storage-item, browser-ids, $remove$)
@@ -54244,7 +54263,9 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||adat.travelo.hu^
 ||adat.veol.hu^
 ||adat.videa.hu^
+||arukereso.hu/*.impression?tt=
 ||beam.telex.hu^
+||checkout.arukereso.hu^$ping
 ||events.ingatlan.com^
 ||hirtv.hu/ajaxx/_stat/
 ||hirtv.hu/nx_general_stat.jpg?
@@ -55055,6 +55076,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||analytics.casper.com/gtag/js$~third-party
 @@||analytics.casper.com/gtm.js$~third-party
 @@||analytics.edgekey.net/ma_library/html5/html5_malibrary.js$script,domain=mxplayer.in
+@@||analytics.google.com/analytics/$~third-party
 @@||analytics.itunes.apple.com^$~third-party
 @@||api-analytics.magstimconnect.net^$~third-party
 @@||api-js.datadome.co/js/$domain=sso.garena.com
