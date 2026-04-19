@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202604161933
+! Version: 202604191912
 ! Title: Fanboy's Annoyance List
-! Last modified: 16 Apr 2026 19:33 UTC
+! Last modified: 19 Apr 2026 19:12 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f4aca048caa0e63043405f475f4f2007ff439d5c
+! Commit: e43d8b9ad60fdb763048412c8d50b5433494111f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -31120,6 +31120,7 @@ startpage.com,startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion###b
 fflogs.com,warcraftlogs.com###bottom-banner-fallback
 aeon.co,psyche.co###bottom-portal
 themarginalian.org###bottom_donation
+watchsomuch.to###btnStopAds
 wikipedia.org###centralNotice
 dailymail.co.uk###chromelessPlayer
 coconuts.co###coco-plus-membership-section
@@ -32988,6 +32989,7 @@ merckmanuals.com,msdmanuals.com##.marketing-block-wrapper
 act.hoyolab.com##.mhy-hoyolab-app-header
 inoreader.com##.mid_hero
 pixai.art##.min-h-screen > section.box-content.bg-background.border-b[style="height: 50px;"]
+google.com##.ml-assistive-chips [data-value="open_in_app"]
 google.*##.ml-promotion-container
 uinterview.com,usbair.com##.mobile-app
 kariyer.net##.mobile-app-download
@@ -35836,6 +35838,7 @@ erlang-solutions.com#?#.sidebar-sticky:has-text(newsletter)
 esports.gg#?#.inset-0.fixed:has-text(Sign up)
 ew.com#?#.comp > strong:has-text(newsletter)
 faithwire.com#?#em > strong:has-text(daily newsletter)
+faroutmagazine.co.uk#?#.header-submenu:has-text(Sign up to)
 fastcompany.com#?#.pb-1.gap-4:has-text(Sign up for)
 fastcompany.com#?#.pb-6:has-text(Newsletter)
 federalnewsnetwork.com#?#.sidebar-box:has-text(GET OUR NEWSLETTER NOW)
@@ -36819,6 +36822,7 @@ bringmethenews.com,thehindu.com##.google-btn
 responsiblestatecraft.org##.google-cta
 responsiblestatecraft.org##.google-cta-infy
 dailyartmagazine.com##.google-feed-row
+faroutmagazine.co.uk##.google-follow
 pcguide.com##.google-news
 crypto.news##.google-news-banner
 coinedition.com##.google-news-block
@@ -37283,6 +37287,7 @@ newsroom.co.nz##.sharing-anchor
 cjr.org##.sharing-buttons
 thekitchenmagpie.com##.sharing-cta
 dagens.com##.sharing-element
+faroutmagazine.co.uk##.sharing-sidebar
 al-watan.com,qatar-tribune.com##.sharingColumn
 glassalmanac.com##.shhr-btn
 thefreedictionary.com##.shr-facebook
@@ -37746,6 +37751,7 @@ newskarnataka.com,psypost.org##[href^="https://news.google.com/publications/"]
 goodyfeed.com##[href^="https://t.me/"]
 irishnews.com##[href^="https://whatsapp.com/channel/"]
 militarywatchmagazine.com##[href^="https://x.com/MilitaryWatchM"]
+ynetnews.com##[style="display: flex; justify-content: center; width:100%;height:65px;border: 1px solid #e6e6e6;border-radius: 5px;background-color: #fff;box-sizing: border-box; margin: 20px auto;"]
 colourlovers.com##a.mr-10.left > [src]
 hackster.io##a.social_icons__icon__BxTgB
 telekom.com##a[title="Share"]
@@ -38669,7 +38675,7 @@ caymancompass.com###s-consent-modal
 smcworld.com###s-modal
 sanitas.com###sanitasCookieAlert
 larksuite.com###sc-cookie-banner
-01net.com,gizmodo.com###sd-cmp
+gizmodo.com###sd-cmp
 seetickets.com###seeGdprCookieConsent
 fcc-group.eu###set-win-coo
 halara.com###set_cookies_module
@@ -41104,7 +41110,7 @@ beerwulf.com,bhphotovideo.com,binekarac.vw.com.tr,cheq.ai,distrelec.de,experiani
 experianidentityservice.co.uk###ensBannerBG
 ! ! #ensConsentWidget
 ! ! .cookie-message
-action.pl,appartementamsterdam.nl,bestbuycyprus.com,cambridge.org,deakin.edu.au,dgpci.mai.gov.ro,discountbank.co.il,dividendmax.com,eluniversal.com.mx,faccsa.com,farrerpark.com,haber7.com,huurwoningamsterdam.nl,imda.gov.sg,jobg8.com,kameramsterdam.nl,macpac.co.nz,mercantile.co.il,meups.com.br,motosport.co.il,nomos-glashuette.com,ostwest.tv,pdpc.gov.sg,piadinalumbro.gr,rules.co.uk,safra.sg,studiosamsterdam.nl,woonbotenamsterdam.com##.cookie-message
+action.pl,appartementamsterdam.nl,bestbuycyprus.com,cambridge.org,deakin.edu.au,dgpci.mai.gov.ro,discountbank.co.il,dividendmax.com,eluniversal.com.mx,faccsa.com,farrerpark.com,haber7.com,huurwoningamsterdam.nl,imda.gov.sg,jobg8.com,kameramsterdam.nl,lancsmokehouse.com,macpac.co.nz,mercantile.co.il,meups.com.br,motosport.co.il,nomos-glashuette.com,ostwest.tv,pdpc.gov.sg,piadinalumbro.gr,rules.co.uk,safra.sg,studiosamsterdam.nl,woonbotenamsterdam.com##.cookie-message
 ! ! .cookie-accept
 autocango.com##.cookie-accept
 ! ! #cookie-popup
@@ -41679,7 +41685,7 @@ arbys.com,buffalowildwings.com,dashboard-deutschland.de,neoplants.com,oresundsta
 ! ! Cookies_
 generatedata.com,matchbook.com,pck.pl,profim.eu,profim.fr,profim.pl,traffic.productions,vyos.io##div[class^="Cookies_"]
 ! ! CookieBanner
-abc.net.au,amie.so,app.daily.dev,axial.acs.org,bbfc.co.uk,billhop.com,cars.co.za,channel5.com,consoles.radioplayer.cloud,deluxemusic.de,desiindian-brighton.co.uk,drbuho.com,dropboxforum.com,fingerprint.com,foodcorner.dk,forum.effectivealtruism.org,hackney.gov.uk,harrys.com,iranintl.com,itesco.cz,itzipitzipizza.dk,jetty.com,kilobaser.com,klientboost.com,lendo.se,letsenhance.io,lindahall.org,luminpdf.com,make.com,monzo.com,mrpizzahastings.co.uk,my.plaid.com,oddschecker.com,onceupon.photo,paz.co.il,qured.us,skyvegas.com,socratesdergi.com,start.ru,strava.com,sweatco.in,tesco.hu,tesco.ie,thebarbary.co.uk,theculturetrip.com,trelson.com,tri.global,unum.co.uk,westerracu.com##div[class*="CookieBanner"]
+abc.net.au,amie.so,app.daily.dev,axial.acs.org,bbfc.co.uk,billhop.com,cars.co.za,channel5.com,consoles.radioplayer.cloud,deluxemusic.de,desiindian-brighton.co.uk,drbuho.com,dropboxforum.com,fingerprint.com,foodcorner.dk,forum.effectivealtruism.org,hackney.gov.uk,harrys.com,iranintl.com,itesco.cz,itzipitzipizza.dk,jetty.com,kilobaser.com,klientboost.com,lendo.se,letsenhance.io,lindahall.org,luminpdf.com,make.com,monzo.com,mrpizzahastings.co.uk,my.plaid.com,oddschecker.com,onceupon.photo,paz.co.il,qured.us,samokat.ru,skyvegas.com,socratesdergi.com,start.ru,strava.com,sweatco.in,tesco.hu,tesco.ie,thebarbary.co.uk,theculturetrip.com,trelson.com,tri.global,unum.co.uk,westerracu.com##div[class*="CookieBanner"]
 ! ! CookieBanner_
 acffiorentina.com,beta.livelib.ru,breastcancer.org,gieffektivt.no,latribet.ec,spline.design,svoi.ru,unitedconsumers.com,urbanarmorgear.com##div[class^="CookieBanner_"]
 ! ! CookieBannerstyle_
@@ -48659,6 +48665,7 @@ forgeandfortune.com#@##toasts > #toastsWrapper
 kna-bild.de#@##uiCookieConsent
 gpiaaf.gov.pt,skandia.se#@#.CookieBanner
 bajuwarenhof.de,isarradweg.de#@#.CookieBar
+hikoki-powertools.eu#@#.CookiePopUp
 aruba.com#@#.CookiePopup
 rai.it,rainews.it,raiplay.it,raiplaysound.it#@#.PositionBottom.as-oil
 api.newsguardtech.com#@#.accept-cookie-container
