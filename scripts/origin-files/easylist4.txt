@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202605041926
+! Version: 202605071957
 ! Title: EasyPrivacy
-! Last modified: 04 May 2026 19:26 UTC
+! Last modified: 07 May 2026 19:57 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 554a4bf3247fc861a62c302cebd198ae780b0abb
+! Commit: 414f00a4769375f5a13d60f02789887ba1776c36
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3272,6 +3272,7 @@ _WebVitalsReporter_
 /beacon?data=$image
 /beaconimages.netflix.net/*$image
 /c.vialoops.com/*$image
+/CI0/0$image
 /ck.m.honto.jp/c/*$image
 /cl.animate.co.jp/c/*$image
 /cl.mos.jp/q/*$image
@@ -3408,7 +3409,6 @@ _WebVitalsReporter_
 ://email.*/o/$image
 ://emailtracking.$image
 ://i.*@groovehq.com.gif$image
-://line.karte.io/CI0/$image
 ://links.flickr.com/s/eo/$image
 ://links.paypal.*/eos/$image
 ://mail01.monex.co.jp/bin/checker?
@@ -7098,6 +7098,7 @@ omni.soundestlink.com$image
 ||crowdedmass.com^
 ||cruisetourist.com^
 ||crunchcontrol.com^
+||crypticgenius.com^
 ||cryptvalue.com^
 ||crystalboulevard.com^
 ||cubchannel.com^
@@ -7183,6 +7184,7 @@ omni.soundestlink.com$image
 ||discopond.com^
 ||discreetfield.com^
 ||discreetquarter.com^
+||distilltable.com^
 ||distributionpocket.com^
 ||distributiontomatoes.com^
 ||disturbedquiet.com^
@@ -7347,12 +7349,10 @@ omni.soundestlink.com$image
 ||firstendpoint.com^
 ||firstscreenshot.com^
 ||fishersfinds.com^
-||fishingtoolsbox.com^
 ||fitmessage.com^
 ||fitnessmapper.com^
 ||fivesidedsquare.com^
 ||fixedfold.com^
-||fjordsand.com^
 ||flakyfeast.com^
 ||flameuncle.com^
 ||flashtexting.com^
@@ -8286,6 +8286,7 @@ omni.soundestlink.com$image
 ||secretivesheep.com^
 ||secretspiders.com^
 ||secretturtle.com^
+||securityannex.net^
 ||seedscissors.com^
 ||seekmyshop.com^
 ||seekremote.com^
@@ -8486,6 +8487,7 @@ omni.soundestlink.com$image
 ||stakingsmile.com^
 ||stalesummer.com^
 ||starkscale.com^
+||starrynets.com^
 ||starsmarter.com^
 ||startercost.com^
 ||startingcars.com^
@@ -10935,6 +10937,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||distillery.wistia.com^
 ||dl.episerver.net^
 ||dmcdn.net/behavior/
+||dmg-libs.anm.co.uk^
 ||dnnapi.com/analytics/
 ||doh.cq0.co^
 ||doofinder.com/api/v2/stats/
@@ -10963,6 +10966,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||e.channelexco.com^
 ||e.ebidtech.com/cv/
 ||e.revenue.cat^
+||e.usesneakpeek.com^
 ||e045f561.b-cdn.net^
 ||ea-mct-live.com/revsdk.kes.KinesisEvent/
 ||ea.youmaker.com^
@@ -11831,6 +11835,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||onet.pl/eclk/
 ||onet.pl^*/tags?
 ||onetrust.com^$ping
+||onrender.com/health
 ||onsitestats.bluecore.com^
 ||onsugar.com/static/ck.php?
 ||ontraport.com/track.php
@@ -12345,6 +12350,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||static.klaviyo.com/onsite/js/event_adapter.
 ||static.myshlf.us/Affiliates/sms_aff_clicktrack-deciem.js
 ||static.parsely.com^$third-party
+||static.shopmy.us/Affiliates/sms_aff_clicktrack.js
 ||staticmoly.me/metric.php
 ||statistics.tattermedia.com^
 ||statistics.wibiya.com^
@@ -14856,6 +14862,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bicp-analytics.postscript.io^
 ||bigw.com.au/api/event/
 ||bigw.com.au/events/
+||bikemag.com/.api/admiral
 ||bing.com/fd/ls/GLinkPing.aspx?
 ||bing.com/geolocation/write?
 ||bing.com/mouselog
@@ -15691,6 +15698,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||meduza.io/stat/
 ||megaplay.cc/cdn-cgi/trace
 ||megatron.igraal.com^
+||mensjournal.com/.api/admiral
 ||mensjournal.com/.bootscripts/analytics.min.js
 ||mentimeter.com/performance-metrics
 ||mercdn.net/assets/scripts/raphaelp
@@ -15718,6 +15726,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||metricsishare.rediff.com^
 ||metro.co.uk/base/rta/
 ||metro.co.uk/cvx/client/sync/fpc?
+||metro.co.uk/wp-content/client-mu-plugins/dist/metro-analytics/
 ||metrobyt-mobile.com/self-service-metro/v1/logging
 ||metroweekly.com/tools/blog_add_visitor/
 ||meucdn.vip/cdn-cgi/trace
@@ -15873,6 +15882,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pac.thetimes.com^
 ||papi.stylar.ai^
 ||pappagallu.onefootball.com^
+||paradehomeandgarden.com/.api/admiral
 ||pardot.com/pd.js
 ||partsgeek.com/sspgt/
 ||patient.info/a31h/
@@ -15946,6 +15956,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pluto.smallpdf.com^
 ||pm.dailykos.com^
 ||pm.geniusmonkey.com^
+||pmnbh.dedcool.com^
 ||pog.com^$ping
 ||poki.com/observer/
 ||politico.com/resource/assets/js.min/video-tracking.
@@ -17136,20 +17147,22 @@ bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 ||static.chartbeat.com/js/chartbeat.js$redirect=chartbeat.js,script
 ||static.chartbeat.com/js/chartbeat_mab.js$redirect=chartbeat.js,script
 ! Admiral
-247sports.com,al.com,arstechnica.com,bringmethenews.com,cattime.com,cbr.com,cheatsheet.com,cleveland.com,collider.com,comingsoon.net,cwtv.com,dogtime.com,esportstales.com,forums.hfboards.com,freep.com,fresnobee.com,gamerant.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,informazionefiscale.it,inquirer.net,insider-gaming.com,knowyourmeme.com,magesypro.pro,makeuseof.com,masslive.com,mlive.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,oregonlive.com,pennlive.com,playstationlifestyle.net,pwinsider.com,savvytime.com,screenrant.com,siliconera.com,silive.com,simpleflying.com,sporcle.com,stealthoptional.com,techlicious.com,technicpack.net,thedraftnetwork.com,thefashionspot.com,thegamer.com,thelayoff.com,thenerdstash.com,titantv.com,topspeed.com,twinfinite.net,videogamer.com,webmail.wiki,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com##+js(acs, document.createElement, admiral)
-apnews.com,artforum.com,artnews.com,billboard.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,nationalpost.com,nbcsports.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,torontosun.com,vancouversun.com,variety.com,vibe.com,windsorstar.com,wwd.com##+js(acs, document.getElementsByTagName, .pubads)
+247sports.com,al.com,arstechnica.com,bringmethenews.com,cattime.com,cbr.com,cheatsheet.com,cleveland.com,collider.com,comingsoon.net,crooksandliars.com,cwtv.com,dogtime.com,esportstales.com,forums.hfboards.com,freep.com,fresnobee.com,gamerant.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,informazionefiscale.it,inquirer.net,insider-gaming.com,knowyourmeme.com,magesypro.pro,makeuseof.com,masslive.com,mlive.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,oregonlive.com,pennlive.com,playstationlifestyle.net,pwinsider.com,savvytime.com,screenrant.com,siliconera.com,silive.com,simpleflying.com,sporcle.com,stealthoptional.com,techlicious.com,technicpack.net,thedraftnetwork.com,thefashionspot.com,thegamer.com,thelayoff.com,thenerdstash.com,titantv.com,topspeed.com,twinfinite.net,videogamer.com,webmail.wiki,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com##+js(acs, document.createElement, admiral)
+apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,nationalpost.com,nbcsports.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,torontosun.com,vancouversun.com,variety.com,vibe.com,windsorstar.com,wwd.com##+js(acs, document.getElementsByTagName, .pubads)
 ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}\./)
 reuters.com##+js(aost, admiral, .js?)
-nj.com,syracuse.com##+js(aost, decodeURI, /(?=^(?!.*\.js))/)
+attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,nj.com,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com##+js(aost, decodeURI, /(?=^(?!.*\.js))/)
 mensjournal.com##+js(json-edit, ..props.children.*[?.key=="admiral-script"])
 247sports.com,cbsnews.com,cbssports.com,indiewire.com,masslive.com,nypost.com,pagesix.com,pennlive.com,syracuse.com##+js(rmnt, script, '"data-adm-url"')
 abc17news.com,al.com,artforum.com,artnews.com,awkward.com,awkwardmom.com,bailiwickexpress.com,barnsleychronicle.com,becomingpeculiar.com,bethcakes.com,blogher.com,bluegraygal.com,briefeguru.de,carmagazine.co.uk,cattime.com,cbr.com,chaptercheats.com,cleveland.com,collider.com,comingsoon.net,commercialobserver.com,competentedigitale.ro,crafty.house,dailyvoice.com,decider.com,didyouknowfacts.com,dogtime.com,dualshockers.com,dustyoldthing.com,faithhub.net,femestella.com,footwearnews.com,freeconvert.com,frogsandsnailsandpuppydogtail.com,fsm-media.com,funtasticlife.com,fwmadebycarli.com,gamerant.com,gfinityesports.com,givemesport.com,gulflive.com,helloflo.com,homeglowdesign.com,honeygirlsworld.com,hotcars.com,howtogeek.com,insider-gaming.com,insurancejournal.com,jasminemaria.com,kion546.com,lehighvalleylive.com,lettyskitchen.com,lifeinleggings.com,liveandletsfly.com,lizzieinlace.com,localnews8.com,lonestarlive.com,madeeveryday.com,maidenhead-advertiser.co.uk,makeuseof.com,mardomreport.net,masslive.com,melangery.com,milestomemories.com,mlive.com,modernmom.com,momtastic.com,mostlymorgan.com,motherwellmag.com,movieweb.com,muddybootsanddiamonds.com,musicfeeds.com.au,nationalreview.com,nj.com,nordot.app,nothingbutnewcastle.com,nsjonline.com,oakvillenews.org,observer.com,oregonlive.com,pagesix.com,pennlive.com,pinkonthecheek.com,predic.ro,puckermom.com,qtoptens.com,realgm.com,robbreport.com,royalmailchat.co.uk,samchui.com,sandrarose.com,screenrant.com,sheknows.com,sherdog.com,sidereel.com,silive.com,simpleflying.com,sloughexpress.co.uk,spacenews.com,sportsgamblingpodcast.com,spotofteadesigns.com,ssnewstelegram.com,stacysrandomthoughts.com,superherohype.com,syracuse.com,tablelifeblog.com,thebeautysection.com,thecelticblog.com,thecurvyfashionista.com,thefashionspot.com,thegamer.com,thenerdyme.com,thenonconsumeradvocate.com,theprudentgarden.com,thethings.com,timesnews.net,topspeed.com,toyotaklub.org.pl,travelingformiles.com,tutsnode.org,tvline.com##+js(rmnt, script, '"v4ac1eiZr0"')
-baeldung.com,cheatsheet.com,mensjournal.com,pwinsider.com##+js(rmnt, script, admiral)
-gbatemp.net##+js(set, admiral, noopFunc)
+baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
+gbatemp.net,usatoday.com##+js(set, admiral, noopFunc)
 usatoday.com##+js(set, gnt.x.adm, '')
 ||operationsports.com/wp-json/navy/v1/tag?pid=
 ! noopjson
 ||acustomizedgift.com^$redirect=noopjs,script
+||fishingtoolsbox.com^$redirect=noopjs,script
+||fjordsand.com^$redirect=noopjs,script
 ||inventorycache.com^$redirect=noopjs,script
 ||kindhush.com^$redirect=noopjs,script
 ||oceancloudhosts.com^$redirect=noopjson,xmlhttprequest
@@ -46671,6 +46684,8 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ! Company name: AD EBiS https://github.com/AdguardTeam/cname-trackers/blob/master/data/trackers/ad-ebis.txt
 ! 
 ! ebis.ne.jp disguised trackers
+! Disabled:
+! ||ad.kddi-fs.com^
 ! 
 ||a9d8e7b6i5s.andgino.jp^
 ||aaa.aqualink.tv^
@@ -46696,7 +46711,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||ad.aucfan.com^
 ||ad.aucview.com^
 ||ad.autorace.jp^
-||ad.kddi-fs.com^
 ||ad.ordersuit.info^
 ||ad.takasu.co.jp^
 ||ad.tempstaff.co.jp^
@@ -55266,6 +55280,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||c.lytics.io/api/tag/$script,domain=time.com
 @@||c.paypal.com/da/r/fb.js$script
 @@||c.webtrends-optimize.com/acs/$image,script,domain=tvlicensing.co.uk
+@@||camel1.tv/lib/sensorsdata.full.min.js$~third-party
 @@||camel3.live/lib/sensorsdata.full.min.js$~third-party
 @@||canadacomputers.com/templates/ccnew/assets/js/jquery.browser-fingerprint-$~third-party
 @@||cdc.gov/jscript/metrics/adobe/launch/$script,~third-party
@@ -55280,6 +55295,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||cdn.matomo.cloud/tekuchi.matomo.cloud/matomo.js$domain=berkeleygroup.digital
 @@||cdn.mxpnl.com/libs/$script,domain=get.pumpkin.care
 @@||cdn.perfops.net/rom3/rom3.min.js$domain=cdnperf.com
+@@||cdn.petametrics.com/*-nbc.js$script,domain=bringmethenews.com
 @@||cdn.segment.com/analytics-next/
 @@||cdn.segment.com/analytics.js/$script,domain=abstractapi.com|accounts-bc.com|app.cryptotrader.tax|app.joinhandshake.com|driversed.com|fender.com|finerdesk.com|foxbusiness.com|foxnews.com|givingassistant.org|inxeption.io|reuters.com|squaretrade.com|swatches.interiordefine.com
 @@||cdn.segment.com/next-integrations/integrations/
