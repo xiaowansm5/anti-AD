@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202605101937
+! Version: 202605132008
 ! Title: Fanboy's Annoyance List
-! Last modified: 10 May 2026 19:37 UTC
+! Last modified: 13 May 2026 20:08 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 0b801468785b30f51ab7d20630a8fe2d63920490
+! Commit: d50bc0c0934796c344d35dfec523924e044ce139
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -30572,6 +30572,7 @@ dashboard.razorpay.com#@##credential_picker_container
 /ppp/js/permission-client$domain=hilfe.gmx.net|mein.web.de|meinaccount.gmx.net
 /wp-content/blog-plugins/wordads-classes/js/notice.bundle.js$script
 ||7plus.com.au/js/CookieNotice
+||abf-paif.com/services/ssmp/clrCookie?
 ||agicssecurity.com/Header/ajax/cookie.php
 ||arfeconsultors.com/static/js/vendor/cookies-text-ca.js
 ||assets.bonanza.com/assets/accept_cookies_banner_
@@ -31788,6 +31789,7 @@ splashlearn.com##.signup_cta.tdi_90
 investopedia.com##.sim-promo
 creativefabrica.com##.single-banner-tier
 texasobserver.org##.single-footer__image-wrapper
+stemcell.ucla.edu##.site-banner
 democracydocket.com##.site-footer
 propublica.org##.site-header__banner
 theguardian.com##.site-message--banner
@@ -34761,7 +34763,7 @@ landline.media##.mc-embed
 stripes.com##.mc-modal
 stripes.com##.mc-modal-bg
 ganjapreneur.com##.mc-signup
-gizmodo.com,helpnetsecurity.com,news.usni.org##.mc4wp-form
+gizmodo.com,helpnetsecurity.com,news.usni.org,the-berliner.com##.mc4wp-form
 tedium.co##.md-colorbox
 elespanol.com##.md-suscription
 digg.com##.md\:p-4.p-2.rounded-md
@@ -35881,6 +35883,7 @@ decrypt.co#?#.border-decryptGridline:has-text(Newsletter)
 demstate.com#?#.p-6.border-gray-200:has-text(Stay Informed)
 dexerto.com#?#.lg\:grid-cols-\[445px_1fr\].gap-y-10 > div:has-text(Sign up to Dexerto)
 dexerto.com#?#.mb-16:has-text(Sign up)
+digitalhealth.net#?#.e-con-inner:has-text(Subscribe)
 dlnews.com#?#.bottom-0.fixed:has-text(weekly newsletters)
 dlnews.com#?#.lg\:p-\[16px\]:has-text(newsletters)
 e360.yale.edu#?#.article__block--footnoteBlock--align-right:has-text(Subscribe)
@@ -36174,6 +36177,7 @@ scoop.co.nz###article-tools
 dailymail.co.uk###articleIconLinksContainer
 fastcompany.com###article_share_button
 theepochtimes.com###article_top_right_share_btn
+attitude.co.uk###att-unique-wrapper-2026
 bleedingcool.com###bc_sharing_is_caring
 weisradio.com###block-37
 fightcancer.org###block-boxes-social-header
@@ -37637,6 +37641,8 @@ davidlebovitz.com,jessicagavin.com##.swp_share_button
 biographics.org,creativelawcenter.com,dcrainmaker.com,elements.visualcapitalist.com,marktechpost.com,msmagazine.com,podwatch.io,stuffparentsneed.com,toptenz.net##.swp_social_panel
 stuffparentsneed.com##.swp_social_panelSide
 targettrend.com##.sws_supernormalaction
+interestingengineering.com##.t-w-\[128px\]
+interestingengineering.com##.t-w-\[200px\]
 toucharcade.com##.ta_followWidget
 gamingbolt.com##.tag-social-media
 notthebee.com##.take-shareables
@@ -37764,6 +37770,7 @@ lithub.com##.widget_twitter_timeline
 whats-on-netflix.com##.widget_won_google_preferred_widget
 fandom.com##.wikia-bar-anon
 windowslatest.com##.wl-floatbar
+whats-on-netflix.com##.won-rec-tags-strip--social
 project-management.com##.wp-block-bssb-social-share
 destructoid.com##.wp-block-gamurs-footer-nav__website-info__socials
 hsph.harvard.edu##.wp-block-hsph-sharing
@@ -37933,6 +37940,7 @@ techissuestoday.com#?#.mar-b-6:has-text(Follow Us)
 thedispatch.com#?#.border-y.py-2:has-text(Share)
 theguardian.com#?#.dcr-4gwv1z > ul:has-text(Get our)
 theintercept.com#?#[data-ga-track-action]:has-text(Join The Conversation)
+thenarwhal.ca#?#.text-and-button__container:has-text(Add The Narwhal)
 theshovel.com.au#?#.padding-top-small > .widgetizedArea:has-text(Like this)
 tvblackbox.com.au#?#.tdm-descr:has-text(Share)
 twitch.tv#?#.tw-balloon:has-text(Share To)
@@ -38465,6 +38473,7 @@ overunity.com###ecl_outer
 ebookfriendly.com###ecmr
 eib.org###eib-popup-policy
 fiveirongolf.com###elementor-popup-modal-16781
+fleurymichonamerica.com###elementor-popup-modal-671
 missouriquiltco.com###enjoySomeCookies
 petri.com###enlivy-kit-cookie-policy-container
 govnet.ro###enterSiteModal
@@ -40850,7 +40859,7 @@ zoho.com##.zbottom-cookie-container-outer
 santatracker.google.com##SANTA-NOTICE
 trustnet.com##USER-TYPE-POPUP
 dollarshaveclub.com##[aria-describedby="banner-description"]
-lemonade.com##[aria-describedby="cookie-consent-description"]
+askethos.com,lemonade.com##[aria-describedby="cookie-consent-description"]
 ticketmaster.com##[aria-describedby="mobileMobileTOUMessage"]
 kstp.com,scribd.com##[aria-label="Cookie Consent Banner"]
 1password.com,shirtspace.com##[aria-label="Cookie Consent"]
@@ -41719,7 +41728,7 @@ aastavebniny.cz,abp.nl,agronatur.com.br,aldi-sued.de,aldi.it,aluminiosbrinas.com
 ! ! pp_b.pp-p (dhealingforum.com,flowerhornrusforum.com,sinfuldestinyericole.com,celebritystorylibrary.com)
 ###pp_b.pp-p
 ! ! .cookie-banner
-adventuregamestudio.co.uk,albertonrecord.co.za,app.deriv.com,artfund.org,asia.nikkei.com,banco.bradesco,barkeepersfriend.com,bedfordviewedenvalenews.co.za,bemyeyes.com,bodyscience.com,bookwhen.com,brasscom.org.br,buildpaste.net,bullionbypost.co.uk,businesscomparison.com,capitoltrades.com,citybuzz.co.za,clarksolutions.com.br,codashop.com,coinpaprika.com,comfrt.com,commonwealthfund.org,crumb.pet,cumlaudeimmobilia.com,cursos.io,cwi.nl,dagmersellen.ch,davistate.com,deezer.com,deltaco.com,depot.dev,developer.chrome.com,dictum.com,droptime.de,echr.coe.int,edera.dev,erieinsurance.com,etix.com,eyethunews.co.za,fansly.com,fex.plus,forja.ma,gatlinburg.com,gaultmillau.at,germistoncitynews.co.za,gosquared.com,guinyc.com,hck.hr,herning.dk,holidayworld.com,hsbc.com.sg,isciii.es,jolyn.com,kathorusmail.co.za,kemptonexpress.co.za,kenmei.co,kormorant.co.za,ldminstitute.com,lensculture.com,letabaherald.co.za,liemobil.li,lifehacker.ru,liquid.ai,lokmat.com,massey.ac.nz,mcc-9.jp,medipolis.de,mega.io,mercadona.es,metroag.de,middelfart.dk,midrandreporter.co.za,mishloha.co.il,mmsports.fi,mmsports.no,mmsportsstore.dk,modworkshop.net,news.nntp4.net,news.ru,niche.com,northeasterntribune.co.za,oaic.gov.au,osthammar.se,overclock3d.net,overleaf.com,payroll.ca,peakstore.ru,poshmark.com,printful.com,privacy.com,prodoctorov.ru,promentesana.ch,protabletky.ru,publicdomainreview.org,raceroster.com,randburgsun.co.za,randfonteinherald.co.za,rawg.io,reseau-sante-haut-leman.ch,reseau-sante-nord-broye.ch,reseau-sante-region-lausanne.ch,rivistacontrasti.it,roodepoortnorthsider.co.za,roodepoortrecord.co.za,sedibengster.com,semanticscholar.org,sentosa.com.sg,signalbloom.ai,silpo.ua,smashingmagazine.com,sowetourban.co.za,sp-ps.ch,spar.co.za,stake.com,stjohneyehospital.org,store.fcm.ea.com,struer.dk,student.com,superbio.es,t.co.il,taplink.cc,thefly.com,tiktok.com,tudogostoso.com.br,tus.ac.jp,vangemert.dev,vangoghmuseum.nl,weather2day.co.il,welcome.brixen.it,witbanknews.co.za,zabars.com,zenodo.org##.cookie-banner
+adventuregamestudio.co.uk,albertonrecord.co.za,app.deriv.com,artfund.org,asia.nikkei.com,banco.bradesco,barkeepersfriend.com,bedfordviewedenvalenews.co.za,bemyeyes.com,bodyscience.com,bookwhen.com,brasscom.org.br,buildpaste.net,bullionbypost.co.uk,businesscomparison.com,capitoltrades.com,citybuzz.co.za,clarksolutions.com.br,codashop.com,coinpaprika.com,comfrt.com,commonwealthfund.org,crumb.pet,cumlaudeimmobilia.com,cursos.io,cwi.nl,dagmersellen.ch,davistate.com,deezer.com,deltaco.com,depot.dev,developer.chrome.com,dictum.com,droptime.de,echr.coe.int,edera.dev,erieinsurance.com,etix.com,eyethunews.co.za,fansly.com,fex.plus,forja.ma,gatlinburg.com,gaultmillau.at,germistoncitynews.co.za,gosquared.com,guinyc.com,hck.hr,herning.dk,holidayworld.com,hsbc.com.sg,isciii.es,jolyn.com,kathorusmail.co.za,kemptonexpress.co.za,kenmei.co,kinescope.com,kormorant.co.za,ldminstitute.com,lensculture.com,letabaherald.co.za,liemobil.li,lifehacker.ru,liquid.ai,lokmat.com,massey.ac.nz,mcc-9.jp,medipolis.de,mega.io,mercadona.es,metroag.de,middelfart.dk,midrandreporter.co.za,mishloha.co.il,mmsports.fi,mmsports.no,mmsportsstore.dk,modworkshop.net,news.nntp4.net,news.ru,niche.com,northeasterntribune.co.za,oaic.gov.au,osthammar.se,overclock3d.net,overleaf.com,payroll.ca,peakstore.ru,poshmark.com,printful.com,privacy.com,prodoctorov.ru,promentesana.ch,protabletky.ru,publicdomainreview.org,raceroster.com,randburgsun.co.za,randfonteinherald.co.za,rawg.io,reseau-sante-haut-leman.ch,reseau-sante-nord-broye.ch,reseau-sante-region-lausanne.ch,rivistacontrasti.it,roodepoortnorthsider.co.za,roodepoortrecord.co.za,sedibengster.com,semanticscholar.org,sentosa.com.sg,signalbloom.ai,silpo.ua,smashingmagazine.com,sowetourban.co.za,sp-ps.ch,spar.co.za,stake.com,stjohneyehospital.org,store.fcm.ea.com,struer.dk,student.com,superbio.es,t.co.il,taplink.cc,thefly.com,tiktok.com,tudogostoso.com.br,tus.ac.jp,vangemert.dev,vangoghmuseum.nl,weather2day.co.il,welcome.brixen.it,witbanknews.co.za,zabars.com,zenodo.org##.cookie-banner
 ! ! .cookie-banner-wrapper
 feinesahnefischfilet.de,hackerrank.com,herbiespizza.com,newyorkpizza.nl,solv.nl,ttrsonline.com,ximbio.com##.cookie-banner-wrapper
 ! ! #cookie-banner-wrapper
@@ -47294,6 +47303,7 @@ volnamobile.ru###message-block-cookie
 belgazprombank.by###modal-cookies
 readovka.news###modalCookie
 alfazdrav.ru###modalcookie
+tplusgroup.ru###msCookieConsent
 www.vtbnpf.ru###notify-container
 oldmail.meta.ua###oferta_meta
 online-kassa.ru###ok-cookie
@@ -49012,6 +49022,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||alp440.activehosted.com/f/embed.php$script,domain=openpeople.university
 @@||bibblio.org^*/bib-related-content.min.js$script,domain=hindawi.com
 @@||cdn.wisepops.com/shared/wisepops/$script,domain=bluecinema.ch
+@@||content-thumbnail.cxpublic.com^$image,domain=hochi.news
 @@||csm.cxpublic.com/Shueisha.js$domain=wpb.shueisha.co.jp
 @@||csm.cxpublic.com^$script,domain=mainichi.jp|tarzanweb.jp
 @@||gravityrd-services.com^$domain=hotstar.com|tv2play.hu|zinio.com
