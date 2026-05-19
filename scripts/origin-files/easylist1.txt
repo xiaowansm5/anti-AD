@@ -1,9 +1,9 @@
-! Checksum: PE8YULo5LjiDs/1BIs54dQ
-! Diff-Path: ../patches/224_optimized/224_optimized-s-1778930991-3600.patch
+! Checksum: WtUdALv5wMonNazEeJm+cg
+! Diff-Path: ../patches/224_optimized/224_optimized-s-1779189199-3600.patch
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.59.15
-! TimeUpdated: 2026-05-16T11:26:55+00:00
+! Version: 2.1.59.25
+! TimeUpdated: 2026-05-19T11:09:53+00:00
 ! Expires: 12 hours (update frequency)
 ||umini.shujupie.com^
 ||rgzz3rs.icu^
@@ -224,7 +224,6 @@
 207.148.44.179$network
 /^https:\/\/[a-z0-9-]{3,12}\.[a-z0-9]+\.com\/([A-Za-z0-9.]+)(?:\/([A-Za-z0-9.]+))?\.\d{4}\.(doc|docx|html|jpeg|jpg|js|json|odf|pdf|png|ppt|psd|rtf|shtml|sxml|txt|wedp|wps|xml|xps)\?\d{13}$/$third-party,match-case
 /^(mon|tue|wed|thu|fri|sat|sun)\d{1,2}\.\w{2}\d{1,6}\w{4}\.com$/
-||pc-util.gamersky.com^
 ||s3-nl-01.mangabuddy.in^
 ||wap.qqbiquge.net^
 ||fc.3dmgame.com^
@@ -2833,6 +2832,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_apps
 !+ PLATFORM(windows, mac, android, cli)
 ||101.qq.com/js/base.js$replace=/(el\.getAttribute\("type"\) === "text\/javascript")/\(\$1 && !el\.getAttribute\("nonce"\)\)/
 ||acs.youku.com/*/mtop.youku.play.ups.appinfo.get/*/?jsv=$replace=/("ad":\{)[\s\S]*?(\}\,"playlog")/\$1\$2/,important
+thebaynet.com#@#.ad-above-footer
 @@||staticsns.cdn.bcebos.com/amis/$image,domain=pan.baidu.com
 mnya.tw#@##advertise
 !+ PLATFORM(windows, mac, android, cli)
@@ -4613,7 +4613,7 @@ newduba.cn###jq_youxi
 ##div[onclick*=".open"][onclick*="leyu"]
 ##div[onclick*="/ky"][onclick*="open"]
 ##div[onclick*="?i_code="]
-##body > div[style=" max-width:990px; margin:0 auto;"]:first-child > a[target="_blank"]
+##body > div[style=" max-width:990px; margin:0 auto;"] > a[target="_blank"]
 ##div[style="margin:10px auto;width: 930px;height: 250px;"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style^="position"][onclick^="window.open"]
@@ -4731,6 +4731,30 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||9613gwqee.com^
+||pl7ncaj0b.com^
+||invalidation93.com^
+||d9zx24n0d.com^
+||3xeedcdci.com^
+||3is34bpqs4.com^
+||ecg21n9t8d.com^
+||oa83fs5udz.com^
+||xtg5gdugqi.com^
+||josqdb7jn4.com^
+||immunity95.com^
+||zrkeirapi.com^
+||zmhpphp.forum^
+||ytpfbbg6hl.com^
+||i5le8m3qxs.com^
+||disability29.top^
+||vle6r0hma.com^
+||js154azzn.com^
+||xzswn87hm.com^
+||cv3qb5813.com^
+||nh5jrpa7u.com^
+||kjewt01aa.com^
+||3wzq2yxde.com^
+||ljvt4pnl9.com^
 ||81bkkx81zd.com^
 ||is16yobjh7.com^
 ||pcc980pvul.com^
