@@ -35,12 +35,6 @@
 ||img.*mk.cn^$domain=avtbf.com
 ||impservice*.yodao.com^
 ||impservice*.youdao.com^
-||inc*-rev.static-cloudflare.workers.dev^
-||inccrev*.static-cloudflare.workers.dev^
-||increase*-rev.static-cloudflare.workers.dev^
-||increase*rev.static-cloudflare.workers.dev^
-||increase-rev*.static-cloudflare.workers.dev^
-||increv*.static-cloudflare.workers.dev^
 ||itc.*^prod=ad&
 ||ja*.gamersky.com^
 ||js*.abolezi.com^
