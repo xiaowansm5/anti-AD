@@ -1,9 +1,9 @@
-! Checksum: oT0WmsJ5i+qkz6bN3Wk/ig
-! Diff-Path: ../patches/224_optimized/224_optimized-s-1779974832-3600.patch
+! Checksum: Ttm7YsPhU8cYfddHTt8zeQ
+! Diff-Path: ../patches/224_optimized/224_optimized-s-1780231201-3600.patch
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.59.63
-! TimeUpdated: 2026-05-28T13:23:49+00:00
+! Version: 2.1.59.75
+! TimeUpdated: 2026-05-31T12:37:13+00:00
 ! Expires: 12 hours (update frequency)
 ||umini.shujupie.com^
 ||rgzz3rs.icu^
@@ -4730,6 +4730,35 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||d1129ldr7.com^
+||ddhwxwi6h.com^
+||wk5fo6pyf.com^
+||cyclamen46.com^
+||sunflower27.com^
+||yg4j3py9b.com^
+||yhgqxkjz9.com^
+||ichfzso7f.com^
+||aa2hzrmu9.com^
+||co4scosu6.com^
+||pz0d6zc6n.com^
+||37nu0riwfd.com^
+||dhckj73qr3.com^
+||ek946br7uy.com^
+||tjv260529xxx.com^
+||begonia20.com^
+||geranium35.top^
+||37shrmvlju.com^
+||kheejcqnll.com^
+||by2lc7429r.com^
+||rrpaafci9i.com^
+||fgbomsqo4j.com^
+||gycz2v4ch.com^
+||3llzzztmz.com^
+||h6n6i7v98.com^
+||wisteria37.top^
+||uxnsiyuew.com^
+||dxq8uuq0d.com^
+||1hcgomshd.com^
 ||ia3lxhd539.com^
 ||6j7ywcn8sx.com^
 ||nsthczdba1.com^
@@ -14133,7 +14162,7 @@ meijutt.*/js/pcjs/
 ||ifengimg.com/feprod/
 ||ifeng.com/relateshare?
 ||lancdn.com/public/images/view/Tencent-
-||5dm.link/htm$image
+||5dm.*/ggjpg/
 ||cdxyspa.com/js/e
 ||layuion.com/get/showcase/
 ||xxir.com/static/images/ad.
@@ -14278,7 +14307,7 @@ vmlib.com##.wp-caption
 vmlib.com##.elementor-widget > .elementor-widget-container > a[href^="http"]:not([href*="vmlib."])
 mydrivers.com##div[style="margin: auto;width: 580px;padding: 10px 0;"]
 docin.com##.mini-series-container
-5dm.link##div[id^="player_p"]
+5dm.dev##div[id^="player_p"]
 1lou.info,1lou.icu,1lou.me,1lou.one,1lou.pro###advert > :not(.card)
 manhuapica.com##a[href^="/ad/"]
 nodeseek.com##.promotation-item
