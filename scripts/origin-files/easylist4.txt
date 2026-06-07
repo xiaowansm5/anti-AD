@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202606042009
+! Version: 202606071936
 ! Title: EasyPrivacy
-! Last modified: 04 Jun 2026 20:09 UTC
+! Last modified: 07 Jun 2026 19:36 UTC
 ! Expires: 4 days (update frequency)
-! Commit: fc29a99c72d460713b81fd51c6fdb57bccf05c76
+! Commit: 373bcdbc85aa1f2eca6b96ca9f74f3f286015b6c
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -4384,6 +4384,7 @@ omni.soundestlink.com$image
 ||celebrus.com^$third-party
 ||center.io^$third-party
 ||cetrk.com^$third-party
+||cfmediaview.com^$third-party
 ||cftrack.com^$third-party
 ||chartaca.com^$third-party
 ||chartbeat.com^$third-party
@@ -7335,6 +7336,7 @@ omni.soundestlink.com$image
 ||filtercutter.com^
 ||finalizeforce.com^
 ||financefear.com^
+||findyourdelight.com^
 ||firecatfilms.com^
 ||fireworkcamp.com^
 ||firstendpoint.com^
@@ -7451,7 +7453,6 @@ omni.soundestlink.com$image
 ||golfcartlaws.com^
 ||golfersrow.com^
 ||gondolagnome.com^
-||goodbark.com^
 ||gorgeousedge.com^
 ||gorillapage.com^
 ||gossamerwing.com^
@@ -11404,7 +11405,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kbb.com/partner/$third-party
 ||kelkoogroup.net/st?
 ||kimonix.com/analytics/
-||kiwari.com^*/impressions.asp?
+||kit.com/posts/visit
+||kit.com/ui/reporting_event
 ||kiwi.mdldb.net^
 ||kiwisizing.com/api/log
 ||kk-resources.com/ks.js
@@ -13853,6 +13855,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||videostat.index.hu^
 ! Icelandic
 ! Indian
+||api.tblcontent.com*/log/
 ||indiatimes.com/pixel?
 ||tvid.in/log/
 ! Indonesian
@@ -14591,6 +14594,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adc-js.nine.com.au^
 ||adguard.com/-/event/
 ||adl.bankofthewest.com^
+||admin.microsoft.com/api/instrument/logclient
 ||adobe.io/system/log
 ||adobe.io/web/v1/metrics
 ||adtech-events.bookmyshow.com^
@@ -14914,6 +14918,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||clickins.slixa.com^
 ||client-errors.rebble.io/log-client-error
 ||client-log.box.com^
+||client-logs-a.wbx2.com^
 ||client-metrics.chess.com^
 ||clk-m.joybuy.com^
 ||cloudconvert.com/build/assets/plausible-CoqwX5KR.js
@@ -15612,6 +15617,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lyft.com/api/track
 ||lyngsat.com/system/loadclick.js
 ||m.facebook.com/ajax/weblite_resources_timing_logging/
+||m365.cloud.microsoft/events
 ||ma.redhat.com^
 ||macys.com/tag_path/
 ||mail.proton.me/api/data/v1/stats
@@ -16275,6 +16281,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stubhub.com/a/icph
 ||stytch.com/sdk/v1/events
 ||suaurl.com/adblock/js/smarttag.js
+||substrate.office.com/search/api/v1/events
 ||sudokupad.app/api/event
 ||sumsub.com/api/tunnel/
 ||sumsub.com/resources/fevents
@@ -16386,6 +16393,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||thefreedictionary.com/_/tr.ashx?
 ||thehackernews.com/ga/c
 ||thehackernews.com/ga4/c
+||thehealthsite.com/apstag.js
 ||theladders.com/api/user-tracking/
 ||thesun.co.uk/assets/client/analyticsListeners~
 ||thesun.co.uk/assets/client/newrelicExperimentTracking~
@@ -16682,6 +16690,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||x.com/i/csp_report
 ||x.com/i/jot
 ||x.com^*/log.json
+||x.designboom.com^
 ||xero.com/api/events/
 ||xfinity.com/event/
 ||xhamster.com/api/$ping
@@ -16762,6 +16771,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||googleusercontent.com/*/wf/open?upn=$image
 ! OpenTable
 ://track.opentable.
+! https://github.com/uBlockOrigin/uAssets/issues/33186
+://tralut.*/collect/value?
+://tralut.*/js/script-dynamic.js
+://tralut.*/js/tracking.js
 ! Vinted
 ://www.vinted.*/relay/events
 ! akamaihd.net
@@ -53897,9 +53910,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||lecho.be/fb2?
 ||lecho.be/tag/tag-
 ||ledevoir.com/js/pianoAnalyticsTags.js
-||lemonde.fr/*.pa.js
-||lemonde.fr/bucket/*/tagistan.
-||lemonde.fr^$ping
+||lemonde.fr/b9d29410eafefd859fb36add0cb64f9b4ad2138b
 ||leparking-moto.fr/jsV155/Tracker.js
 ||leparking.fr/*/Tracker.js
 ||lepetitjournal.com/monitoring?
@@ -54406,6 +54417,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ! Indian/Hindi
 ||bhaskar.com/comscore-ajax/
 ||handler.amarujala.com/user/event
+||ndtv.in/estatic/hindi-fcm.js
 ||staticasset.amarujala.com/handler/recomUserEvent.js
 ! Indonesian
 ||analytic20.detik.com^
@@ -55698,7 +55710,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ! ! omtrdc.net
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=absa.co.za|att.com|pnc.com|vodafone.it
 ! ! tags.tiqcdn.com
-@@||tags.tiqcdn.com/utag/*/utag.sync.js$domain=bankofamerica.com|hsbc.co.uk|samsung.com|sony.jp|visible.com|vmware.com
+@@||tags.tiqcdn.com/utag/*/utag.sync.js$domain=10.com.au|bankofamerica.com|hsbc.co.uk|samsung.com|sony.jp|visible.com|vmware.com
 ! statcounter.com charts https://github.com/uBlockOrigin/uAssets/issues/11321
 @@||gs.statcounter.com/chart.php$script,third-party
 @@||statcounter.com/js//fusioncharts.charts.js
@@ -55725,6 +55737,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||dd.blackhawknetwork.com.first-party-js.datadome.co^$domain=redeem.rewardlink.com
 @@||dd.qa.moneygram.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=moneygram.com
 @@||dd.wizzair.com.first-party-js.datadome.co^$domain=wizzair.com
+@@||dwt.soundcloud.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=soundcloud.com
 @@||gva.et-gv.fr^$script,domain=culture.gouv.fr
 @@||mycleverpush.com/iframe?$domain=bsdex.de
 @@||n8s.jp^$script,domain=nikkei.com
