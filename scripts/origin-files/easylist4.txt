@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202606162112
+! Version: 202606192009
 ! Title: EasyPrivacy
-! Last modified: 16 Jun 2026 21:12 UTC
+! Last modified: 19 Jun 2026 20:09 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 85af6ee5edf19a9c0a67edbbcdb76cdc9538b8f9
+! Commit: b7e892732fddbb67c6654961804873870c50e680
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3551,6 +3551,7 @@ omni.soundestlink.com$image
 ||da29e6b8-f018-490f-b25f-39a887fc95e7.xyz^
 ||dadalytics.it^
 ||datas3ntinel.com^
+||ddlnk.net^
 ||demdex.net^
 ||deviceinf.com^
 ||digi-ping.com^
@@ -7629,6 +7630,7 @@ omni.soundestlink.com$image
 ||kernellife.com^
 ||kidpowers.com^
 ||kindlereunion.com^
+||kingsealed.com^
 ||kitetuning.com^
 ||kittentacos.com^
 ||kittycatking.com^
@@ -8149,6 +8151,7 @@ omni.soundestlink.com$image
 ||roaddynamics.com^
 ||roamhousing.com^
 ||robotgarages.com^
+||robotsrefinery.com^
 ||rockagainst.com^
 ||rockstarwriter.com^
 ||rollconnection.com^
@@ -8416,6 +8419,7 @@ omni.soundestlink.com$image
 ||stakingsmile.com^
 ||staleshow.com^
 ||stalesummer.com^
+||starfurniture.net^
 ||starkscale.com^
 ||starrynets.com^
 ||starsmarter.com^
@@ -8467,6 +8471,7 @@ omni.soundestlink.com$image
 ||strivesquirrel.com^
 ||strokesystem.com^
 ||strongercity.com^
+||studioalkaline.com^
 ||studycooking.com^
 ||stupendoussleet.com^
 ||stupendoussnow.com^
@@ -8549,6 +8554,7 @@ omni.soundestlink.com$image
 ||texturetrick.com^
 ||thebigvan.com^
 ||thebrainybulb.com^
+||thecounter.net^
 ||thecrazychili.com^
 ||thefishstops.com^
 ||thejavalane.com^
@@ -10019,6 +10025,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytic-client.blitzmightyparty.com^
 ||analytic-client.chickgoddess.com^
 ||analytic-client.panowars.com^
+||analytic.divee.ai^
 ||analytic.rollout.io^
 ||analytic.xingcloud.com^$third-party
 ||analyticcdn.globalmailer.com^
@@ -14727,6 +14734,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.box.com/app-api/split-proxy/api/metrics
 ||app.box.com/gen204
 ||app.gnosispay.com/relay-gp-ph/
+||app.nicealts.com/user/referral/visit
 ||appanalysis.banggood.com^
 ||apple-mapkit.com/mw/v1/reportAnalytics
 ||aptoide-mmp.aptoide.com^
@@ -16621,6 +16629,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||walmart.ca/api/landing-page/beacon-logger
 ||walmartimages.com/dfw/4ff9c6c9-d9a0/$domain=walmart.com
 ||wapn1.flosports.tv^
+||wart.val.town^
 ||watchadsontape.com/stat/
 ||wattpad.com/js/tracker/app.
 ||wc.yahoodns.net^$image
@@ -55134,6 +55143,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ! Turkish
 ||a.n11.com^
 ||analytics.cosmopolitanmag.com.tr^
+||analytics.mgm.gov.tr^
 ||athena-event-provider.n11.com^
 ||c.gazetevatan.com^
 ||cimri.com/api/pixel
