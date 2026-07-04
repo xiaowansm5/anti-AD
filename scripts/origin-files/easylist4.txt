@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607012019
+! Version: 202607041932
 ! Title: EasyPrivacy
-! Last modified: 01 Jul 2026 20:19 UTC
+! Last modified: 04 Jul 2026 19:32 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 488a2c9bd194ae0aa1e6a770dda6ebd9558cc5cf
+! Commit: 075d410a6c95f13a096541da0d3157113927df94
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -6791,6 +6791,7 @@ omni.soundestlink.com$image
 ||bagsurprise.com^
 ||bahamashello.com^
 ||baitbaseball.com^
+||balancenotes.com^
 ||balloonbelieve.com^
 ||ballsbanana.com^
 ||bananabarrel.com^
@@ -10055,6 +10056,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics-cms.whitebeard.me^
 ||analytics-consent-manager-v2-prod.azureedge.net^
 ||analytics-fe.digital-cloud-prem.medallia.com^
+||analytics-fe.digital-cloud-prem.medallia.eu^
 ||analytics-fe.digital-cloud.medallia.ca^
 ||analytics-fe.digital-cloud.medallia.com^
 ||analytics-ipv6.tiktokw.us^
@@ -13886,6 +13888,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tvid.in/log/
 ! Indonesian
 ||beacon.coofis.com^
+||gopay.sh/collect
 ||mediagroupnetwork.com/js/ua.js
 ||mediaquark.com/tracker.js
 ||oval.id/tracker/
@@ -14862,6 +14865,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||boldin.com/rails/arrival
 ||bonprix.*/ajax/landmarks/
 ||bonprix.*/ajax/marketing-parameters/
+||bookcabin.com/api/log-browser
 ||booking.com/c360/v1/track
 ||booking.com/collector/
 ||booking.com/logo?
@@ -54497,6 +54501,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||bukalapak.com/track_external.json
 ||dap.rri.go.id/tracker/
 ||dt-tracker.mamikos.com^
+||indonesiadefense.com/metrikgtg
 ||ktracker.kumparan.com^
 ||mygostore.com/api/log
 ||static.republika.co.id/js/tracker.js
