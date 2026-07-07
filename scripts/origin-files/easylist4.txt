@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607041932
+! Version: 202607072008
 ! Title: EasyPrivacy
-! Last modified: 04 Jul 2026 19:32 UTC
+! Last modified: 07 Jul 2026 20:08 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 075d410a6c95f13a096541da0d3157113927df94
+! Commit: a355079312e7895c70d5847930d7525b075312fd
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -656,6 +656,7 @@
 /cnt_js.php?
 /cnvtr.js
 /cocoon-master/lib/analytics/access.
+/code/e.js|$~third-party
 /codesters-analytics.
 /CofinaHits.js
 /cogi-etracker.js
@@ -2921,7 +2922,6 @@
 ://datacollector.*/event
 ://dwh-prod.*/de.npg/
 ://elqtrk.
-://estats.*/code/e.js
 ://fallback.*/collector
 ://fathom.$domain=~fathom.care|~fathom.co.za|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://gtrack.*/dye
@@ -2945,7 +2945,6 @@
 ://sp.*/sp/h|$xmlhttprequest
 ://ssgtm.
 ://stat.*/pageview/$xmlhttprequest
-://stats.*/code/e.js
 ://t.targito.
 ://track.*/collect
 ://track.*/dye
@@ -6466,6 +6465,7 @@ omni.soundestlink.com$image
 ||xlisting.jp^$third-party
 ||xp.audience.io/sdk.js$third-party
 ||xstats.net^$third-party
+||xstats.st^$third-party
 ||xtremline.com^$third-party
 ||xxxcounter.com^$third-party
 ||xyztraffic.com^$third-party
@@ -6798,6 +6798,7 @@ omni.soundestlink.com$image
 ||bandborder.com^
 ||barbarousbase.com^
 ||barbershirts.com^
+||barkfactor.com^
 ||barqueue.com^
 ||baseboosters.com^
 ||basilfish.com^
@@ -6980,6 +6981,7 @@ omni.soundestlink.com$image
 ||chaosmonitor.com^
 ||chargecracker.com^
 ||charmingplate.com^
+||chemistrycore.com^
 ||cherriescare.com^
 ||chessbranch.com^
 ||chesscolor.com^
@@ -7146,6 +7148,7 @@ omni.soundestlink.com$image
 ||debonairdust.com^
 ||debonairtree.com^
 ||decidedrum.com^
+||decisionhut.com^
 ||decisivebase.com^
 ||decisivedrawer.com^
 ||decklibrary.com^
@@ -7163,6 +7166,7 @@ omni.soundestlink.com$image
 ||deployinput.com^
 ||derbypops.com^
 ||desertgates.com^
+||designdew.com^
 ||designsgrid.com^
 ||desirebucket.com^
 ||desiredirt.com^
@@ -14623,7 +14627,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adblocktape.store/stat/
 ||adblocktape.wiki/stat/
 ||adc-js.nine.com.au^
+||adguard-dns.io/-/event/
+||adguard-dns.io/-/logs/
+||adguard-dns.io/-/metrics/
 ||adguard.com/-/event/
+||adguardcheckout.com/-/event/
+||adguardcheckout.com/-/logs/
+||adguardcheckout.com/-/metrics/
 ||adl.bankofthewest.com^
 ||admin.microsoft.com/api/instrument/logclient
 ||adobe.io/system/log
@@ -15378,6 +15388,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gianteagle.com/webevents/
 ||giftornado.com/counter.php
 ||girlsofdesire.org/images/girlsofdesire.org/analytics.js
+||gitfut.com/*/view
 ||github.com/_private/browser/stats
 ||github.dev/diagnostic?
 ||givefreely.com/ingest/
@@ -16686,6 +16697,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||waaw1.tv/cdn-cgi/trace
 ||waitrose.com/gDaVC7/
 ||wal.wolfram.com^
+||wallethacks.com/js/t/|
+||wallethacks.com/js/w
 ||walmart.ca/api/bsp/logger
 ||walmart.ca/api/home-page/logger
 ||walmart.ca/api/landing-page/beacon-logger
