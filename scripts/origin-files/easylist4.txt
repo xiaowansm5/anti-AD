@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607131936
+! Version: 202607161924
 ! Title: EasyPrivacy
-! Last modified: 13 Jul 2026 19:36 UTC
+! Last modified: 16 Jul 2026 19:24 UTC
 ! Expires: 4 days (update frequency)
-! Commit: d6829793c8feed7041d2c59364a24dfa3ce5efcd
+! Commit: 5a8d0454881a9e28a76abea0809be2873bcf391f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7554,6 +7554,7 @@ omni.soundestlink.com$image
 ||homebizplaza.com^
 ||homelycrown.com^
 ||homelyheater.com^
+||homerunfood.com^
 ||homeslick.com^
 ||honestharbor.com^
 ||honeybulb.com^
@@ -8187,10 +8188,12 @@ omni.soundestlink.com$image
 ||robotrefinery.com^
 ||robotsrefinery.com^
 ||rockagainst.com^
+||rocketmonitor.com^
 ||rockstarwriter.com^
 ||rollconnection.com^
 ||roseincome.com^
 ||rottenray.com^
+||routebug.com^
 ||rovememoirs.com^
 ||royalespring.com^
 ||royalsbagels.com^
@@ -8244,6 +8247,7 @@ omni.soundestlink.com$image
 ||scentedkindly.com^
 ||scholarloop.com^
 ||sciencedart.com^
+||sciencevault.net^
 ||scientificshirt.com^
 ||scintillatingscissors.com^
 ||scintillatingsilver.com^
@@ -8260,6 +8264,7 @@ omni.soundestlink.com$image
 ||scrubswim.com^
 ||sealtravels.com^
 ||seamlesssalon.com^
+||seaotterplay.com^
 ||seatsmoke.com^
 ||secondhandfall.com^
 ||secretivesheep.com^
@@ -8273,6 +8278,7 @@ omni.soundestlink.com$image
 ||selectivesummer.com^
 ||selfishsea.com^
 ||selfishsnake.com^
+||sendinblast.com^
 ||sendingspire.com^
 ||seniordynamic.com^
 ||sentinelp.com^
@@ -8345,6 +8351,7 @@ omni.soundestlink.com$image
 ||skilledview.com^
 ||skillfuldrop.com^
 ||skillfullyfrugal.com^
+||skillpuppy.com^
 ||skisofa.com^
 ||skullmagnets.com^
 ||skullteeth.com^
@@ -8538,6 +8545,7 @@ omni.soundestlink.com$image
 ||surfacesmedia.com^
 ||sustaindenim.com^
 ||swankysquare.com^
+||swanwebcreations.com^
 ||sweetslope.com^
 ||swellstocking.com^
 ||swiftintro.com^
@@ -8545,6 +8553,7 @@ omni.soundestlink.com$image
 ||swingslip.com^
 ||swipechief.com^
 ||swirlstop.com^
+||swordblock.com^
 ||swordgoose.com^
 ||syllablesight.com^
 ||synonymoussticks.com^
@@ -8593,6 +8602,7 @@ omni.soundestlink.com$image
 ||thefishstops.com^
 ||thejavalane.com^
 ||themangotea.com^
+||themegoats.com^
 ||themepicker.com^
 ||thepowerstones.com^
 ||therapeuticcars.com^
@@ -8718,6 +8728,8 @@ omni.soundestlink.com$image
 ||verdantsculpture.com^
 ||verseballs.com^
 ||versuswall.com^
+||verybark.com^
+||verybouncy.com^
 ||vibrantcelebration.com^
 ||vibrantgale.com^
 ||vibranthaven.com^
@@ -8726,6 +8738,7 @@ omni.soundestlink.com$image
 ||vibrantvale.com^
 ||victoriousrequest.com^
 ||victoryideas.com^
+||viewresource.com^
 ||vilenexus.com^
 ||viralfoodie.net^
 ||virtualvincent.com^
@@ -14069,10 +14082,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||docomo.ne.jp/scripts/retargeting/retargeting.js
 ||estore.jp/beacon/
 ||ev.tpocdm.com^
+||external-tag.mysquadbeyond.com^
 ||flux-cdn.com/client/ukiuki/flux_wikiwiki_AS_TM_AT.min.js
 ||future-shop.jp/rview.gif?
 ||gacraft.jp/publish/token.html
 ||hatmiso.net^$third-party
+||heatmap.support-inc.co.jp^
 ||insight-x.tech/trackerlog-publisher-service/tracker-logs
 ||ip2c.landscape.co.jp^
 ||ipcheck.blogsys.jp^
@@ -15613,6 +15628,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||khanacademy.org/api/internal/_analytics/
 ||kinesis.us-east-1.analytics.edmentum.com^
 ||kio.ac/analytics/
+||kitces.com/wp-json/kwm/v1/track
 ||klm.us/CWZUvc/
 ||kloth.net/images/pixel.gif
 ||knewz.com/api/event
@@ -15634,6 +15650,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lastminute.com/s/hdp/hotel-details/api/metrics
 ||lastpass.com/lpapi/content/pixels
 ||lastpass.com/m.php/proxy_tracker
+||lc-event.pixiv.net^
 ||lego.com/api/dl-event-ingest
 ||lendingtree.com/analytics/
 ||lendingtree.com/pixel/
@@ -54551,6 +54568,7 @@ x.com##+js(set, __INITIAL_STATE__.featureSwitch.user.config.rweb_home_jot_contex
 ||indonesiadefense.com/metrikgtg
 ||ktracker.kumparan.com^
 ||mygostore.com/api/log
+||satualumni.itb.ac.id/api/client-logs
 ||static.republika.co.id/js/tracker.js
 ||t.bukalapak.com^
 ||ta.tokopedia.com/promo/v1/views

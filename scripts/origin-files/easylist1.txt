@@ -1,9 +1,9 @@
-! Checksum: p4/v05IKmtRx4g7sEOx6wA
-! Diff-Path: ../patches/224_optimized/224_optimized-s-1783961704-3600.patch
+! Checksum: GFkqN12hBlXcsdz36/nU9Q
+! Diff-Path: ../patches/224_optimized/224_optimized-s-1784219813-3600.patch
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.61.81
-! TimeUpdated: 2026-07-13T16:51:53+00:00
+! Version: 2.1.62.1
+! TimeUpdated: 2026-07-16T16:33:57+00:00
 ! Expires: 12 hours (update frequency)
 ||qbhsocu.com^
 ||umini.shujupie.com^
@@ -4784,6 +4784,7 @@ newduba.cn###jq_youxi
 ###index-ad-banner
 ##.newsAD
 ##.art-layer-ad
+##._v_ad_container
 ##a[href*="/122.51.121.126:"]
 ##a[href*="/137.220.194.105:"]
 ##a[href*="/137.220.194.123:"]
@@ -4802,6 +4803,50 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||8ya9li3d2g.com^
+||7eehi3vqy3.com^
+||nnqc6d2kgn.com^
+||oeaznhm2wx.com^
+||n8g1kvtmrf.com^
+||i7kawpnwhb.com^
+||trowel03.com^
+||hcyo99iyr.com^
+||anqv97upx.com^
+||paintbrush82.top^
+||m3rsa3rnbm.com^
+||spatula91.com^
+||sx2sg2t5sd.com^
+||qvfvah7jyb.com^
+||dilsnzgygszpla.com^
+||cbqh4uqmzm.com^
+||5wt390pvwz.com^
+||iy0keh7qj7.com^
+||klt2ojvew1.com^
+||yymowvdy0.com^
+||eq9qnbh53.com^
+||xspxdhkcaplhza.com^
+||nrfvq6g98.com^
+||yqlm5il7p.com^
+||s9dik0ydj.com^
+||8al17kw6d.com^
+||ccpvq7fgy.com^
+||v85ps46o4.com^
+||vzayis1qa.com^
+||xo2ra1fu7.com^
+||zkn5zg8on.com^
+||s2ze6h0miy.com^
+||4e0jpheoi1.com^
+||scissors73.top^
+||zptfrxoaumxhnu.com^
+||078pwrxpbg.com^
+||tzifhmvuju.com^
+||ronfjvonmo.com^
+||18ioh53d3f.com^
+||p0pn18sxvh.com^
+||mc0pagg4ao.com^
+||pvino9yhp3.com^
+||6bgubwkwoh.com^
+||t5gp7rzz4.com^
 ||xxp4802or.com^
 ||x94pjnejo.com^
 ||wheelbarrow64.com^
@@ -14647,7 +14692,7 @@ twkan.com##.txtcenter
 element-plus.org##aside > div[class^="vp-"]
 hcbbs.com##.wp > div:not([id]):not([class]) > a > img[src*=".imgdb.cn"]
 ghxi.com##.widget_html_ad + div[style]
-nodeloc.com###wghtml
+nodeloc.com##.sidebar-ads-wrapper
 tvbs.com.tw##div[data-testid="ad-container"]
 iduba.com,newduba.cn##.m_nav_top
 bilibili.com##.adcard-content
