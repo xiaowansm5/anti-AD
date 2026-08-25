@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202608221845
+! Version: 202608251901
 ! Title: EasyPrivacy
-! Last modified: 22 Aug 2026 18:45 UTC
+! Last modified: 25 Aug 2026 19:01 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 3c4510102e024d694b2e36d3a530267c4544594d
+! Commit: 9b07cece378d77a3d6df9a7551a812231cc1b8cd
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -352,6 +352,7 @@
 /api-analytics.
 /api-insights/log?
 /api/0/stats
+/api/ad-track$ping
 /api/adplogger/*
 /api/ads-bff-client/*
 /api/adtracking$xmlhttprequest
@@ -368,6 +369,7 @@
 /api/log-visit
 /api/metrics/collect
 /api/metrics/event
+/api/notify-track$ping
 /api/pageactivity
 /api/pageview/*$ping
 /api/pageview?
@@ -1837,6 +1839,7 @@
 /pixel?tag=
 /pixel_identifier.js
 /pixel_iframe.php
+/pixel_taboola_events.js
 /pixel_tracking.js
 /pixel_tracking?
 /pixel_V2.js
@@ -2132,6 +2135,7 @@
 /sensor/statistic?
 /sensorsdata-
 /sensorsdata.$domain=~sensorsdata.cn
+/sentinel-events-tracker.
 /sentry-browser.min.js
 /sentry-browser.tracing.es5.min.js
 /sentry-logger.js
@@ -2867,6 +2871,7 @@
 /ws-tracking.js
 /wstat.pl
 /wstats.php?
+/wt-connect-pixel/carts/init?
 /wt_capi.js
 /wtbase.js
 /wtd.gif?
@@ -4070,6 +4075,7 @@ omni.soundestlink.com$image
 ||adku.co^$third-party
 ||adku.com^$third-party
 ||admantx.com^$third-party
+||admaster.cc^$third-party
 ||admaster.com.cn^$third-party
 ||admetric.io^$third-party
 ||adobedtm.com^$third-party,domain=~adobe.com|~costco.com
@@ -5931,6 +5937,7 @@ omni.soundestlink.com$image
 ||shoplytics.com^$third-party
 ||shoptimally.com^$third-party
 ||showheroes.com^$third-party
+||shrinetheme.com^$third-party
 ||sift.com^$third-party
 ||siftscience.com^$third-party
 ||signalfx.com^$third-party
@@ -6795,6 +6802,7 @@ omni.soundestlink.com$image
 ||arclet.net^
 ||aromamirror.com^
 ||arrivegrowth.com^
+||artbranch.net^
 ||articledemon.com^
 ||arubahello.com^
 ||askdriver.com^
@@ -6811,6 +6819,7 @@ omni.soundestlink.com$image
 ||attractionbanana.com^
 ||attractivecap.com^
 ||audioarctic.com^
+||autoappearancetraining.com^
 ||automaticside.com^
 ||automaticturkey.com^
 ||availablerest.com^
@@ -6874,6 +6883,7 @@ omni.soundestlink.com$image
 ||betazebra.com^
 ||bewilderedbattle.com^
 ||bewilderedblade.com^
+||beyondgoodness.com^
 ||bhcumsc.com^
 ||bidpapers.com^
 ||bigfishapparel.com^
@@ -6905,6 +6915,7 @@ omni.soundestlink.com$image
 ||blitzcampaigns.com^
 ||blockdial.com^
 ||bloomsend.com^
+||bluecollarmuse.com^
 ||blueeyedblow.com^
 ||bluelionlabs.net^
 ||bluenest.net^
@@ -7273,6 +7284,7 @@ omni.soundestlink.com$image
 ||digestiondrawer.com^
 ||digitalblend.net^
 ||digithalo.com^
+||digitizedcopy.com^
 ||dinnerquartz.com^
 ||direfuldesk.com^
 ||disagreeabledrop.com^
@@ -7437,6 +7449,7 @@ omni.soundestlink.com$image
 ||fatcoil.com^
 ||faucetfoot.com^
 ||faultycanvas.com^
+||faxcoupons.com^
 ||fearfulfish.com^
 ||fearfulmint.com^
 ||fearlessfaucet.com^
@@ -7849,6 +7862,7 @@ omni.soundestlink.com$image
 ||lessonsnetwork.com^
 ||libraryfacts.com^
 ||libraryvalue.com^
+||lifecoverdirect.com^
 ||liftedknowledge.com^
 ||lightenafterthought.com^
 ||lighttalon.com^
@@ -7955,6 +7969,7 @@ omni.soundestlink.com$image
 ||memopilot.com^
 ||memorizematch.com^
 ||memorizeneck.com^
+||mentalreef.com^
 ||menteechain.com^
 ||mentorsticks.com^
 ||meowcustom.com^
@@ -7982,6 +7997,7 @@ omni.soundestlink.com$image
 ||miscjewelry.com^
 ||miscreantmoon.com^
 ||missionrewards.com^
+||missvent.com^
 ||mistervillas.com^
 ||mistyhorizon.com^
 ||mittencattle.com^
@@ -8046,6 +8062,7 @@ omni.soundestlink.com$image
 ||networklast.com^
 ||newarkdriving.com^
 ||newsbotnet.com^
+||newscompiler.com^
 ||newsuccesssecret.com^
 ||nexttopchef.com^
 ||nicefollows.com^
@@ -8079,6 +8096,7 @@ omni.soundestlink.com$image
 ||nudgeduck.com^
 ||nullnorth.com^
 ||nullradar.com^
+||numericblog.com^
 ||numerousnest.com^
 ||oafishchance.com^
 ||oafishobservation.com^
@@ -9616,6 +9634,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.fr^$third-party
 ||sync.tv^$third-party
 ||tget.me^$third-party
+||time1.me^$third-party
 ||tinyclues.com^$third-party
 ||titag.com^$third-party
 ||toc.io^$third-party
@@ -10214,7 +10233,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||brandmetrics.com^$third-party
 ||citypaketet.se^$third-party
 ||dep-x.com^$third-party
-||lwadm.com^$third-party
 ||myvisitors.se^$third-party
 ||prospecteye.com^$third-party
 ||publish-int.se^$third-party
@@ -10452,6 +10470,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.foresee.com^
 ||analytics.formstack.com^
 ||analytics.genial.ly^
+||analytics.getlimy.ai^
 ||analytics.getsnworks.com^
 ||analytics.gokwik.co^
 ||analytics.google.com^$third-party
@@ -10526,6 +10545,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.tout.com^
 ||analytics.unibuddy.co^
 ||analytics.unilogcorp.com^
+||analytics.upress.io^
 ||analytics.vanillaforums.com^
 ||analytics.vdo.ai^
 ||analytics.vendemore.com^
@@ -11003,6 +11023,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cnstrc.com/behavior?
 ||cnzz.com/stat.
 ||cod.bitrec.com^
+||codedrink.com/api/inbound
 ||coefficy.com/ip/
 ||coherentpath.com/tracker/
 ||collect-ap2.attraqt.io^
@@ -11940,6 +11961,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mcjs.prd.a.intuit.com/assets/pixel-reporting-sdk/
 ||mcssl.com^*/track.ashx?
 ||mdxprod.io/analytics.js
+||meas.join-stories.com^
 ||measure.refinery89.com^
 ||media-imdb.com/twilight/?
 ||media-lab.ai/ana-sentry.js
@@ -12527,6 +12549,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sdk-service.nsureapi.com/events
 ||sdk.51.la^$third-party
 ||sdk.appsflyer.com^
+||sdk.getlimy.ai/p/limy-analytics.min.js
 ||sdk.mrf.io/statics/marfeel-sdk.js
 ||sdrive.skoda-auto.com^
 ||sdtagging.azureedge.net^
@@ -12623,6 +12646,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||squarecdn.com/square-marketplace-js/chunk-analytics.js
 ||squarespace.com/universal/scripts-compressed/performance-$script,third-party
 ||src.freshmarketer.in^
+||src.fwusercontent.com^
 ||srvmath.com^*/analytics.js
 ||ssa.stepstone.com^
 ||ssc.shopstyle.com/collective.min.js
@@ -12919,6 +12943,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||touchcommerce.com/tagserver/logging/
 ||tourradar.com/def/partner?$third-party
 ||tout.com/tracker.js
+||tpembars.com/collect
 ||tpx.tesseradigital.com^
 ||tr-experiments.parsely.com^
 ||tr-op.datatrics.com^
@@ -13409,6 +13434,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d1get58iwmjrxx.cloudfront.net^
 ||d1gp8joe0evc8s.cloudfront.net^
 ||d1hyarjnwqrenh.cloudfront.net^
+||d1jbmblqtpfad4.cloudfront.net^
 ||d1k8sb4xbepqao.cloudfront.net^
 ||d1l6p2sc9645hc.cloudfront.net^
 ||d1m6l9dfulcyw7.cloudfront.net^
@@ -15015,6 +15041,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||al.levels.fyi/api/event
 ||alb.reddit.com^
 ||alicdn.com/AWSC/et/
+||alicdn.com/AWSC/WebUMID/
 ||aliexpress.com/ts?
 ||alipay.com/web/bi.do?ref=
 ||aljazeera.com/thirdparty/nr.js
@@ -15162,6 +15189,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||asset.d5techs.com/script/utm.min.js
 ||assets.aliexpress-media.com/g/AWSC/*/collina.js$script,domain=aliexpress.com|aliexpress.us
 ||assets.aliexpress-media.com/g/AWSC/*/fireyejs.js$script,domain=aliexpress.com|aliexpress.us
+||assets.aliexpress-media.com/g/awsc/webumid/
 ||assets.engoo-static.com/tracking.js
 ||assets.prod.abebookscdn.com/cdn/com/scripts/abepixel-$domain=abebooks.com
 ||assets.s-bol.com/AppMeasurement-
@@ -15204,6 +15232,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beacons.ai/api/next_api/rta_v1/
 ||beacons.digital.disneyadvertising.com^
 ||bearblog.dev/hit/
+||beehiiv.com/nectar_analytics
+||beehiiv.com/page_view
 ||beforeitsnews.com/core/ajax/counter/count.php^
 ||behance.net/log
 ||behance.net/v2/logs
@@ -15717,6 +15747,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||futureparty.com/nectar_analytics
 ||futureparty.com/page_view
 ||g-scale.org/scripts/EventLog.js
+||g.alicdn.com/AWSC/fireyejs/
 ||g.ign.com^
 ||g.mashable.com^
 ||g.newtimes.com^
@@ -16134,6 +16165,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mi.grubhub.com^
 ||miao.baidu.com/abdr?$image
 ||microsoft.com/echo/etc.clientlibs/microsoft/clientlibs/exp-analytics/
+||micstatic.com/common/js/business/global/sensors_track.js$script,domain=made-in-china.com
 ||midas.chase.com^
 ||military1st.com/datalayer/index/events?
 ||mis.ig.com/tracking/
@@ -17295,7 +17327,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /^https?:\/\/www\.ebay-kleinanzeigen\.de\/[a-z0-9]{8}\-[0-9a-f]{4}\-/$script,domain=kleinanzeigen.de
 /^https?:\/\/www\.kroger\.com\/content\/{20,}/$script,xmlhttprequest,domain=kroger.com
 ||127.0.0.1^$third-party,domain=53.com|ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.ca|equifax.com|globo.com|gumtree.com|kleinanzeigen.de|lendup.com|mbna.ca|rusneb.ru|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com|whatleaks.com
+||bcdn-16c9d93d.bankofscotland.co.uk^
 ||cfa.fidelity.com^
+||check2.bankofscotland.co.uk^
 ||check3.tiaa.org^
 ||citi.com^*/fp.js
 ||citibank.com.ph/JSO/js/fp.js
@@ -17324,6 +17358,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||idstatus.sky.com^
 ||img2021.navyfederal.org^
 ||imgs.signifyd.com^
+||kaspersky.com/assets/logSender.
 ||log-185a61e7.bendigobank.com.au^
 ||log-2ffe60ee.westpac.com.au^
 ||mfasa.chase.com/auth/js/jpmc_bb_check.js
@@ -17338,6 +17373,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tmx.bestbuy.com^
 ||tmx.td.com^
 ||u46.pnc.com^
+||u47.pnc.com^
 ||w-profiling.cibc.com^$script
 ||w-profiling.simplii.com^
 ||wup-185a61e7.bendigobank.com.au^
@@ -17654,7 +17690,6 @@ abema.tv##^script:has-text(NREUM)
 abema.tv##+js(rmnt, script, NREUM)
 ! #endif
 ! phileweb.com
-phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 ||clarity.ms/tag/$important,script,domain=phileweb.com
 ! e-begin.jp
 e-begin.jp##.inviewSection:not(.is-show):style(transform: translateY(0) !important; opacity: 1 !important;)
@@ -54482,6 +54517,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||khamsat.com/ajax/account_stats?
 ||mosoah.com/analytics.js
 ||stats.panet.com^
+||strema.top/ping/?
 ||tags.aljazeera.net^
 ! Bosnian
 ||insight.olx.ba^
@@ -54877,6 +54913,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||inn.co.il/Controls/HPJS.ashx?act=log
 ||services.haaretz.co.il^$ping
 ||stats.mako.co.il^
+||track.wesell.co.il^
 ||walla.co.il/CountsHP.asp?
 ||walla.co.il/impression/
 ! Hungarian
@@ -55047,6 +55084,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||analyzer.fc2.com^
 ||analyzer2.fc2.com^
 ||anyelse.com/stat^
+||api.bus-location.1507t.xyz/3.0/ping
 ||api.mercari.jp/client_events/
 ||apps.nhk.jp/assets/dtm/
 ||askdoctors.jp/assets/packs/js/impression_tracker-
@@ -56655,7 +56693,6 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ! 
 ! ---------- Swedish ----------
 ! 
-@@||lwadm.com/lw/pbjs?pid=$script,domain=sydostran.se
 @@||picsearch.com/js/comscore.js$domain=dn.se
 ! 
 ! ---------- Thai ----------
