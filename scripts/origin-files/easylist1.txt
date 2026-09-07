@@ -1,9 +1,9 @@
-! Checksum: OBCQ6epPCLvJTT/laeOl9Q
-! Diff-Path: ../patches/224_optimized/224_optimized-s-1788520671-3600.patch
+! Checksum: bnMJy+cGsHYo9visfMfypg
+! Diff-Path: ../patches/224_optimized/224_optimized-s-1788794324-3600.patch
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.64.72
-! TimeUpdated: 2026-09-04T11:14:11+00:00
+! Version: 2.1.64.92
+! TimeUpdated: 2026-09-07T15:15:27+00:00
 ! Expires: 12 hours (update frequency)
 ||ezze0ct.com^
 ||hokkid5.com^
@@ -2964,6 +2964,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_apps
 !+ PLATFORM(windows, mac, android, cli)
 ||101.qq.com/js/base.js$replace=/(el\.getAttribute\("type"\) === "text\/javascript")/\(\$1 && !el\.getAttribute\("nonce"\)\)/
 ||acs.youku.com/*/mtop.youku.play.ups.appinfo.get/*/?jsv=$replace=/("ad":\{)[\s\S]*?(\}\,"playlog")/\$1\$2/,important
+@@||cdn.staticfile.org^$domain=aoi.hugemaker.com.cn
+@@||cdn.bootcdn.net/ajax/libs/$domain=aoi.hugemaker.com.cn
 forums.digitalspy.com#@#body .has-ad
 @@||2ipcore.com^$domain=2ip.ru
 chicagoreader.com#@#.ad-above-footer
@@ -4836,6 +4838,33 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||wewubuwgz.com^
+||rwjfbjhktsftpe.com^
+||8lj6g9gz4.com^
+||d3q5v0ai8.com^
+||743w3z7pv.com^
+||heky0uxng.com^
+||zig1te84n.com^
+||5ntq14y5y.com^
+||k08tn5uk9.com^
+||0s5qb3rfz.com^
+||dm03ef9xf1.com^
+||ltnkpzlinptlde.com^
+||y84shrg6ui.com^
+||cczo7vq6dl.com^
+||jwxggyivum.icu^
+||ead2qybt9e.com^
+||3t4j5adg9x.com^
+||jxdbvmmau.com^
+||e9zrvermi.com^
+||nqrsdhemqmfdry.com^
+||wrksb2gt0.com^
+||jiz4pa4hu.com^
+||ab1bhie0c.com^
+||thuk8hg48.com^
+||slz99md2o.com^
+||5enhjla7z.com^
+||rwilwcovop.icu^
 ||mudguard68.com^
 ||pavxtxikkjrdfy.com^
 ||cq5nsp7kya.com^
@@ -14324,6 +14353,11 @@ meijutt.*/js/pcjs/
 ||ab3de9.gamersky.com^
 ||teacher.php.cn/php/
 ||right.com.cn/forum/data/attachment/common/template/boardimg_20260602yahb3wsd.
+||ping0.cc/images/gx/*.gif
+||gd-singapore.com/data/1724/aimg/rloadbnus-ibc26.
+ping0.cc##.xeeles
+ping0.cc###adjright
+xifanacg.com##.head-more-a ~ .swiper-slide
 169bbs.com##.a_f
 kanju.ai##.movie-player-info-ad-grid
 kanju.ai##.movie-player-info-ad-heading
@@ -14370,8 +14404,6 @@ iplark.com##div[style="position: relative;"]
 cngold.org#?#.w310:has(>.swiper-company)
 cngold.org##.headCompanys
 cngold.org##.mainRight > .border_top:first-child
-ping0.cc##.xdeles
-ping0.cc###adiright
 cngold.org##.foot_megagame
 cngold.org##.fixed_jt
 hanime1.me#?#div[style*="text-align:"]:has(>div[style*="color: white"])
@@ -22162,9 +22194,10 @@ qq.com#@#.side_ad
 ##.txp_ad_center
 !#Rewrite filters
 !#Rouman5.com
+##a[href^="/api/hop/"] > img[src*=".xyz/m/"]
+||rn221.xyz^*.gif
 ||kelv47.xyz^*.gif
 ||towm85.xyz^*.gif
-/_next/static/chunks/00zo5_naxp4vi.
 ##a[href^="/api/jump/"] > img[src*=".xyz/m/"]
 !#Sejie.com
 173.192.147.21,sejie.com,sejie3.us,thesoccerline.com###wp > br
