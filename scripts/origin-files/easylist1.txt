@@ -1,9 +1,9 @@
-! Checksum: n6HMY2tXVZB1Ykwz744Hjg
-! Diff-Path: ../patches/224_optimized/224_optimized-s-1789571814-3600.patch
+! Checksum: h7RXpj3bVU0AIeJvQnbl8g
+! Diff-Path: ../patches/224_optimized/224_optimized-s-1789816581-3600.patch
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.65.45
-! TimeUpdated: 2026-09-16T15:14:26+00:00
+! Version: 2.1.65.61
+! TimeUpdated: 2026-09-19T11:13:04+00:00
 ! Expires: 12 hours (update frequency)
 ||ezze0ct.com^
 ||hokkid5.com^
@@ -1641,8 +1641,6 @@ md.hkgolden.com#?##viewpage > .post:has(> :is(div[id^="div-gpt-"], .hkg-ad))
 ifeng.com#?#div[class^="index_yaowen_center"] div[class^="index_news_list_"]:has(a[target="_blank"] + img[src^="https://x0.ifengimg.com/feprod/"])
 dcard.tw#?#div[role="main"] div[class^="atm_26_"]:has(> div[class^="atm_26_"] > div[style="min-height:90px"] > div[id^="div-gpt-ad"])
 jiayongluyou.com#?#.widget_html_myimg:has(> ins.adsbygoogle)
-sogi.com.tw#?#.editable > div.text-center:has(> div.d-inline-block > div[id^="div-gpt-ad"])
-sogi.com.tw#?##main > div.container:has(> div#ad)
 csgoob.com#?#div[class^="dark:shadow-none"]:has(> div.ant-carousel)
 csgoob.com#?#div[class^="dark:shadow-none"]:has(> div.ant-ribbon-wrapper)
 csgoob.com#?#div[class^="dark:shadow"]:has(> a[href^="https://www.k7csgo.com/"][target="_blank"])
@@ -2140,7 +2138,9 @@ sohu.com##a[href*="_Click_Flow_recommend_"]
 coolsaid.com##iframe[src="http://coolsaid.com/gmifr_lei.html"]
 ||suibianlu.com/zb_users/ad/
 zhidao.baidu.com###qb-content div.businessvip-wrapper
-sogi.com.tw##div[class="row my-2 ad-slot-970"]
+sogi.com.tw##.ad-slot-970
+sogi.com.tw###main > div.container:has(> div#ad)
+sogi.com.tw##.editable > div.text-center:has(> div.d-inline-block > div[id^="div-gpt-ad"])
 surirt.com,520cc.cc,v.5278.mobi,jizz99.com,bonbonyou.com,in99.org,av99.us,jav777.xyz,520call.me,hboav.com###inplayer
 finance.sina.com.cn##div[data-sudaclick="right_ads2_p"]
 finance.sina.com.cn##.tg_bank_top
@@ -2886,6 +2886,9 @@ netfly.*,netfly.tv##.player-box > div.player-tt-rmm
 netfly.*,netfly.tv##.module-tg-box
 netfly.*,netfly.tv##div[class*="tt-"] > a[target="_blank"] > img
 netfly.*,netfly.tv##div[class*="tt-"] > a[target="_blank"] + span.tt-icon-close
+huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##.weixin
+huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##.slide-nav-list a[target="_blank"]:not(a[href^="/"])
+huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##.swiper-wrapper > div.swiper-slide:has(a[target="_blank"]:not(a[href^="/"]))
 ||static.okokserver.com/uploads/lesi/$xmlhttprequest,redirect=nooptext,domain=huaren.live|huavod.net|huavod.com|huavod.top|huavod.cc
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('trusted-set-constant', 'ConFig.config.ads', '{"pause":{"state":{}}}')
 ||huavod.cc/player/$replace=/let ConFig/var ConFig/,document,subdocument
@@ -4787,6 +4790,7 @@ newduba.cn###jq_youxi
 ##.art-layer-ad
 ##._v_ad_container
 ##.component-advertises
+##.hg-ssp-slot
 ##a[href*="/122.51.121.126:"]
 ##a[href*="/137.220.194.105:"]
 ##a[href*="/137.220.194.123:"]
@@ -4805,6 +4809,35 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||hatchway14.com^
+||v2bo21e4k.com^
+||gef153x1u.com^
+||rthijnsymshxxi.com^
+||fk0hwmdoh.com^
+||wgkga5oh0.com^
+||wwyoqaf3g.com^
+||sjujmxg6d.com^
+||95d684gnf.com^
+||ec00t7oue1.com^
+||4kngwxegq5.com^
+||tdlqxdwwpptpli.com^
+||hawsehole52.top^
+||ruoky41k7a.com^
+||33o5sjd1ao.com^
+||pytm26vg9v.com^
+||wh4fd7x7or.com^
+||3rc04o1rmy.com^
+||2i93en16s9.com^
+||fe7xxmtg3.com^
+||zdr6wn2f5.com^
+||j17xor750.com^
+||2ypqjxnzo.com^
+||bridge32.top^
+||yl9c8v1le.com^
+||vapvllaajrhhzc.com^
+||u6vlqrwcv.com^
+||9uza7fi60e.com^
+||2jdr5wuyzf.com^
 ||pxjabbtydothnc.com^
 ||logbook93.com^
 ||cdnboostcache.com^
@@ -21748,7 +21781,6 @@ yemancomic.com##.z-index-99 > a
 ||xdyn0*jy.com^$script,xmlhttprequest,third-party
 ||xscp0*xq.com^$script,xmlhttprequest,third-party
 ||hhba0*kdh.com^$script,xmlhttprequest,third-party
-fcenxe*.top/$script,xmlhttprequest,third-party
 ||55561.net/ml.
 ||miaoshu6.com/static/js/read.
 .net/themes/jieqi/wap/js/test.
